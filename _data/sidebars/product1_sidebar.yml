@@ -1,6 +1,5 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
-
 entries:
 - title: Sidebar
   product: Product1
@@ -23,6 +22,7 @@ entries:
   - title: Getting Started
     output: web, pdf
     folderitems:
+    
     - title: Product 1 home
       url: /p1_landing_page.html
       output: web

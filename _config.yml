@@ -9,7 +9,7 @@ topnav_title: 076923 Documentation
 site_title: 076923 Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: 076923
+company_name: YUN DAE HEE
 # this appears in the footer
 
 github_editme_path: 076923/docs-opencv/blob/gh-pages/
@@ -38,7 +38,7 @@ feedback_subject_line: YUN DAE HEE Docs
 feedback_email: s076923@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"
@@ -74,7 +74,7 @@ defaults:
       comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar
       topnav: topnav
   -
     scope:
@@ -94,7 +94,7 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
