@@ -30,7 +30,7 @@ entries:
 
     - title: OpenCV4
       output: web, pdf
-      url: /p1_landing_page.html
+      url: /opencv4
 
     - title: Support
       url: /support

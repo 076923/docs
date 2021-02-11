@@ -29,6 +29,6 @@ topnav_dropdowns:
           output: web, pdf
           type: homepage
         - title: OpenCV
-          url: /p1_landing_page.html
+          url: /opencv4
         # - title: Product 2
         #   url: /p2_landing_page.html

@@ -5608,8 +5608,8 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .label {
     display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
+    padding: 0.2em 0.5em 0.2em 0.4em;
+    font-size: 90%;
     font-weight: 700;
     line-height: 1;
     color: #fff;
