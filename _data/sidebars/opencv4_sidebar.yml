@@ -19,22 +19,22 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Another heading
+  - title: 입력 및 출력
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: 이미지 복호화 검사
+      url: /haveImageReader
       output: web, pdf
 
-    - title: Sample 5
-      url: /p1_sample5.html
+    - title: 이미지 부호화 검사
+      url: /haveImageWriter
       output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
+  - title: 그래픽 사용자 인터페이스
+    output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
+    folderitems:
+    - title: 윈도우 생성
+      url: /namedWindow
       output: web, pdf

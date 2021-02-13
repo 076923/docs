@@ -124,6 +124,17 @@ Apples  | A small, somewhat round and often red-colored, crispy fruit grown on t
 Bananas | A long and curved, often-yellow, sweet and soft fruit that grows in bunches in tropical climates. | Fruit    | Snow
 Kiwis   | A small, hairy-skinned sweet fruit with green-colored insides and seeds.                          | Fruit    | Golden
 Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
+Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
 
 <div class="datatable-end"></div>
 
