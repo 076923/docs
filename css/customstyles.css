@@ -127,9 +127,10 @@ th {
     text-align: left;
 }
 table {
-    max-width: 90%;
-    margin-bottom: 20px;
+    /* max-width: 90%;
+    margin-bottom: 20px; */
     border: 1px solid #dedede;
+    width: -webkit-fill-available;
 }
 
 table > thead > tr > th,

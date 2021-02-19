@@ -1,13 +1,13 @@
 ---
-title: 윈도우 생성
+title: 윈도우 이동
 sidebar: opencv4_sidebar
-permalink: namedWindow
+permalink: moveWindow
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">namedWindow</h2>
+        <h2 class="page-header">moveWindow</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,21 +22,24 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">cv::namedWindow(
+<pre class="prettyprint"><code class="language-cpp">cv::moveWindow(
     string winname,
-    int flags = WINDOW_AUTOSIZE
+    int x,
+    int y
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Cv2.NamedWindow(
+<pre class="prettyprint"><code class="language-cs">Cv2.MoveWindow(
     string winname,
-    WindowMode flags = WindowMode.KeepRatio
+    int x,
+    int y
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">cv2.namedWindow(
+<pre class="prettyprint"><code class="language-py">cv2.moveWindow(
     winname,
-    flags = None
+    x,
+    y
 )</code></pre>
             </div>
         </div>
@@ -47,13 +50,15 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 특정 이름의 윈도우를 생성합니다. 동일한 이름의 윈도우가 존재할 경우, 아무 동작도 하지 않습니다.
+> 특정 이름의 윈도우를 지정된 위치(x, y)로 이동합니다.
 
 ### 매개변수(Parameter)
 
-> `윈도우 이름(winname)` 윈도우 이름 및 제목 표시줄의 이름을 설정합니다.
+> `윈도우 이름(winname)` 이동하려는 윈도우 이름을 할당합니다.
 
-> [`윈도우 모드(flags)`](windowMode) 표시될 윈도우의 속성을 설정합니다.
+> `x 좌표(x)` 이동하려는 윈도우의 x 좌표입니다.
+
+> `y 좌표(y)` 이동하려는 윈도우의 y 좌표입니다.
 
 ### 반환값(Returns)
 

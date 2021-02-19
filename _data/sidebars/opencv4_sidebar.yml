@@ -38,3 +38,16 @@ entries:
     - title: 윈도우 생성
       url: /namedWindow
       output: web, pdf
+    
+    - title: 윈도우 이동
+      url: /moveWindow
+      output: web, pdf
+
+      subfolders:
+      - title: 그래픽 사용자 인터페이스 플래그
+        output: webweb, pdf
+        subfolderitems:
+
+        - title: 윈도우 모드
+          url: /windowMode
+          output: web, pdf
