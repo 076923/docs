@@ -51,9 +51,9 @@ folder: opencv4
 
 ### 매개변수(Parameter)
 
-> `윈도우 이름(winname)` 윈도우 이름 및 제목 표시줄의 이름을 설정합니다.
+> `윈도우 이름(winname)` 윈도우 이름 및 제목 표시줄의 이름
 
-> [`윈도우 모드(flags)`](windowMode) 표시될 윈도우의 속성을 설정합니다.
+> [`윈도우 모드(flags)`](windowMode) 표시될 윈도우의 속성
 
 ### 반환값(Returns)
 

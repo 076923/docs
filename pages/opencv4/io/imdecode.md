@@ -1,13 +1,13 @@
 ---
-title: 윈도우 이동
+title: 이미지 복호화
 sidebar: opencv4_sidebar
-permalink: moveWindow
+permalink: imdecode
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">moveWindow</h2>
+        <h2 class="page-header">imdecode</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,24 +22,21 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">cv::moveWindow(
-    string winname,
-    int x,
-    int y
+<pre class="prettyprint"><code class="language-cpp">Mat dst = cv::imdecode(
+    Mat buf,
+    int flags
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Cv2.MoveWindow(
-    string winname,
-    int x,
-    int y
+<pre class="prettyprint"><code class="language-cs">Mat dst = Cv2.ImDecode(
+    Mat buf,
+    ImreadModes flags
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">cv2.moveWindow(
-    winname,
-    x,
-    y
+<pre class="prettyprint"><code class="language-py">dst = cv2.imdecode(
+    buf
+    flags
 )</code></pre>
             </div>
         </div>
@@ -50,16 +47,14 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 특정 이름의 윈도우를 지정된 위치(x, y)로 이동합니다.
+> 메모리에 지정된 버퍼에서 데이터를 복호화해 이미지를 읽습니다.
 
 ### 매개변수(Parameter)
 
-> `윈도우 이름(winname)` 이동하려는 윈도우 이름
+> `버퍼(buf)` 이미지로 복호화하려는 바이트 벡터의 입력 배열
 
-> `x 좌표(x)` 이동하려는 윈도우의 x 좌표
-
-> `y 좌표(y)` 이동하려는 윈도우의 y 좌표
+> [`이미지 읽기 모드(flag)`](imreadModes) 이미지 변환 방식
 
 ### 반환값(Returns)
 
-> `없음`
+> `출력 이미지(dst)` 복호화된 결과 이미지

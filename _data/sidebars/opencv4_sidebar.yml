@@ -31,6 +31,19 @@ entries:
       url: /haveImageWriter
       output: web, pdf
 
+    - title: 이미지 복호화
+      url: /imdecode
+      output: web, pdf
+
+      subfolders:
+      - title: 입력 및 출력 플래그
+        output: webweb, pdf
+        subfolderitems:
+
+        - title: 이미지 읽기 모드
+          url: /imreadModes
+          output: web, pdf
+
   - title: 그래픽 사용자 인터페이스
     output: web, pdf
 
