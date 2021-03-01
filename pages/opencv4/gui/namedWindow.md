@@ -22,21 +22,21 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">cv::namedWindow(
-    string winname,
+<pre class="prettyprint"><code class="language-cpp">void cv::namedWindow(
+    String& winname,
     int flags = WINDOW_AUTOSIZE
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Cv2.NamedWindow(
+<pre class="prettyprint"><code class="language-cs">void Cv2.NamedWindow(
     string winname,
-    WindowMode flags = WindowMode.KeepRatio
+    WindowMode flags = WindowMode.GuiExpanded
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">cv2.namedWindow(
+<pre class="prettyprint"><code class="language-py">None = cv2.namedWindow(
     winname,
-    flags = None
+    flags = cv2.WINDOW_AUTOSIZE | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED
 )</code></pre>
             </div>
         </div>

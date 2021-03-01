@@ -9,3 +9,11 @@ haughty: "Proud and flaunting it. Holding your head high up like a snooty, too-g
 impertinent: "Someone acting rude and insensitive to others."
 
 intrepid: "Brave and courageous especially in a difficult, dangerous situation."
+
+only_C_CS: "C++ / C#"
+
+only_C_Python: "C++ / Python"
+
+only_Python: "Python"
+
+Not_supported: "현재 지원되지 않음"

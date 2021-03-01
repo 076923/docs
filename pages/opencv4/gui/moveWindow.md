@@ -22,21 +22,21 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">cv::moveWindow(
-    string winname,
+<pre class="prettyprint"><code class="language-cpp">void cv::moveWindow(
+    String& winname,
     int x,
     int y
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Cv2.MoveWindow(
+<pre class="prettyprint"><code class="language-cs">void Cv2.MoveWindow(
     string winname,
     int x,
     int y
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">cv2.moveWindow(
+<pre class="prettyprint"><code class="language-py">None = cv2.moveWindow(
     winname,
     x,
     y

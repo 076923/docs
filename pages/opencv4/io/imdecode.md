@@ -22,20 +22,20 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">Mat dst = cv::imdecode(
+<pre class="prettyprint"><code class="language-cpp">Mat cv::imdecode(
     Mat buf,
     int flags
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Mat dst = Cv2.ImDecode(
+<pre class="prettyprint"><code class="language-cs">Mat Cv2.ImDecode(
     Mat buf,
     ImreadModes flags
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
 <pre class="prettyprint"><code class="language-py">dst = cv2.imdecode(
-    buf
+    buf,
     flags
 )</code></pre>
             </div>
@@ -47,7 +47,7 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 메모리에 지정된 버퍼에서 데이터를 복호화해 이미지를 읽습니다.
+> 메모리의 버퍼에서 데이터를 복호화해 이미지를 읽습니다.
 
 ### 매개변수(Parameter)
 

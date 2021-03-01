@@ -22,12 +22,12 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool retval = cv::haveImageReader(
-    string filename
+<pre class="prettyprint"><code class="language-cpp">bool cv::haveImageReader(
+    string& filename
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">bool retval = Cv2.HaveImageReader(
+<pre class="prettyprint"><code class="language-cs">bool Cv2.HaveImageReader(
     string fileName
 )</code></pre>
             </div>
@@ -52,4 +52,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 이미지 파일을 OpenCV로 복호화(Decoding)할 수 있는 경우, 참값(True)을 반환
+> `결과(retval)` 이미지 파일을 OpenCV로 복호화(Decoding)할 수 있는 경우, 참(True) 값을 반환

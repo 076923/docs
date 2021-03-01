@@ -35,13 +35,37 @@ entries:
       url: /imdecode
       output: web, pdf
 
+    - title: 이미지 부호화
+      url: /imencode
+      output: web, pdf
+
       subfolders:
       - title: 입력 및 출력 플래그
         output: webweb, pdf
         subfolderitems:
 
+        - title: 이미지 확장자
+          url: /imageExt
+          output: web, pdf
+
         - title: 이미지 읽기 모드
           url: /imreadModes
+          output: web, pdf
+
+        - title: 이미지 부호화 매개변수
+          url: /imageEncodingParam
+          output: web, pdf
+          
+        - title: PNG 형식 플래그
+          url: /imwritePNGFlags
+          output: web, pdf
+          
+        - title: EXR 형식 플래그
+          url: /imwriteEXRTypeFlags
+          output: web, pdf
+          
+        - title: PAM 형식 플래그
+          url: /imwritePAMFlags
           output: web, pdf
 
   - title: 그래픽 사용자 인터페이스
