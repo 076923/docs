@@ -4732,7 +4732,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .nav-tabs.nav-justified>.active>a,
     .nav-tabs.nav-justified>.active>a:focus,
     .nav-tabs.nav-justified>.active>a:hover {
-        border-bottom-color: #fff
+        border-bottom-color: #fff;
     }
 }
 

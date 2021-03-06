@@ -23,12 +23,12 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: 이미지 복호화 검사
-      url: /haveImageReader
+    - title: 이미지 읽기
+      url: /imread
       output: web, pdf
 
-    - title: 이미지 부호화 검사
-      url: /haveImageWriter
+    - title: 이미지 쓰기
+      url: /imwrite
       output: web, pdf
 
     - title: 이미지 복호화
@@ -39,13 +39,29 @@ entries:
       url: /imencode
       output: web, pdf
 
+    - title: 이미지 복호화 검사
+      url: /haveImageReader
+      output: web, pdf
+
+    - title: 이미지 부호화 검사
+      url: /haveImageWriter
+      output: web, pdf
+
+    - title: 다중 페이지 이미지 읽기
+      url: /imreadmulti
+      output: web, pdf
+
+    - title: 다중 페이지 이미지 읽기
+      url: /imwritemulti
+      output: web, pdf
+
       subfolders:
       - title: 입력 및 출력 플래그
         output: webweb, pdf
         subfolderitems:
 
         - title: 이미지 확장자
-          url: /imageExt
+          url: imageExt
           output: web, pdf
 
         - title: 이미지 읽기 모드
@@ -80,6 +96,10 @@ entries:
       url: /moveWindow
       output: web, pdf
 
+    - title: 트랙 바 생성
+      url: /createTrackbar
+      output: web, pdf
+      
       subfolders:
       - title: 그래픽 사용자 인터페이스 플래그
         output: webweb, pdf
@@ -88,3 +108,4 @@ entries:
         - title: 윈도우 모드
           url: /windowMode
           output: web, pdf
+

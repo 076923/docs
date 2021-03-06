@@ -1,13 +1,13 @@
 ---
-title: 이미지 부호화
+title: 이미지 쓰기
 sidebar: opencv4_sidebar
-permalink: imencode
+permalink: imwrite
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">imdecode</h2>
+        <h2 class="page-header">imwrite</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,25 +22,23 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool cv::imencode(
-    String& ext,
+<pre class="prettyprint"><code class="language-cpp">bool cv::imwrite(
+    const String& filename,
     Mat img,
-    std::vector&lt;uchar&gt;& buf,
     const std::vector&lt;int&gt;& params = std::vector&lt;int&gt;() 
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.ImEncode(
-    string ext,
+<pre class="prettyprint"><code class="language-cs">bool ImWrite(
+    string fileName,
     Mat img,
-    out byte[] buf,
     params ImageEncodingParam[] prms
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval, buf = cv2.imencode(
-    ext,
-    img,
+<pre class="prettyprint"><code class="language-py">retval = cv2.imwrite(
+    filename,
+    flags,
     params = None
 )</code></pre>
             </div>
@@ -50,22 +48,36 @@ folder: opencv4
 
 <br>
 
+{{site.data.alerts.tip}}
+일반적으로 <b>8 비트 단일 채널</b> 또는 <b>3 채널</b> 이미지만 저장할 수 있지만, 일부 형식은 <b>특정 파일 형식</b>으로 저장할 수 있습니다.
+{{site.data.alerts.end}}
+
+{% include callout.html content="
+
+- `CV_16U` 형식 이미지는 `PNG`, `JPEG2000`, `TIFF`로 저장할 수 있습니다.
+  
+- `CV_32F` 형식 이미지는 `PFM`, `TIFF`, `OpenEXR`, `Radiance HDR`로 저장할 수 있습니다.
+  
+- `4 채널` 이미지는 `Alpha` 채널의 값을 변경하여 `PNG`로 저장할 수 있습니다.
+  
+- `다중` 이미지는 `TIFF`로 저장할 수 있습니다.
+
+" type="success" %} 
+
+<br>
+
 ### 요약(Summary)
 
-> 이미지를 메모리 버퍼로 부호화합니다.
+> [이미지](imageExt)를 파일로 저장합니다.
 
 ### 매개변수(Parameter)
 
-> [`확장자(ext)`](imageExt) 출력 형식을 정의하는 파일 확장자
+> `파일 이름(filename)` 이미지 파일의 경로
 
-> `이미지(img)` 부호화하려는 이미지
-
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">버퍼(buf)*</a> 버퍼로 부호화된 출력 배열
+> `이미지(img)` 저장하려는 이미지
 
 > [`이미지 부호화 매개변수(params)`](imageEncodingParam) 부호화 매개변수
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">결과(retval)*</a> 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환
-
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">버퍼(buf)*</a> 버퍼로 부호화된 출력 배열
+> `출력 이미지(retval)` 결과 이미지

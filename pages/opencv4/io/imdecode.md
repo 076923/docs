@@ -34,7 +34,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.imdecode(
+<pre class="prettyprint"><code class="language-py">retval = cv2.imdecode(
     buf,
     flags
 )</code></pre>
@@ -57,4 +57,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `출력 이미지(dst)` 복호화된 결과 이미지
+> `출력 이미지(retval)` 복호화된 결과 이미지

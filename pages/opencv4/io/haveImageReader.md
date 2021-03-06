@@ -23,7 +23,7 @@ folder: opencv4
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
 <pre class="prettyprint"><code class="language-cpp">bool cv::haveImageReader(
-    string& filename
+    String& filename
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">

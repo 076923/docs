@@ -16,4 +16,6 @@ only_C_Python: "C++ / Python"
 
 only_Python: "Python"
 
+TIFF: "TIFF"
+
 Not_supported: "현재 지원되지 않음"

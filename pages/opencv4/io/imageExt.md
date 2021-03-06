@@ -5,7 +5,9 @@ permalink: imageExt
 folder: opencv4
 ---
 
-<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> OpenCV에서 지원되는 이미지 확장자</div>
+{{site.data.alerts.note}}
+OpenCV에서 지원되는 이미지 확장자
+{{site.data.alerts.end}}
 
 <dl class="dl-horizontal">
 
