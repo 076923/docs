@@ -32,7 +32,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">int CreateTrackbar(
+<pre class="prettyprint"><code class="language-cs">int Cv2.CreateTrackbar(
     string trackbarName,
     string winName,
     ref int value,
@@ -42,7 +42,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">None = createTrackbar(
+<pre class="prettyprint"><code class="language-py">None = cv2.createTrackbar(
     trackbarName,
     windowName,
     value,

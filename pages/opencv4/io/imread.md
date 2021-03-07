@@ -28,7 +28,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Mat ImRead(
+<pre class="prettyprint"><code class="language-cs">Mat Cv2.ImRead(
     string fileName, 
     ImreadModes flags = ImreadModes.Color
 )</code></pre>

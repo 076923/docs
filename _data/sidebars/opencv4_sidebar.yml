@@ -88,6 +88,14 @@ entries:
     output: web, pdf
 
     folderitems:
+    - title: 이미지 표시
+      url: /imshow
+      output: web, pdf
+
+    - title: 키 입력 대기
+      url: /waitKey
+      output: web, pdf
+
     - title: 윈도우 생성
       url: /namedWindow
       output: web, pdf

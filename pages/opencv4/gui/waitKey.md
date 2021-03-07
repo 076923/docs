@@ -1,13 +1,13 @@
 ---
-title: 다중 페이지 이미지 쓰기
+title: 키 입력 대기
 sidebar: opencv4_sidebar
-permalink: imwritemulti
+permalink: waitKey
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">imwritemulti</h2>
+        <h2 class="page-header">waitKey</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,24 +22,18 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool cv::imwritemulti(
-    const String& filename,
-    Mat img,
-    const std::vector&lt;int&gt;& params = std::vector&lt;int&gt;() 
+<pre class="prettyprint"><code class="language-cpp">int cv::waitKey(
+    int delay = 0
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">bool Cv2.ImWrite(
-    string fileName,
-    Mat img,
-    params ImageEncodingParam[] prms
+<pre class="prettyprint"><code class="language-cs">int Cv2.WaitKey(
+    int delay = 0
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval = cv2.imwritemulti(
-    filename,
-    flags,
-    params = None
+<pre class="prettyprint"><code class="language-py">retval = cv2.waitKey(
+    delay = None
 )</code></pre>
             </div>
         </div>
@@ -49,23 +43,19 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.important}}
-OpenCvSharp4에서는 지원되지 않습니다. ImWrite를 사용합니다.
+하나 이상의 윈도우 창이 존재할 경우에만 작동합니다.
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.TIFF}}">다중 이미지</a>를 파일로 저장합니다.
+> 키 이벤트 발생까지 대기하거나, 지정된 시간까지 대기합니다. 키 이벤트가 발생하면 해당 키 값을 반환합니다.
 
 ### 매개변수(Parameter)
 
-> `파일 이름(filename)` 이미지 파일의 경로
-
-> `이미지(img)` 저장하려는 이미지
-
-> [`이미지 부호화 매개변수(params)`](imageEncodingParam) 부호화 매개변수
+> `대기(delay)` 밀리초(millisecond, ms)만큼 대기합니다.
 
 ### 반환값(Returns)
 
-> `출력 이미지(retval)` 결과 이미지
+> `키 값(retval)` 눌러진 키의 값을 반환
