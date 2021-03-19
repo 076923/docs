@@ -104,6 +104,14 @@ entries:
       url: /moveWindow
       output: web, pdf
 
+    - title: 윈도우 제거
+      url: /destroyWindow
+      output: web, pdf
+
+    - title: 윈도우 모두 제거
+      url: /destroyAllWindows
+      output: web, pdf
+
     - title: 트랙 바 생성
       url: /createTrackbar
       output: web, pdf
