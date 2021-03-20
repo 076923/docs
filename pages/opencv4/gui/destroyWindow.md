@@ -27,7 +27,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void DestroyWindow(
+<pre class="prettyprint"><code class="language-cs">void Cv2.DestroyWindow(
     string winName
 )</code></pre>
             </div>
