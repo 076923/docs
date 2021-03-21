@@ -108,6 +108,14 @@ entries:
       url: /resizeWindow
       output: web, pdf
 
+    - title: 윈도우 속성 설정
+      url: /setWindowProperty
+      output: web, pdf
+
+    - title: 윈도우 속성 반환
+      url: /getWindowProperty
+      output: web, pdf
+
     - title: 윈도우 직사각형 크기 반환
       url: /getWindowImageRect
       output: web, pdf
@@ -133,7 +141,11 @@ entries:
         output: webweb, pdf
         subfolderitems:
 
-        - title: 윈도우 모드
-          url: /windowMode
+        - title: 윈도우 플래그
+          url: /WindowFlags
+          output: web, pdf
+
+        - title: 윈도우 속성 플래그
+          url: /WindowPropertyFlags
           output: web, pdf
 

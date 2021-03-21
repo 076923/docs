@@ -1,13 +1,13 @@
 ---
-title: 윈도우 생성
+title: 윈도우 속성 반환
 sidebar: opencv4_sidebar
-permalink: namedWindow
+permalink: getWindowProperty
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">namedWindow</h2>
+        <h2 class="page-header">getWindowProperty</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,21 +22,21 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::namedWindow(
-    String& winname,
-    int flags = WINDOW_AUTOSIZE
+<pre class="prettyprint"><code class="language-cpp">double cv::getWindowProperty(
+    const String& winname,
+    int prop_id
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.NamedWindow(
-    string winname,
-    WindowMode flags = WindowMode.GuiExpanded
+<pre class="prettyprint"><code class="language-cs">double Cv2.GetWindowProperty(
+    string winName,
+    WindowPropertyFlags propId
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">None = cv2.namedWindow(
+<pre class="prettyprint"><code class="language-py">retval = cv2.setWindowProperty(
     winname,
-    flags = cv2.WINDOW_AUTOSIZE | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED
+    prop_id
 )</code></pre>
             </div>
         </div>
@@ -47,14 +47,14 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 특정 이름의 윈도우를 생성합니다. 동일한 이름의 윈도우가 존재할 경우, 아무 동작도 하지 않습니다.
+> 윈도우의 속성의 값을 반환합니다.
 
 ### 매개변수(Parameter)
 
-> `윈도우 이름(winname)` 윈도우 이름 및 제목 표시줄의 이름
+> `윈도우 이름(winname)` 속성을 확인하려는 윈도우 이름
 
-> [`윈도우 플래그(flags)`](WindowFlags) 표시될 윈도우의 속성
+> [`속성 이름(prop_id)`](WindowPropertyFlags) 확인하려는 속성 이름
 
 ### 반환값(Returns)
 
-> `없음`
+> [`속성값(retval)`](WindowPropertyFlags) 현재 속성의 값

@@ -1,7 +1,7 @@
 ---
-title: 윈도우 모드
+title: 윈도우 플래그
 sidebar: opencv4_sidebar
-permalink: windowMode
+permalink: WindowFlags
 folder: opencv4
 ---
 
@@ -31,14 +31,14 @@ folder: opencv4
 
 | 플래그             | 설명                                                             |
 | ----------------- | ---------------------------------------------------------------- | 
-| `WindowMode.Normal` | 윈도우 크기를 조절할 수 있으며, 최대화된 창을 이전 크기로 복원 |
-| `WindowMode.KeepRatio` | 이미지 비율을 최대한 유지 |
-| `WindowMode.GuiExpanded` | 상태 표시줄 및 도구 모음 표시 |
-| `WindowMode.AutoSize` | 윈도우 크기를 조절할 수 없으며, 이미지의 크기와 동일하게 표시 |
-| `WindowMode.FullScreen` | 윈도우를 최대화 |
-| `WindowMode.GuiNormal` | 이전 GUI 방식 사용 |
-| `WindowMode.FreeRatio` | 비율의 제한이 없는 경우 이미지를 최대한 확장 |
-| `WindowMode.OpenGL` | OpenGL을 지원하는 윈도우 |
+| `WindowFlags.Normal` | 윈도우 크기를 조절할 수 있으며, 최대화된 창을 이전 크기로 복원 |
+| `WindowFlags.KeepRatio` | 이미지 비율을 최대한 유지 |
+| `WindowFlags.GuiExpanded` | 상태 표시줄 및 도구 모음 표시 |
+| `WindowFlags.AutoSize` | 윈도우 크기를 조절할 수 없으며, 이미지의 크기와 동일하게 표시 |
+| `WindowFlags.FullScreen` | 윈도우를 최대화 |
+| `WindowFlags.GuiNormal` | 이전 GUI 방식 사용 |
+| `WindowFlags.FreeRatio` | 비율의 제한이 없는 경우 이미지를 최대한 확장 |
+| `WindowFlags.OpenGL` | OpenGL을 지원하는 윈도우 |
 
 </div>
 
