@@ -128,6 +128,18 @@ entries:
       url: /destroyAllWindows
       output: web, pdf
 
+    - title: 단일 관심 영역 선택
+      url: /selectROI
+      output: web, pdf
+      
+    - title: 다중 관심 영역 선택
+      url: /selectROIs
+      output: web, pdf
+      
+    - title: 마우스 콜백 설정
+      url: /setMouseCallback
+      output: web, pdf
+
     - title: 트랙 바 생성
       url: /createTrackbar
       output: web, pdf
@@ -149,3 +161,15 @@ entries:
           url: /WindowPropertyFlags
           output: web, pdf
 
+        - title: 마우스 콜백
+          url: /MouseCallback
+          output: web, pdf
+          
+        - title: 마우스 이벤트 형식
+          url: /MouseEventTypes
+          output: web, pdf
+
+        - title: 마우스 이벤트 플래그
+          url: /MouseEventFlags
+          output: web, pdf
+          

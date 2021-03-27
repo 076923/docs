@@ -14,6 +14,10 @@ only_C_CS: "C++ / C#"
 
 only_C_Python: "C++ / Python"
 
+only_CS_Python: "C# / Python"
+
+only_C: "C++"
+
 only_Python: "Python"
 
 TIFF: "TIFF"
