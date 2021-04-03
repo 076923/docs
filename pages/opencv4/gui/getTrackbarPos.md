@@ -35,8 +35,8 @@ folder: opencv4
             </div>
             <div class="tab-pane fade" id="service-three">
 <pre class="prettyprint"><code class="language-py">retval = cv2.getTrackbarPos(
-    trackbarName,
-    windowName
+    trackbarname,
+    winname
 )</code></pre>
             </div>
         </div>
@@ -51,7 +51,7 @@ folder: opencv4
 
 ### 매개변수(Parameter)
 
-> `트랙 바 이름(trackbarName)` 확인하려는 트랙 바 이름
+> `트랙 바 이름(trackbarname)` 확인하려는 트랙 바 이름
 
 > `윈도우 이름(winname)` 확인하려는 윈도우 이름
 

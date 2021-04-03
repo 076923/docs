@@ -1,13 +1,13 @@
 ---
-title: 이미지 부호화 검사
+title: 트랙 바 위치 설정
 sidebar: opencv4_sidebar
-permalink: haveImageWriter
+permalink: setTrackbarPos
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">haveImageWriter</h2>
+        <h2 class="page-header">setTrackbarPos</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,18 +22,24 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool cv::haveImageWriter(
-    String& filename
+<pre class="prettyprint"><code class="language-cpp">void cv::setTrackbarPos(
+    const String& trackbarname,
+    const String& winname,
+    int pos 
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">bool Cv2.HaveImageWriter(
-    string fileName
+<pre class="prettyprint"><code class="language-cs">void Cv2.SetTrackbarPos(
+    string trackbarName,
+    string winName,
+    int pos
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval = cv2.haveImageWriter(
-    filename
+<pre class="prettyprint"><code class="language-py">None = cv2.setTrackbarPos(
+    trackbarname,
+    winname,
+    pos
 )</code></pre>
             </div>
         </div>
@@ -44,12 +50,16 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> OpenCV에서 특정 파일을 저장할 수 있는지 검사합니다.
+> 특정 이름의 윈도우에 부착된 트랙 바의 위치를 설정합니다.
 
 ### 매개변수(Parameter)
 
-> `파일 이름(filename)` 이미지 파일의 경로
+> `트랙 바 이름(trackbarname)` 위치를 변경하려는 트랙 바 이름
+
+> `윈도우 이름(winname)` 위치를 변경하려는 윈도우 이름
+
+> `위치(pos)` 트랙 바의 위치
 
 ### 반환값(Returns)
 
-> `결과(retval)` 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환
+> `없음`

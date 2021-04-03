@@ -1,5 +1,3 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: Sidebar
   product: OpenCV4
@@ -21,47 +19,58 @@ entries:
 
   - title: 입력 및 출력
     output: web, pdf
-
     folderitems:
-    - title: 이미지 읽기
-      url: /imread
-      output: web, pdf
 
-    - title: 이미지 쓰기
-      url: /imwrite
+    - title: Null
       output: web, pdf
-
-    - title: 이미지 복호화
-      url: /imdecode
-      output: web, pdf
-
-    - title: 이미지 부호화
-      url: /imencode
-      output: web, pdf
-
-    - title: 이미지 복호화 검사
-      url: /haveImageReader
-      output: web, pdf
-
-    - title: 이미지 부호화 검사
-      url: /haveImageWriter
-      output: web, pdf
-
-    - title: 다중 페이지 이미지 읽기
-      url: /imreadmulti
-      output: web, pdf
-
-    - title: 다중 페이지 이미지 읽기
-      url: /imwritemulti
-      output: web, pdf
-
       subfolders:
+
+      - title: 이미지
+        output: web, pdf
+        subfolderitems:
+
+        - title: 이미지 읽기
+          url: /imread
+          output: web, pdf
+
+        - title: 이미지 쓰기
+          url: /imwrite
+          output: web, pdf
+
+        - title: 다중 페이지 이미지 읽기
+          url: /imreadmulti
+          output: web, pdf
+
+        - title: 다중 페이지 이미지 읽기
+          url: /imwritemulti
+          output: web, pdf
+
+      - title: 복호화 / 부호화
+        output: webweb, pdf
+        subfolderitems:
+
+        - title: 이미지 복호화
+          url: /imdecode
+          output: web, pdf
+
+        - title: 이미지 부호화
+          url: /imencode
+          output: web, pdf
+
+        - title: 이미지 복호화 검사
+          url: /haveImageReader
+          output: web, pdf
+
+        - title: 이미지 부호화 검사
+          url: /haveImageWriter
+          output: web, pdf
+
       - title: 입력 및 출력 플래그
         output: webweb, pdf
         subfolderitems:
 
         - title: 이미지 확장자
-          url: imageExt
+          url: /imageExt
           output: web, pdf
 
         - title: 이미지 읽기 모드
@@ -86,69 +95,104 @@ entries:
 
   - title: 그래픽 사용자 인터페이스
     output: web, pdf
-
     folderitems:
-    - title: 이미지 표시
-      url: /imshow
-      output: web, pdf
 
-    - title: 키 입력 대기
-      url: /waitKey
+    - title: Null
       output: web, pdf
-
-    - title: 윈도우 생성
-      url: /namedWindow
-      output: web, pdf
-    
-    - title: 윈도우 이동
-      url: /moveWindow
-      output: web, pdf
-
-    - title: 윈도우 크기 조정
-      url: /resizeWindow
-      output: web, pdf
-
-    - title: 윈도우 속성 설정
-      url: /setWindowProperty
-      output: web, pdf
-
-    - title: 윈도우 속성 반환
-      url: /getWindowProperty
-      output: web, pdf
-
-    - title: 윈도우 직사각형 크기 반환
-      url: /getWindowImageRect
-      output: web, pdf
-      
-    - title: 윈도우 제거
-      url: /destroyWindow
-      output: web, pdf
-
-    - title: 윈도우 모두 제거
-      url: /destroyAllWindows
-      output: web, pdf
-
-    - title: 단일 관심 영역 선택
-      url: /selectROI
-      output: web, pdf
-      
-    - title: 다중 관심 영역 선택
-      url: /selectROIs
-      output: web, pdf
-      
-    - title: 마우스 콜백 설정
-      url: /setMouseCallback
-      output: web, pdf
-
-    - title: 트랙 바 생성
-      url: /createTrackbar
-      output: web, pdf
-      
-    - title: 트랙 바 위치 반환
-      url: /getTrackbarPos
-      output: web, pdf
-      
       subfolders:
+
+      - title: 표시
+        output: web, pdf
+        subfolderitems:
+
+        - title: 이미지 표시
+          url: /imshow
+          output: web, pdf
+
+        - title: 키 입력 대기
+          url: /waitKey
+          output: web, pdf
+
+        - title: 키 입력 대기(확장)
+          url: /waitKeyEx
+          output: web, pdf
+
+        - title: 단일 관심 영역 선택
+          url: /selectROI
+          output: web, pdf
+          
+        - title: 다중 관심 영역 선택
+          url: /selectROIs
+          output: web, pdf
+          
+      - title: 윈도우
+        output: web, pdf
+        subfolderitems:
+    
+        - title: 윈도우 생성
+          url: /namedWindow
+          output: web, pdf
+        
+        - title: 윈도우 이름 설정
+          url: /setWindowTitle
+          output: web, pdf
+          
+        - title: 윈도우 이동
+          url: /moveWindow
+          output: web, pdf
+
+        - title: 윈도우 크기 조정
+          url: /resizeWindow
+          output: web, pdf
+
+        - title: 윈도우 속성 설정
+          url: /setWindowProperty
+          output: web, pdf
+
+        - title: 윈도우 속성 반환
+          url: /getWindowProperty
+          output: web, pdf
+
+        - title: 윈도우 직사각형 크기 반환
+          url: /getWindowImageRect
+          output: web, pdf
+          
+        - title: 윈도우 제거
+          url: /destroyWindow
+          output: web, pdf
+
+        - title: 윈도우 모두 제거
+          url: /destroyAllWindows
+          output: web, pdf
+          
+        - title: 마우스 콜백 설정
+          url: /setMouseCallback
+          output: web, pdf
+
+      - title: 트랙 바
+        output: webweb, pdf
+        subfolderitems:
+
+        - title: 트랙 바 생성
+          url: /createTrackbar
+          output: web, pdf
+          
+        - title: 트랙 바 최댓값 설정
+          url: /setTrackbarMax
+          output: web, pdf
+          
+        - title: 트랙 바 최솟값 설정
+          url: /setTrackbarMin
+          output: web, pdf
+          
+        - title: 트랙 바 위치 설정
+          url: /setTrackbarPos
+          output: web, pdf
+          
+        - title: 트랙 바 위치 반환
+          url: /getTrackbarPos
+          output: web, pdf
+
       - title: 그래픽 사용자 인터페이스 플래그
         output: webweb, pdf
         subfolderitems:
