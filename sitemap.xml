@@ -13,7 +13,6 @@ search: exclude
   {% endunless %}
   {% endfor %}
 
-
   {% for page in site.pages %}
   {% unless page.search == "exclude" %}
   <url>

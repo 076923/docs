@@ -15,13 +15,13 @@ topnav_dropdowns:
     - title: Books
       folderitems:
         - title: YES24
-          external_url: http://www.yes24.com/Product/Goods/77186885
+          external_url: http://www.yes24.com/Product/Goods/99029275
         - title: KYOBO 교보문고
-          external_url: http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158391669
+          external_url: http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158392550
         - title: INTERPARK
-          external_url: http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=313662805
+          external_url: http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=348475772
         - title: 알라딘
-          external_url: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=200845399
+          external_url: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268617710
     - title: Docs
       folderitems:
         - title: Introduction
