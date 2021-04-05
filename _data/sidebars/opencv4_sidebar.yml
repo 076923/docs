@@ -45,6 +45,14 @@ entries:
           url: /imwritemulti
           output: web, pdf
 
+      - title: 동영상
+        output: web, pdf
+        subfolderitems:
+
+        - title: 동영상 읽기
+          url: /VideoCapture
+          output: web, pdf
+
       - title: 복호화 / 부호화
         output: webweb, pdf
         subfolderitems:
@@ -91,6 +99,10 @@ entries:
           
         - title: PAM 형식 플래그
           url: /imwritePAMFlags
+          output: web, pdf
+
+        - title: 동영상 읽기 백엔드 API 플래그
+          url: /VideoCaptureAPIs
           output: web, pdf
 
   - title: 그래픽 사용자 인터페이스

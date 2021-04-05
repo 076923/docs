@@ -29,7 +29,7 @@ folder: opencv4
             </div>
             <div class="tab-pane fade" id="service-two">
 <pre class="prettyprint"><code class="language-cs">Mat Cv2.ImRead(
-    string fileName, 
+    string fileName,
     ImreadModes flags = ImreadModes.Color
 )</code></pre>
             </div>
