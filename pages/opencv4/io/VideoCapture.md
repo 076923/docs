@@ -1,5 +1,5 @@
 ---
-title: 동영상 읽기
+title: 비디오 클래스
 sidebar: opencv4_sidebar
 permalink: VideoCapture
 folder: opencv4
@@ -33,12 +33,12 @@ cv::VideoCapture::VideoCapture(
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">VideoCapture Constructors = VideoCapture(
+<pre class="prettyprint"><code class="language-cs">VideoCapture VideoCapture(
     string fileName,
     VideoCaptureAPIs apiPreference = VideoCaptureAPIs.ANY
 )
 <hr>
-VideoCapture Constructors = VideoCapture(
+VideoCapture VideoCapture(
     int index,
     VideoCaptureAPIs apiPreference = VideoCaptureAPIs.ANY
 )</code></pre>

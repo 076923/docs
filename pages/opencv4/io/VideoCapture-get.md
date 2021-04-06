@@ -1,13 +1,13 @@
 ---
-title: 윈도우 속성 설정
+title: 비디오 속성 반환
 sidebar: opencv4_sidebar
-permalink: setWindowProperty
+permalink: VideoCapture-get
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">setWindowProperty</h2>
+        <h2 class="page-header">VideoCapture.get</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,24 +22,18 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::setWindowProperty(
-    const String& winname,
-    int prop_id,
-    double prop_value
+<pre class="prettyprint"><code class="language-cpp">virtual double cv::VideoCapture::get(
+    int propId
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.SetWindowProperty(
-    string winName,
-    WindowPropertyFlags propId,
-    double propValue
+<pre class="prettyprint"><code class="language-cs">double VideoCapture.Get(
+    VideoCaptureProperties propertyId
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">None = cv2.setWindowProperty(
-    winname,
-    prop_id,
-    prop_value
+<pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.get(
+    propId
 )</code></pre>
             </div>
         </div>
@@ -50,16 +44,12 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 윈도우의 속성을 설정합니다.
+> 비디오의 속성을 반환합니다. 
 
 ### 매개변수(Parameter)
 
-> `윈도우 이름(winname)` 속성을 변경하려는 윈도우 이름
-
-> [`속성 이름(prop_id)`](WindowPropertyFlags) 변경하려는 속성 이름
-
-> [`속성값(prop_value)`](WindowPropertyFlags) 변경하려는 속성 값
+> [`속성 이름(propId)`](VideoCaptureProperties) 확인하려는 속성 이름
 
 ### 반환값(Returns)
 
-> `없음`
+> `결과(retval)` 속성에 할당된 결괏값
