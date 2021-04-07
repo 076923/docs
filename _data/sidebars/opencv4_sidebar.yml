@@ -49,16 +49,32 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: 비디오 클래스
+        - title: 비디오 읽기 클래스
           url: /VideoCapture
           output: web, pdf
 
-        - title: 비디오 속성 설정
+        - title: 비디오 읽기 열기
+          url: /VideoCapture-open
+          output: web, pdf
+
+        - title: 비디오 읽기 그랩
+          url: /VideoCapture-grab
+          output: web, pdf
+
+        - title: 비디오 읽기 성공 여부 확인
+          url: /VideoCapture-isOpened
+          output: web, pdf
+
+        - title: 비디오 읽기 속성 설정
           url: /VideoCapture-set
           output: web, pdf
 
-        - title: 비디오 속성 반환
+        - title: 비디오 읽기 속성 반환
           url: /VideoCapture-get
+          output: web, pdf
+
+        - title: 비디오 읽기 백엔드 API 반환
+          url: /VideoCapture-getBackendName
           output: web, pdf
 
       - title: 복호화 / 부호화
@@ -109,11 +125,11 @@ entries:
           url: /imwritePAMFlags
           output: web, pdf
 
-        - title: 비디오 백엔드 API 플래그
+        - title: 비디오 읽기 백엔드 API 플래그
           url: /VideoCaptureAPIs
           output: web, pdf
 
-        - title: 비디오 속성 플래그
+        - title: 비디오 읽기 속성 플래그
           url: /VideoCaptureProperties
           output: web, pdf
 

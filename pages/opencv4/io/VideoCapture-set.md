@@ -1,5 +1,5 @@
 ---
-title: 비디오 속성 설정
+title: 비디오 읽기 속성 설정
 sidebar: opencv4_sidebar
 permalink: VideoCapture-set
 folder: opencv4
@@ -22,7 +22,7 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">virtual bool cv::VideoCapture::set(
+<pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::set(
     int propId,
     double value
 )</code></pre>
@@ -47,7 +47,7 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 비디오의 속성을 설정합니다. 
+> 비디오 읽기 속성을 설정합니다. 
 
 ### 매개변수(Parameter)
 

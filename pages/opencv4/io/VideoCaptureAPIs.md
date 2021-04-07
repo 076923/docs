@@ -1,5 +1,5 @@
 ---
-title: 동영상 읽기 백엔드 API 플래그
+title: 비디오 읽기 백엔드 API 플래그
 sidebar: opencv4_sidebar
 permalink: VideoCaptureAPIs
 folder: opencv4
@@ -126,4 +126,4 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 동영상 읽기 API 백엔드를 설정합니다.
+> 비디오 읽기 API 백엔드를 설정하거나 불러옵니다.

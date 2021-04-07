@@ -1,13 +1,13 @@
 ---
-title: 비디오 읽기 클래스
+title: 비디오 읽기 열기
 sidebar: opencv4_sidebar
-permalink: VideoCapture
+permalink: VideoCapture-open
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">VideoCapture</h2>
+        <h2 class="page-header">VideoCapture.open</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,34 +22,34 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">cv::VideoCapture::VideoCapture(
+<pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::open(
     const String& filename,
     int apiPreference = CAP_ANY
 )
 <hr>
-cv::VideoCapture::VideoCapture(
+cv::VideoCapture::VideoCapture::open(
     int index,
     int apiPreference = CAP_ANY
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">VideoCapture VideoCapture(
+<pre class="prettyprint"><code class="language-cs">bool VideoCapture.Open(
     string fileName,
     VideoCaptureAPIs apiPreference = VideoCaptureAPIs.ANY
 )
 <hr>
-VideoCapture VideoCapture(
+bool VideoCapture.Open(
     int index,
     VideoCaptureAPIs apiPreference = VideoCaptureAPIs.ANY
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">&lt;VideoCapture object&gt; = cv2.VideoCapture(
+<pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.open(
     filename,
     apiPreference
 )
 <hr>
-&lt;VideoCapture object&gt; = cv2.VideoCapture(
+retval = cv2.VideoCapture.open(
     index,
     apiPreference
 )</code></pre>
@@ -118,4 +118,4 @@ VideoCapture VideoCapture(
 
 ### 반환값(Returns)
 
-> `생성자(VideoCapture)` VideoCapture 생성자
+> `결과(retval)` 비디오 읽기가 열린 경우, 참(True) 값을 반환
