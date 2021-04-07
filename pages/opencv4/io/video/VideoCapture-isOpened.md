@@ -1,5 +1,5 @@
 ---
-title: 비디오 읽기 성공 여부 확인
+title: 비디오 읽기 - 성공 여부 확인
 sidebar: opencv4_sidebar
 permalink: VideoCapture-isOpened
 folder: opencv4
@@ -25,7 +25,7 @@ folder: opencv4
 <pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::isOpened()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">double VideoCapture.IsOpened()</code></pre>
+<pre class="prettyprint"><code class="language-cs">bool VideoCapture.IsOpened()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
 <pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.isOpened()</code></pre>

@@ -1,13 +1,13 @@
 ---
-title: 비디오 읽기 - 속성 반환
+title: 비디오 읽기 - 백엔드 API 반환
 sidebar: opencv4_sidebar
-permalink: VideoCapture-get
+permalink: VideoCapture-getBackendName
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">VideoCapture.get</h2>
+        <h2 class="page-header">VideoCapture.getBackendName</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,19 +22,13 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">double cv::VideoCapture::get(
-    int propId
-)</code></pre>
+<pre class="prettyprint"><code class="language-cpp">string cv::VideoCapture::getBackendName()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">double VideoCapture.Get(
-    VideoCaptureProperties propertyId
-)</code></pre>
+<pre class="prettyprint"><code class="language-cs">string VideoCapture.GetBackendName()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.get(
-    propId
-)</code></pre>
+<pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.getBackendName()</code></pre>
             </div>
         </div>
     </div>
@@ -42,14 +36,20 @@ folder: opencv4
 
 <br>
 
+{{site.data.alerts.important}}
+카메라를 재생할 수 있는 상태여야 합니다.
+{{site.data.alerts.end}}
+
+<br>
+
 ### 요약(Summary)
 
-> 비디오 읽기 속성을 반환합니다. 
+> 비디오 읽기에 사용된 백엔드 API를 반환합니다. 
 
 ### 매개변수(Parameter)
 
-> [`속성 이름(propId)`](VideoCaptureProperties) 확인하려는 속성 이름
+> `없음`
 
 ### 반환값(Returns)
 
-> `결과(retval)` 속성에 할당된 결괏값
+> `결과(retval)` 비디오 읽기의 백엔드 API 이름

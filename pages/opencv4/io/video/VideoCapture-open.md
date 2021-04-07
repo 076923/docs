@@ -1,5 +1,5 @@
 ---
-title: 비디오 읽기 열기
+title: 비디오 읽기 - 비디오 열기
 sidebar: opencv4_sidebar
 permalink: VideoCapture-open
 folder: opencv4

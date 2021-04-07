@@ -1,13 +1,13 @@
 ---
-title: 비디오 읽기 그랩
+title: 비디오 읽기 - 프레임 반환
 sidebar: opencv4_sidebar
-permalink: VideoCapture-grab
+permalink: VideoCapture-read
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">VideoCapture.grab</h2>
+        <h2 class="page-header">VideoCapture.read</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,13 +22,17 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::grab()</code></pre>
+<pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::read(
+    Mat image
+)</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">double VideoCapture.Grab()</code></pre>
+<pre class="prettyprint"><code class="language-cs">bool VideoCapture.Read(
+    Mat image
+)</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval = cv2.VideoCapture.grab()</code></pre>
+<pre class="prettyprint"><code class="language-py">retval, image = cv2.VideoCapture.read()</code></pre>
             </div>
         </div>
     </div>
@@ -37,19 +41,19 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.important}}
-카메라가 하드웨어 동기화를 하지 않는 경우에 사용하거나 멀티 헤드 카메라를 사용할 때 적용합니다.
+비디오에 프레임이 없다면 비어 있는 이미지를 반환합니다.
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> 비디오에서 프레임을 읽어 내부 버퍼에 저장합니다.
+> 비디오 읽기에서 프레임을 읽어 반환합니다.
 
 ### 매개변수(Parameter)
 
-> `없음`
+> `프레임(image)` 비디오 읽기에서 디코딩된 프레임
 
 ### 반환값(Returns)
 
-> `결과(retval)` 비디오에서 프레임을 가져올 수 있는 경우, 참(True) 값을 반환
+> `결과(retval)` 프레임을 읽은 경우, 참(True) 값을 반환

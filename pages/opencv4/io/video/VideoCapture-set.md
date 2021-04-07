@@ -1,5 +1,5 @@
 ---
-title: 비디오 읽기 속성 설정
+title: 비디오 읽기 - 속성 설정
 sidebar: opencv4_sidebar
 permalink: VideoCapture-set
 folder: opencv4

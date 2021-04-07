@@ -69,28 +69,40 @@ entries:
           url: /VideoCapture
           output: web, pdf
 
-        - title: 비디오 읽기 열기
+        - title: 비디오 읽기 - 비디오 열기
           url: /VideoCapture-open
           output: web, pdf
 
-        - title: 비디오 읽기 그랩
+        - title: 비디오 읽기 - 프레임 읽기
+          url: /VideoCapture-read
+          output: web, pdf
+
+        - title: 비디오 읽기 - 그랩
           url: /VideoCapture-grab
           output: web, pdf
 
-        - title: 비디오 읽기 성공 여부 확인
+        - title: 비디오 읽기 - 리트리브
+          url: /VideoCapture-retrieve
+          output: web, pdf
+
+        - title: 비디오 읽기 - 성공 여부 확인
           url: /VideoCapture-isOpened
           output: web, pdf
 
-        - title: 비디오 읽기 속성 설정
+        - title: 비디오 읽기 - 속성 설정
           url: /VideoCapture-set
           output: web, pdf
 
-        - title: 비디오 읽기 속성 반환
+        - title: 비디오 읽기 - 속성 반환
           url: /VideoCapture-get
           output: web, pdf
 
-        - title: 비디오 읽기 백엔드 API 반환
+        - title: 비디오 읽기 - 백엔드 API 반환
           url: /VideoCapture-getBackendName
+          output: web, pdf
+
+        - title: 비디오 읽기 - 메모리 해제
+          url: /VideoCapture-release
           output: web, pdf
 
       - title: 입력 및 출력 플래그
@@ -121,11 +133,11 @@ entries:
           url: /imwritePAMFlags
           output: web, pdf
 
-        - title: 비디오 읽기 백엔드 API 플래그
+        - title: 비디오 읽기 - 백엔드 API 플래그
           url: /VideoCaptureAPIs
           output: web, pdf
 
-        - title: 비디오 읽기 속성 플래그
+        - title: 비디오 읽기 - 속성 플래그
           url: /VideoCaptureProperties
           output: web, pdf
 
