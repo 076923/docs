@@ -45,6 +45,22 @@ entries:
           url: /imwritemulti
           output: web, pdf
 
+        - title: 이미지 복호화
+          url: /imdecode
+          output: web, pdf
+
+        - title: 이미지 부호화
+          url: /imencode
+          output: web, pdf
+
+        - title: 이미지 복호화 검사
+          url: /haveImageReader
+          output: web, pdf
+
+        - title: 이미지 부호화 검사
+          url: /haveImageWriter
+          output: web, pdf
+
       - title: 비디오
         output: web, pdf
         subfolderitems:
@@ -75,26 +91,6 @@ entries:
 
         - title: 비디오 읽기 백엔드 API 반환
           url: /VideoCapture-getBackendName
-          output: web, pdf
-
-      - title: 복호화 / 부호화
-        output: webweb, pdf
-        subfolderitems:
-
-        - title: 이미지 복호화
-          url: /imdecode
-          output: web, pdf
-
-        - title: 이미지 부호화
-          url: /imencode
-          output: web, pdf
-
-        - title: 이미지 복호화 검사
-          url: /haveImageReader
-          output: web, pdf
-
-        - title: 이미지 부호화 검사
-          url: /haveImageWriter
           output: web, pdf
 
       - title: 입력 및 출력 플래그
