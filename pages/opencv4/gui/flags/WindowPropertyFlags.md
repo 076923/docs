@@ -14,7 +14,7 @@ folder: opencv4
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="L1" markdown="1">
 
-| 플래그             | 속성 | 설명                                                             |
+| 플래그             | 속성 | 설명                                                         |
 | ----------------- | ------ | ---------------------------------------------------------- | 
 | `WND_PROP_FULLSCREEN` | 0.0 | 최대화 |
 | `WND_PROP_FULLSCREEN` | 1.0 | 전체 화면으로 표시 |
@@ -33,8 +33,8 @@ folder: opencv4
 
 <div role="tabpanel" class="tab-pane" id="L2" markdown="1">
 
-| 플래그             | 설명                                                             |
-| ----------------- | ---------------------------------------------------------------- | 
+| 플래그             | 속성 | 설명                                                         |
+| ----------------- | ------ | ---------------------------------------------------------- | 
 | `WindowPropertyFlags.Fullscreen` | 0.0 | 최대화 |
 | `WindowPropertyFlags.Fullscreen` | 1.0 | 전체 화면으로 표시 |
 | `WindowPropertyFlags.AutoSize` | 0.0 | 윈도우의 크기를 출력된 이미지 크기로 조절 |
@@ -52,8 +52,8 @@ folder: opencv4
 
 <div role="tabpanel" class="tab-pane" id="L3" markdown="1">
 
-| 플래그             | 설명                                                             |
-| ----------------- | ---------------------------------------------------------------- | 
+| 플래그             | 속성 | 설명                                                         |
+| ----------------- | ------ | ---------------------------------------------------------- | 
 | `cv2.WND_PROP_FULLSCREEN` | 0.0 | 최대화 |
 | `cv2.WND_PROP_FULLSCREEN` | 1.0 | 전체 화면으로 표시 |
 | `cv2.WND_PROP_AUTOSIZE` | 0.0 | 윈도우의 크기를 출력된 이미지 크기로 조절 |
