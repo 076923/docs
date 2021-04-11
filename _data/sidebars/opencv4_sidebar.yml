@@ -61,7 +61,7 @@ entries:
           url: /haveImageWriter
           output: web, pdf
 
-      - title: 비디오
+      - title: 비디오 읽기
         output: web, pdf
         subfolderitems:
 
@@ -105,12 +105,56 @@ entries:
           url: /VideoCapture-release
           output: web, pdf
 
+      - title: 비디오 쓰기
+        output: web, pdf
+        subfolderitems:
+
+        - title: 비디오 쓰기 클래스
+          url: /VideoWriter
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 비디오 열기
+          url: /VideoWriter-open
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 프레임 쓰기
+          url: /VideoWriter-write
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 성공 여부 확인
+          url: /VideoWriter-isOpened
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 코덱
+          url: /VideoWriter-fourcc
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 속성 설정
+          url: /VideoWriter-set
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 속성 반환
+          url: /VideoWriter-get
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 백엔드 API 반환
+          url: /VideoWriter-getBackendName
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 메모리 해제
+          url: /VideoWriter-release
+          output: web, pdf
+
       - title: 입력 및 출력 플래그
         output: webweb, pdf
         subfolderitems:
 
         - title: 이미지 확장자
           url: /imageExt
+          output: web, pdf
+
+        - title: 코덱 코드
+          url: /FourCC
           output: web, pdf
 
         - title: 이미지 읽기 모드
@@ -139,6 +183,10 @@ entries:
 
         - title: 비디오 읽기 - 속성 플래그
           url: /VideoCaptureProperties
+          output: web, pdf
+
+        - title: 비디오 쓰기 - 속성 플래그
+          url: /VideoWriterProperties
           output: web, pdf
 
   - title: 그래픽 사용자 인터페이스

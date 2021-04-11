@@ -1,13 +1,13 @@
 ---
-title: 비디오 읽기 - 프레임 반환
+title: 비디오 쓰기 - 백엔드 API 반환
 sidebar: opencv4_sidebar
-permalink: VideoCapture-read
+permalink: VideoWriter-getBackendName
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">VideoCapture.read</h2>
+        <h2 class="page-header">VideoWriter.getBackendName</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,17 +22,13 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">bool cv::VideoCapture::read(
-    Mat image
-)</code></pre>
+<pre class="prettyprint"><code class="language-cpp">string cv::VideoWriter::getBackendName()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">bool VideoCapture.Read(
-    Mat image
-)</code></pre>
+<pre class="prettyprint"><code class="language-cs">string VideoWriter.GetBackendName()</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">retval, image = cv2.VideoCapture.read()</code></pre>
+<pre class="prettyprint"><code class="language-py">retval = cv2.VideoWriter.getBackendName()</code></pre>
             </div>
         </div>
     </div>
@@ -41,19 +37,19 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.important}}
-비디오에 프레임이 없다면 비어 있는 이미지를 반환합니다.
+녹화를 할 수 있는 상태여야 합니다.
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> 비디오 읽기에서 프레임을 읽어 반환합니다.
+> 비디오 쓰기에 사용된 백엔드 API를 반환합니다. 
 
 ### 매개변수(Parameter)
 
-> `프레임(image)` 비디오 읽기에서 디코딩된 프레임
+> `없음`
 
 ### 반환값(Returns)
 
-> `결과(retval)` 프레임을 읽은 경우, 참(True) 값을 반환
+> `결과(retval)` 비디오 쓰기의 백엔드 API 이름

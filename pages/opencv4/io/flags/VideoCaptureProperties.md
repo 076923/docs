@@ -1,5 +1,5 @@
 ---
-title: 비디오 속성 플래그
+title: 비디오 읽기 - 속성 플래그
 sidebar: opencv4_sidebar
 permalink: VideoCaptureProperties
 folder: opencv4
