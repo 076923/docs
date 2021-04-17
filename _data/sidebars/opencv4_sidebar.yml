@@ -313,3 +313,26 @@ entries:
           url: /MouseEventFlags
           output: web, pdf
           
+  - title: 이미지 처리
+    output: web, pdf
+    folderitems:
+
+    - title: Null
+      output: web, pdf
+      subfolders:
+
+      - title: 색상 변환
+        output: web, pdf
+        subfolderitems:
+
+        - title: 색상 맵 적용
+          url: /applyColorMap
+          output: web, pdf
+
+      - title: 이미지 처리 플래그
+        output: web, pdf
+        subfolderitems:
+
+        - title: 색상 맵 플래그
+          url: /ColormapTypes
+          output: web, pdf
