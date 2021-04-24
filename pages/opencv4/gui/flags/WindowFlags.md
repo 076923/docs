@@ -58,6 +58,8 @@ folder: opencv4
 </div>
 </div>
 
+<br>
+
 ### 요약(Summary)
 
 > 표시되는 윈도우의 속성을 설정합니다.

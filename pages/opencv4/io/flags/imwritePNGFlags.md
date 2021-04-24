@@ -50,6 +50,8 @@ folder: opencv4
 </div>
 </div>
 
+<br>
+
 ### 요약(Summary)
 
 > PNG 저장 방식을 설정합니다.

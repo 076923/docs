@@ -97,9 +97,10 @@ folder: opencv4
 | `cv2.COLORMAP_TURBO` | <img src="images/opencv4/ColormapTypes/turbo.jpg" class="fit_img"> |
 | `cv2.COLORMAP_DEEPGREEN` | <img src="images/opencv4/ColormapTypes/deepgreen.jpg" class="fit_img"> |
 
+</div>
+</div>
 
-</div>
-</div>
+<br>
 
 ### 요약(Summary)
 

@@ -70,6 +70,8 @@ folder: opencv4
 </div>
 </div>
 
+<br>
+
 ### 요약(Summary)
 
 > 입력된 마우스 플래그 형식을 반환합니다.

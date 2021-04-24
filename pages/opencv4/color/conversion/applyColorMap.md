@@ -26,6 +26,12 @@ folder: opencv4
     Mat src,
     Mat dst,
     int colormap
+)
+<hr>
+void cv::applyColorMap(
+    Mat src,
+    Mat dst,
+    Mat userColor
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
@@ -33,17 +39,34 @@ folder: opencv4
     Mat src,
     Mat dst,
     ColormapTypes colormap
+)
+<hr>
+void Cv2.ApplyColorMap(
+    Mat src,
+    Mat dst,
+    Mat userColor
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
 <pre class="prettyprint"><code class="language-py">dst = cv2.applyColorMap(
     src,
     colormap
+)
+<hr>
+dst = cv2.applyColorMap(
+    src,
+    userColor
 )</code></pre>
             </div>
         </div>
     </div>
 </div>
+
+<br>
+
+{{site.data.alerts.tip}}
+<b>사용자 정의 색상 맵(userColor)</b>을 사용할 경우, <font color="#c7254e">순람표(Lookup table)</font> 구조여야 합니다.
+{{site.data.alerts.end}}
 
 <br>
 
@@ -58,6 +81,8 @@ folder: opencv4
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 색상 맵이 적용된 이미지
 
 > [`색상 맵(colormap)`](ColormapTypes) 적용하려는 색상 맵
+
+> `사용자 정의 색상 맵(userColor)` 적용하려는 사용자 정의 색상 맵 
 
 ### 반환값(Returns)
 

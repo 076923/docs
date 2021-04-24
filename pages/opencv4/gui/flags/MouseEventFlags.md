@@ -60,6 +60,8 @@ folder: opencv4
 </div>
 </div>
 
+<br>
+
 ### 요약(Summary)
 
 > 입력된 마우스 이벤트 플래그를 반환합니다.

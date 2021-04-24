@@ -325,6 +325,18 @@ entries:
         output: web, pdf
         subfolderitems:
 
+        - title: 색상 공간 변환
+          url: /cvtColor
+          output: web, pdf
+
+        - title: 색상 공간 변환 - YUV
+          url: /cvtColorTwoPlane
+          output: web, pdf
+
+        - title: 디모자이킹
+          url: /demosaicing
+          output: web, pdf
+
         - title: 색상 맵 적용
           url: /applyColorMap
           output: web, pdf
@@ -332,6 +344,10 @@ entries:
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:
+
+        - title: 색상 공간 변환 플래그
+          url: /ColorConversionCodes
+          output: web, pdf
 
         - title: 색상 맵 플래그
           url: /ColormapTypes
