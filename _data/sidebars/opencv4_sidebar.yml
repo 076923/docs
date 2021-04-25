@@ -341,6 +341,14 @@ entries:
           url: /applyColorMap
           output: web, pdf
 
+      - title: 이미지 변환
+        output: web, pdf
+        subfolderitems:
+
+        - title: 이진화
+          url: /threshold
+          output: web, pdf
+          
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:
@@ -351,4 +359,8 @@ entries:
 
         - title: 색상 맵 플래그
           url: /ColormapTypes
+          output: web, pdf
+
+        - title: 이진화 플래그
+          url: /ThresholdTypes
           output: web, pdf

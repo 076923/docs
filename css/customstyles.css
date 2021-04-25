@@ -1206,3 +1206,8 @@ h4.panel-title {
     height: fit-content !important;
     margin: 0px !important;
 }
+
+.center_img {
+    width: 100% !important; 
+    margin: 3px 0px 3px 0px !important;
+}
