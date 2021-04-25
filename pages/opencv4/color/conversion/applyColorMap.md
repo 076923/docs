@@ -68,6 +68,14 @@ dst = cv2.applyColorMap(
 <b>사용자 정의 색상 맵(userColor)</b>을 사용할 경우, <font color="#c7254e">순람표(Lookup table)</font> 구조여야 합니다.
 {{site.data.alerts.end}}
 
+{% include callout.html content="
+
+- `단일 채널 순람표`는 `CV_8UC1` 형식의 `[256, 1]` 형태를 갖습니다.
+  
+- `단중 채널 순람표`는 `CV_8UC3` 형식의 `[256, 1, 3]` 형태를 갖습니다.
+
+" type="success" %}
+
 <br>
 
 ### 요약(Summary)

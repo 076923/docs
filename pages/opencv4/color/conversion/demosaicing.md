@@ -50,8 +50,8 @@ folder: opencv4
 
 <br>
 
-{{site.data.alerts.tip}}
-`쌍 선형 보간`, `가장자리 인식 보간` `그라디언트 보간` 등으로 디모자이킹을 진행합니다.
+{{site.data.alerts.tip
+<b>이중 선형 보간법(Bilinear interpolation)</b>, <b>가장자리 인식(Edge-Aware)</b> <b>가변 수 기울기 보간법(Variable Number of Gradients)</b> 등으로 디모자이킹을 진행합니다.
 {{site.data.alerts.end}}
 
 ### 요약(Summary)
