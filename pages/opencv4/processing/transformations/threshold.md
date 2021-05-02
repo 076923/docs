@@ -83,4 +83,4 @@ folder: opencv4
 
 > `설정 임곗값(retval)` 이진화 연산에 사용된 임곗값
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 디모자이킹이 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 이진화 연산이 적용된 이미지

@@ -348,6 +348,10 @@ entries:
         - title: 이진화
           url: /threshold
           output: web, pdf
+
+        - title: 적응형 이진화
+          url: /adaptiveThreshold
+          output: web, pdf
           
       - title: 이미지 처리 플래그
         output: web, pdf
@@ -363,4 +367,8 @@ entries:
 
         - title: 이진화 플래그
           url: /ThresholdTypes
+          output: web, pdf
+
+        - title: 적응형 이진화 플래그
+          url: /AdaptiveThresholdTypes
           output: web, pdf
