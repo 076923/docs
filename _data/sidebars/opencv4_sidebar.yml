@@ -352,6 +352,14 @@ entries:
         - title: 적응형 이진화
           url: /adaptiveThreshold
           output: web, pdf
+
+        - title: 거리 변환
+          url: /distanceTransform
+          output: web, pdf
+
+        - title: 라벨을 포함한 거리 변환
+          url: /distanceTransformWithLabels
+          output: web, pdf
           
       - title: 이미지 처리 플래그
         output: web, pdf
@@ -371,4 +379,16 @@ entries:
 
         - title: 적응형 이진화 플래그
           url: /AdaptiveThresholdTypes
+          output: web, pdf
+
+        - title: 거리 계산 방식 플래그
+          url: /DistanceTypes
+          output: web, pdf
+
+        - title: 거리 변환 마스크 크기 플래그
+          url: /DistanceTransformMasks
+          output: web, pdf
+
+        - title: 거리 변환 라벨링 방식 플래그
+          url: /DistanceTransformLabelTypes
           output: web, pdf
