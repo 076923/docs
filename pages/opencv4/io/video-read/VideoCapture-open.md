@@ -118,4 +118,4 @@ retval = cv2.VideoCapture.open(
 
 ### 반환값(Returns)
 
-> `결과(retval)` 비디오 읽기가 열린 경우, 참(True) 값을 반환
+> `결괏값(retval)` 비디오 읽기가 열린 경우, 참(True) 값을 반환

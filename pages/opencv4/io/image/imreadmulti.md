@@ -62,6 +62,6 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 이미지 파일을 읽은 경우, 참(True) 값을 반환
+> `결괏값(retval)` 이미지 파일을 읽은 경우, 참(True) 값을 반환
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">이미지 배열(mats)*</a> 결과 이미지

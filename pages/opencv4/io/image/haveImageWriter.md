@@ -52,4 +52,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환
+> `결괏값(retval)` 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환

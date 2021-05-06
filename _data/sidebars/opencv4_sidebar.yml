@@ -360,6 +360,10 @@ entries:
         - title: 라벨을 포함한 거리 변환
           url: /distanceTransformWithLabels
           output: web, pdf
+
+        - title: 영역 채우기
+          url: /floodFill
+          output: web, pdf
           
       - title: 이미지 처리 플래그
         output: web, pdf
@@ -391,4 +395,8 @@ entries:
 
         - title: 거리 변환 라벨링 방식 플래그
           url: /DistanceTransformLabelTypes
+          output: web, pdf
+
+        - title: 영역 채우기 플래그
+          url: /FloodFillFlags
           output: web, pdf

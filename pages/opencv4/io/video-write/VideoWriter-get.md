@@ -52,4 +52,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 속성에 할당된 결괏값
+> `결괏값(retval)` 속성에 할당된 결괏값

@@ -46,4 +46,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 비디오 쓰기가 성공(초기화)된 경우, 참(True) 값을 반환
+> `결괏값(retval)` 비디오 쓰기가 성공(초기화)된 경우, 참(True) 값을 반환

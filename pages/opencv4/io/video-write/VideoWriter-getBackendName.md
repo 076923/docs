@@ -52,4 +52,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `결과(retval)` 비디오 쓰기의 백엔드 API 이름
+> `결괏값(retval)` 비디오 쓰기의 백엔드 API 이름

@@ -68,4 +68,4 @@ OpenCvSharp4에서는 지원되지 않습니다. ImWrite를 사용합니다.
 
 ### 반환값(Returns)
 
-> `결과(retval)` 파일로 저장할 수 있는 경우, 참(True) 값을 반환
+> `결괏값(retval)` 파일로 저장할 수 있는 경우, 참(True) 값을 반환

@@ -76,4 +76,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">결과(retval)</a> 트랙 바를 생성한 경우, 참(1) 값을 반환
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">결괏값(retval)</a> 트랙 바를 생성한 경우, 참(1) 값을 반환
