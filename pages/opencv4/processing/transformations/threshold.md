@@ -63,6 +63,8 @@ folder: opencv4
 
 " type="success" %}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지에 임곗값을 기준으로 두 영역으로 분리하는 연산을 수행합니다.

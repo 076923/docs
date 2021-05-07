@@ -58,7 +58,7 @@ folder: opencv4
 
 > `이미지 배열(mats)` 결과 이미지
 
-> [`이미지 읽기 모드(flag)`](imreadModes) 이미지 변환 방식
+> [`이미지 읽기 방식(flag)`](imreadModes) 이미지 변환 방식
 
 ### 반환값(Returns)
 

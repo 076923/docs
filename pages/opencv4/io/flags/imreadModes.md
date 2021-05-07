@@ -1,5 +1,5 @@
 ---
-title: 이미지 읽기 모드
+title: 이미지 읽기 방식
 sidebar: opencv4_sidebar
 permalink: imreadModes
 folder: opencv4

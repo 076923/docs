@@ -53,7 +53,7 @@ folder: opencv4
 
 > `버퍼(buf)` 이미지로 복호화하려는 바이트 벡터의 입력 배열
 
-> [`이미지 읽기 모드(flag)`](imreadModes) 이미지 변환 방식
+> [`이미지 읽기 방식(flag)`](imreadModes) 이미지 변환 방식
 
 ### 반환값(Returns)
 

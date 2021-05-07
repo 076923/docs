@@ -77,6 +77,8 @@ $$ T(x, y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} I(x+x_i, y+y_i) -
 
 " type="info" %}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지에 개별적으로 계산된 임곗값을 기준으로 두 영역으로 분리하는 연산을 수행합니다.

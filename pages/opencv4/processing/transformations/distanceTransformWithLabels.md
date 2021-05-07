@@ -59,6 +59,8 @@ folder: opencv4
 <b>C++의 거리 변환 함수</b>는 <font color="#c7254e">라벨(labels)</font>까지 함께 반환합니다.
 {{site.data.alerts.end}}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지의 각 픽셀에 대해 가장 가까운 0 픽셀까지의 거리를 계산하고 라벨링된 배열도 함께 반환합니다.

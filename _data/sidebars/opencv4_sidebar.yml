@@ -157,7 +157,7 @@ entries:
           url: /FourCC
           output: web, pdf
 
-        - title: 이미지 읽기 모드
+        - title: 이미지 읽기 방식
           url: /imreadModes
           output: web, pdf
 
@@ -364,6 +364,10 @@ entries:
         - title: 영역 채우기
           url: /floodFill
           output: web, pdf
+
+        - title: 그랩 컷
+          url: /grabCut
+          output: web, pdf
           
       - title: 이미지 처리 플래그
         output: web, pdf
@@ -399,4 +403,8 @@ entries:
 
         - title: 영역 채우기 플래그
           url: /FloodFillFlags
+          output: web, pdf
+
+        - title: 그랩 컷 플래그
+          url: /GrabCutModes
           output: web, pdf

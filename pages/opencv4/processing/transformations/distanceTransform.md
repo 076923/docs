@@ -62,6 +62,8 @@ folder: opencv4
 <font color="#c7254e">출력 배열 형식(dstType)</font>의 <b>CV_8U</b> 형식은 <font color="#c7254e">거리 계산 방식(distanceType)</font>이 <b>L1</b>일때만 적용할 수 있습니다.
 {{site.data.alerts.end}}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지의 각 픽셀에 대해 가장 가까운 0 픽셀까지의 거리를 계산합니다.

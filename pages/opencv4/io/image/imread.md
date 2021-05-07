@@ -53,7 +53,7 @@ folder: opencv4
 
 > `파일 이름(filename)` 이미지 파일의 경로
 
-> [`이미지 읽기 모드(flag)`](imreadModes) 이미지 변환 방식
+> [`이미지 읽기 방식(flag)`](imreadModes) 이미지 변환 방식
 
 ### 반환값(Returns)
 

@@ -54,6 +54,8 @@ folder: opencv4
 <b>이중 선형 보간법(Bilinear interpolation)</b>, <b>가장자리 인식(Edge-Aware)</b> <b>가변 수 기울기 보간법(Variable Number of Gradients)</b> 등으로 디모자이킹을 진행합니다.
 {{site.data.alerts.end}}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지에 디모자이킹을 적용합니다.

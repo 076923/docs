@@ -80,6 +80,8 @@ $$ src(x', y') - \text{loDiff} \leq src(x, y) \leq src(x', y') + \text{upDiff} $
 
 " type="success" %}
 
+<br>
+
 ### 요약(Summary)
 
 > 입력 이미지의 시작점에서 특정 조건에 부합하는 픽셀 영역을 특정 색상으로 변경합니다.
