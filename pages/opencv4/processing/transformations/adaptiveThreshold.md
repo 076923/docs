@@ -72,7 +72,7 @@ $$ dst(x, y) = \begin{cases} \text{maxValue} & \text{if:} \ src(x, y) > T(x, y) 
 `이진화 역상(THRESH_BINARY_INV)`
 <br><br>
 $$ dst(x, y) = \begin{cases} 0 & \text{if:} \ src(x, y) > T(x, y) \\ \text{maxValue} & \text{else: otherwise} \end{cases} $$ 
-<br><br><br>
+<br><br>
 $$ T(x, y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} I(x+x_i, y+y_i) - C $$
 
 " type="info" %}
