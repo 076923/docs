@@ -368,6 +368,10 @@ entries:
         - title: 그랩 컷
           url: /grabCut
           output: web, pdf
+
+        - title: 워터쉐드
+          url: /watershed
+          output: web, pdf
           
       - title: 이미지 처리 플래그
         output: web, pdf

@@ -66,7 +66,7 @@ folder: opencv4
 
 > `y 좌표(y)` 입력된 마우스 y 좌표
 
-> [`마우스 플래그(flags)`](MouseEventTypes) 입력된 마우스 플래그
+> [`마우스 플래그(flags)`](MouseEventFlags) 입력된 마우스 플래그
 
 > [`사용자 정의 데이터(userData)`](setMouseCallback) 전달된 사용자 정의 데이터
 
