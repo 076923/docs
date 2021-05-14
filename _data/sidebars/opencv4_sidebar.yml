@@ -341,7 +341,15 @@ entries:
           url: /applyColorMap
           output: web, pdf
 
-      - title: 이미지 변환
+      - title: 기하학적 변환
+        output: web, pdf
+        subfolderitems:
+
+        - title: 맵 변환
+          url: /convertMaps
+          output: web, pdf
+
+      - title: 기타 변환
         output: web, pdf
         subfolderitems:
 
@@ -353,18 +361,6 @@ entries:
           url: /adaptiveThreshold
           output: web, pdf
 
-        - title: 거리 변환
-          url: /distanceTransform
-          output: web, pdf
-
-        - title: 라벨을 포함한 거리 변환
-          url: /distanceTransformWithLabels
-          output: web, pdf
-
-        - title: 영역 채우기
-          url: /floodFill
-          output: web, pdf
-
         - title: 그랩 컷
           url: /grabCut
           output: web, pdf
@@ -373,6 +369,18 @@ entries:
           url: /watershed
           output: web, pdf
           
+        - title: 영역 채우기
+          url: /floodFill
+          output: web, pdf
+
+        - title: 거리 변환
+          url: /distanceTransform
+          output: web, pdf
+
+        - title: 라벨을 포함한 거리 변환
+          url: /distanceTransformWithLabels
+          output: web, pdf
+
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:

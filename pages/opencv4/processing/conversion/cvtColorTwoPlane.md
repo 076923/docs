@@ -70,9 +70,9 @@ folder: opencv4
 
 ### 매개변수(Parameter)
 
-> `입력 이미지1(src1)` 색상 공간을 변환하려는 Y 공간
+> `입력 이미지 1(src1)` 색상 공간을 변환하려는 Y 공간
 
-> `입력 이미지2(src2)` 색상 공간을 변환하려는 UV 공간
+> `입력 이미지 2(src2)` 색상 공간을 변환하려는 UV 공간
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 색상 공간이 변환된 이미지
 

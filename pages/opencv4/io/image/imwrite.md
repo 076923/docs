@@ -38,7 +38,7 @@ folder: opencv4
             <div class="tab-pane fade" id="service-three">
 <pre class="prettyprint"><code class="language-py">retval = cv2.imwrite(
     filename,
-    flags,
+    img,
     params = None
 )</code></pre>
             </div>
