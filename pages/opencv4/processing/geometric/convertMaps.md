@@ -77,9 +77,9 @@ folder: opencv4
 
 > `입력 맵 2(map2)` 형식을 변환하려는 변환 맵 2
 
->  <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 맵 1(dstmap1)</a> 형식이 변환된 출력 맵 1
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 맵 1(dstmap1)</a> 형식이 변환된 출력 맵 1
 
->  <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 맵 2(dstmap2)</a> 형식이 변환된 출력 맵 2
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 맵 2(dstmap2)</a> 형식이 변환된 출력 맵 2
 
 > `출력 맵 형식(dstmap1Type)` 출력 맵의 형식
 
@@ -87,6 +87,6 @@ folder: opencv4
 
 ### 반환값(Returns)
 
->  <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 맵 1(dstmap1)</a> 형식이 변환된 출력 맵 1
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 맵 1(dstmap1)</a> 형식이 변환된 출력 맵 1
 
->  <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 맵 2(dstmap2)</a> 형식이 변환된 출력 맵 2
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 맵 2(dstmap2)</a> 형식이 변환된 출력 맵 2

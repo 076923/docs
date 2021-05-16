@@ -163,8 +163,8 @@ folder: opencv4
 | `COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
 | `COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
 | `COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
-| `COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방법을 적용한 RGBA 색상 공간으로 변환 |
-| `COLOR_mRGBA2RGBA` | Premultiplied alpha 방법을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
+| `COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
+| `COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
 | `COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
 | `COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
 | `COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
@@ -332,8 +332,8 @@ folder: opencv4
 | `ColorConversionCodes.COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방법을 적용한 RGBA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_mRGBA2RGBA` | Premultiplied alpha 방법을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
@@ -500,8 +500,8 @@ folder: opencv4
 | `cv2.COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
-| `cv2.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방법을 적용한 RGBA 색상 공간으로 변환 |
-| `cv2.COLOR_mRGBA2RGBA` | Premultiplied alpha 방법을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
+| `cv2.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
+| `cv2.COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
 | `cv2.COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
 | `cv2.COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
 | `cv2.COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
@@ -602,14 +602,14 @@ folder: opencv4
 | `COLOR_BayerGB2GRAY` | 베이어 포맷 GB 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `COLOR_BayerRG2GRAY` | 베이어 포맷 RG 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `COLOR_BayerGR2GRAY` | 베이어 포맷 GR 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
-| `COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
+| `COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
 | `COLOR_BayerBG2BGR_VNG` | 베이어 포맷 BG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
 | `COLOR_BayerRG2RGB_VNG` | 베이어 포맷 RG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 RGB 색상 공간으로 변환 |
 | `COLOR_BayerGB2BGR_VNG` | 베이어 포맷 GB 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
@@ -637,14 +637,14 @@ folder: opencv4
 | `ColorConversionCodes.COLOR_BayerGB2GRAY` | 베이어 포맷 GB 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BayerRG2GRAY` | 베이어 포맷 RG 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BayerGR2GRAY` | 베이어 포맷 GR 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BayerBG2BGR_VNG` | 베이어 포맷 BG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BayerRG2RGB_VNG` | 베이어 포맷 RG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 RGB 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_BayerGB2BGR_VNG` | 베이어 포맷 GB 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
@@ -672,14 +672,14 @@ folder: opencv4
 | `cv2.COLOR_BayerGB2GRAY` | 베이어 포맷 GB 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `cv2.COLOR_BayerRG2GRAY` | 베이어 포맷 RG 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
 | `cv2.COLOR_BayerGR2GRAY` | 베이어 포맷 GR 색상 공간을 이중 선형 보간법(Bilinear interpolation)을 적용한 GRAY 색상 공간으로 변환 |
-| `cv2.COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `cv2.COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `cv2.COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `cv2.COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `cv2.COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `cv2.COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
-| `cv2.COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 BGR 색상 공간으로 변환 |
-| `cv2.COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방법을 적용한 RGB 색상 공간으로 변환 |
+| `cv2.COLOR_BayerBG2BGR_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `cv2.COLOR_BayerRG2RGB_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `cv2.COLOR_BayerGB2BGR_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `cv2.COLOR_BayerGR2RGB_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `cv2.COLOR_BayerRG2BGR_EA` | 베이어 포맷 RG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `cv2.COLOR_BayerBG2RGB_EA` | 베이어 포맷 BG 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
+| `cv2.COLOR_BayerGR2BGR_EA` | 베이어 포맷 GR 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 BGR 색상 공간으로 변환 |
+| `cv2.COLOR_BayerGB2RGB_EA` | 베이어 포맷 GB 색상 공간을 가장자리 인식(Edge-Aware) 방식을 적용한 RGB 색상 공간으로 변환 |
 | `cv2.COLOR_BayerBG2BGR_VNG` | 베이어 포맷 BG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
 | `cv2.COLOR_BayerRG2RGB_VNG` | 베이어 포맷 RG 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 RGB 색상 공간으로 변환 |
 | `cv2.COLOR_BayerGB2BGR_VNG` | 베이어 포맷 GB 색상 공간을 가변 수 기울기 보간법(Variable Number of Gradients)을 적용한 BGR 색상 공간으로 변환 |
