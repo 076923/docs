@@ -45,8 +45,10 @@ folder: opencv4
 
 <br>
 
-{{site.data.alerts.info}}
+{{site.data.alerts.note}}
+
 실제 아핀 변환 행렬은 <b>3×3</b>이며, OpenCV에서는 불필요한 연산을 줄이기 위해 <b>2×3</b> 행렬로 표현합니다.
+
 {{site.data.alerts.end}}
 
 {% include callout.html content="
