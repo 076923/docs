@@ -61,9 +61,7 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-
-이미지 내 전경과 배경을 찾아 네 가지 그룹으로 나눈 마스크를 반환합니다.
-
+이미지 내 전경과 배경을 찾아 <b>네 가지 그룹</b>으로 나눈 마스크를 반환합니다.
 {{site.data.alerts.end}}
 
 {% include callout.html content="

@@ -1,5 +1,5 @@
 ---
-title: 원근 변환 행렬 생성
+title: 원근 변환 행렬 반환
 sidebar: opencv4_sidebar
 permalink: getPerspectiveTransform
 folder: opencv4

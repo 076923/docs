@@ -349,11 +349,15 @@ entries:
           url: /convertMaps
           output: web, pdf
 
-        - title: 아핀 변환 행렬 생성
+        - title: 서브 픽셀 반환
+          url: /getRectSubPix
+          output: web, pdf
+
+        - title: 아핀 변환 행렬 반환
           url: /getAffineTransform
           output: web, pdf
 
-        - title: 원근 변환 행렬 생성
+        - title: 원근 변환 행렬 반환
           url: /getPerspectiveTransform
           output: web, pdf
 
