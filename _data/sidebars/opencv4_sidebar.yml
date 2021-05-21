@@ -361,6 +361,10 @@ entries:
           url: /getPerspectiveTransform
           output: web, pdf
 
+        - title: 회전 변환 행렬 반환
+          url: /getRotationMatrix2D
+          output: web, pdf
+
       - title: 기타 변환
         output: web, pdf
         subfolderitems:
