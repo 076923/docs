@@ -369,6 +369,13 @@ entries:
           url: /invertAffineTransform
           output: web, pdf
 
+        - title: 극좌표 매핑
+          url: /linearPolar
+          output: web, pdf
+
+        - title: 로그 극좌표 매핑
+          url: /logPolar
+          output: web, pdf
 
       - title: 기타 변환
         output: web, pdf
@@ -416,6 +423,10 @@ entries:
 
         - title: 색상 맵 플래그
           url: /ColormapTypes
+          output: web, pdf
+
+        - title: 보간 플래그
+          url: /InterpolationFlags
           output: web, pdf
 
         - title: 이진화 플래그

@@ -56,7 +56,7 @@ folder: opencv4
 
 > `파일 이름(filename)` 이미지 파일의 경로
 
-> `이미지 배열(mats)` 결과 이미지
+> `이미지 배열(mats)` 출력 이미지
 
 > [`이미지 읽기 방식(flag)`](imreadModes) 이미지 변환 방식
 
@@ -64,4 +64,4 @@ folder: opencv4
 
 > `결괏값(retval)` 이미지 파일을 읽은 경우, 참(True) 값을 반환
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">이미지 배열(mats)*</a> 결과 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">이미지 배열(mats)*</a> 출력 이미지

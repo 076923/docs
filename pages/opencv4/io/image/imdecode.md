@@ -57,4 +57,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> `출력 이미지(retval)` 복호화된 결과 이미지
+> `출력 이미지(retval)` 복호화된 출력 이미지
