@@ -1,5 +1,5 @@
 ---
-title: 보간 플래그
+title: 내삽 플래그
 sidebar: opencv4_sidebar
 permalink: InterpolationFlags
 folder: opencv4
@@ -69,4 +69,4 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 보간 방식을 설정합니다.
+> 내삽(보간) 방식을 설정합니다.

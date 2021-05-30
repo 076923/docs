@@ -67,7 +67,7 @@ folder: opencv4
 
 > `크기(m)` 변형하려는 크기(magnitude) 비율
 
-> [`보간 방식(flags)`](InterpolationFlags) 이미지 밖의 픽셀을 외삽하는데 사용되는 보간 방식
+> [`내삽 방식(flags)`](InterpolationFlags) 이미지 내의 픽셀을 내삽하는데 사용되는 계산 방식
 
 ### 반환값(Returns)
 

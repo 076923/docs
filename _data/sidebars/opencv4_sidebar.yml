@@ -377,6 +377,10 @@ entries:
           url: /logPolar
           output: web, pdf
 
+        - title: 리매핑
+          url: /remap
+          output: web, pdf
+
       - title: 기타 변환
         output: web, pdf
         subfolderitems:
@@ -425,8 +429,12 @@ entries:
           url: /ColormapTypes
           output: web, pdf
 
-        - title: 보간 플래그
+        - title: 내삽(보간) 플래그
           url: /InterpolationFlags
+          output: web, pdf
+
+        - title: 외삽(보외) 플래그
+          url: /BorderTypes
           output: web, pdf
 
         - title: 이진화 플래그

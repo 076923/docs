@@ -51,7 +51,7 @@ folder: opencv4
 {% include callout.html content="
 `아핀 변환 역행렬(invert matrix)`
 <br><br>
-$$ invert\ matrix=\begin{bmatrix} a_{11} & a_{12} & b_{1} \\ a_{21} & a_{22} & b_{2} \\ 0 & 0 & 1 \end{bmatrix}^{-1} $$
+$$ invert\ matrix=\begin{bmatrix} a & b & e \\ c & d & f \\ 0 & 0 & 1 \end{bmatrix}^{-1} $$
 " type="success" %}
 
 <br>
