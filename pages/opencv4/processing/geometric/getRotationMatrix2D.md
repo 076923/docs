@@ -63,7 +63,7 @@ folder: opencv4
 {% include callout.html content="
 `회전 변환 행렬(matrix)`
 <br><br>
-$$ matrix=\begin{bmatrix} \alpha & \beta & (1-\alpha) \cdot \text{center.}x - \beta \cdot \text{center.}y \\ -\beta & \alpha & \beta \cdot \text{center.}x + (1-\alpha) \cdot \text{center.}y \end{bmatrix} $$
+$$ matrix = \begin{bmatrix} a & b & e \\ c & d & f \end{bmatrix} = \begin{bmatrix} \alpha & \beta & (1-\alpha) \cdot \text{center.}x - \beta \cdot \text{center.}y \\ -\beta & \alpha & \beta \cdot \text{center.}x + (1-\alpha) \cdot \text{center.}y \end{bmatrix} $$
 <br><br>
 $$ \alpha = \text{scale} \cdot \cos(\text{angle}) $$ &emsp; $$ \beta= \text{scale} \cdot \sin(\text{angle}) $$
 " type="success" %}

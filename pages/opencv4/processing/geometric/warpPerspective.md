@@ -1,13 +1,13 @@
 ---
-title: 리매핑
+title: 원근 변환
 sidebar: opencv4_sidebar
-permalink: remap
+permalink: warpPerspective
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">remap</h2>
+        <h2 class="page-header">warpPerspective</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,33 +22,33 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::remap(
+<pre class="prettyprint"><code class="language-cpp">void cv::warpPerspective(
     Mat src,
     Mat dst,
-    Mat map1,
-    Mat map2,
-    int interpolation,
+    Mat M,
+    Mat dsize,
+    int flags = INTER_LINEAR,
     int borderMode = BORDER_CONSTANT,
-    const Scalar& borderValue = Scalar()
+    const Scalar& borderValue = Scalar() 
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Remap(
+<pre class="prettyprint"><code class="language-cs">void Cv2.WarpPerspective(
     Mat src,
-    Mat dst
-    Mat map1,
-    Mat map2,
-    InterpolationFlags interpolation = InterpolationFlags.Linear,
+    Mat dst,
+    Mat m,
+    Size dsize,
+    InterpolationFlags flags = InterpolationFlags.Linear,
     BorderTypes borderMode = BorderTypes.Constant,
     Scalar? borderValue = null
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.remap(
+<pre class="prettyprint"><code class="language-py">dst = cv2.warpPerspective(
     src,
-    map1,
-    map2,
-    interpolation = None,
+    M,
+    dsize,
+    flags = None,
     borderMode = None,
     borderValue = None
 )</code></pre>
@@ -60,26 +60,26 @@ folder: opencv4
 <br>
 
 {% include callout.html content="
-`리매핑(remap)`
+`원근 변환 계산식(Affine Transform Formula)`
 <br><br>
-$$ dst(x, y) = src(map_{x}(x, y), \ map_{y}(x, y)) $$
+$$ dst(x, y) = src(\frac{ax + by + e}{gx + hy + 1},\ \frac{cx + dy + f}{gx + hy + 1}) $$
 " type="success" %}
 
 <br>
 
 ### 요약(Summary)
 
-> 이미지 픽셀들의 좌표를 임의의 특정 좌표로 옮겨 매핑합니다.
+> 이미지에 원근 변환을 적용합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 매핑하려는 입력 이미지
+> `입력 이미지(src)` 원근 변환을 적용하려는 입력 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 리매핑된 출력 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 원근 변환이 적용된 출력 이미지
 
-> `X축 행렬(map1)` X축 좌표 색인 행렬
+> `원근 변환 행렬(M)` 3×3 원근 변환 행렬
 
-> `Y축 행렬(map2)` Y축 좌표 색인 행렬
+> `절대 크기(dsize)` 출력 이미지의 크기
 
 > [`내삽 방식(interpolation)`](InterpolationFlags) 이미지 내의 픽셀을 내삽하는데 사용되는 계산 방식
 
@@ -89,4 +89,4 @@ $$ dst(x, y) = src(map_{x}(x, y), \ map_{y}(x, y)) $$
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 리매핑된 출력 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 원근 변환이 적용된 출력 이미지

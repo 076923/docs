@@ -56,7 +56,7 @@ $$ \begin{bmatrix} {x_1}' \\ {y_1}' \\ {x_2}' \\ {y_2}' \\ {x_3}' \\ {y_3}' \\ \
 <br><br>
 `아핀 변환 행렬(Affine Transform Matrix)`
 <br><br>
-$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ 0 & 0 & 1 \end{bmatrix} \Rightarrow  \begin{bmatrix} a & b & e \\ c & d & f \end{bmatrix} $$
+$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ 0 & 0 & 1 \end{bmatrix} \Rightarrow \begin{bmatrix} a & b & e \\ c & d & f \end{bmatrix} $$
 
 " type="success" %}
 

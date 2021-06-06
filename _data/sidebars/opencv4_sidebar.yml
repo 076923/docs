@@ -381,6 +381,18 @@ entries:
           url: /remap
           output: web, pdf
 
+        - title: 크기 변환
+          url: /resize
+          output: web, pdf
+
+        - title: 아핀 변환
+          url: /warpAffine
+          output: web, pdf
+
+        - title: 원근 변환
+          url: /warpPerspective
+          output: web, pdf
+
       - title: 기타 변환
         output: web, pdf
         subfolderitems:
