@@ -393,6 +393,10 @@ entries:
           url: /warpPerspective
           output: web, pdf
 
+        - title: 극좌표 변환
+          url: /warpPolar
+          output: web, pdf
+
       - title: 기타 변환
         output: web, pdf
         subfolderitems:
@@ -447,6 +451,10 @@ entries:
 
         - title: 외삽(보외) 플래그
           url: /BorderTypes
+          output: web, pdf
+
+        - title: 극좌표 변환 플래그
+          url: /WarpPolarMode
           output: web, pdf
 
         - title: 이진화 플래그

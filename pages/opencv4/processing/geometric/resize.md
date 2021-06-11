@@ -72,15 +72,15 @@ folder: opencv4
 {% include callout.html content="
 `절대 크기(dsize)`
 <br><br>
-$$ \text{dsize.𝚠𝚒𝚍𝚝𝚑} = 𝚛𝚘𝚞𝚗𝚍(𝚏𝚡 \times \text{𝚜𝚛𝚌.𝚠𝚒𝚍𝚝𝚑}) $$
+$$ \text{dsize.Width} = \text{round}(\text{fx} \times \text{src.Width}) $$
 <br><br>
-$$ \text{dsize.height} = 𝚛𝚘𝚞𝚗𝚍(𝚏𝚢 \times \text{𝚜𝚛𝚌.𝚑𝚎𝚒𝚐𝚑𝚝}) $$
+$$ \text{dsize.Height} = \text{round}(\text{fy} \times \text{src.Height}) $$
 <br><br>
 `상대 크기(fx, fy)`
 <br><br>
-$$ fx = \frac{\text{dsize.𝚠𝚒𝚍𝚝𝚑}}{\text{src.𝚠𝚒𝚍𝚝𝚑}} $$
+$$ \text{fx} = \frac{\text{dsize.Width}}{\text{src.Width}} $$
 <br><br>
-$$ fy = \frac{\text{dsize.height}}{\text{src.𝚑𝚎𝚒𝚐𝚑𝚝}} $$
+$$ \text{fy} = \frac{\text{dsize.Height}}{\text{src.Height}} $$
 " type="success" %}
 
 <br>
