@@ -321,6 +321,14 @@ entries:
       output: web, pdf
       subfolders:
 
+      - title: 이미지 필터링
+        output: web, pdf
+        subfolderitems:
+
+        - title: 양방향 필터
+          url: /bilateralFilter
+          output: web, pdf
+
       - title: 색상 변환
         output: web, pdf
         subfolderitems:
