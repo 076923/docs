@@ -325,6 +325,10 @@ entries:
         output: web, pdf
         subfolderitems:
 
+        - title: 단순 흐림 효과
+          url: /blur
+          output: web, pdf
+
         - title: 양방향 필터
           url: /bilateralFilter
           output: web, pdf
