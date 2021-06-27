@@ -1,13 +1,13 @@
 ---
-title: 단순 흐림 효과
+title: 박스 필터
 sidebar: opencv4_sidebar
-permalink: blur
+permalink: boxFilter
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">blur</h2>
+        <h2 class="page-header">boxFilter</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,28 +22,34 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::blur(
+<pre class="prettyprint"><code class="language-cpp">void cv::boxFilter(
     Mat src,
     Mat dst,
+    int ddepth,
     Size ksize,
     Point anchor = Point(-1, -1),
+    bool normalize = true,
     int borderType = BORDER_DEFAULT
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Blur(
+<pre class="prettyprint"><code class="language-cs">void Cv2.BoxFilter(
     Mat src,
     Mat dst,
+    MatType ddepth,
     Size ksize,
     Point? anchor = null,
+    bool normalize = true,
     BorderTypes borderType = BorderTypes.Reflect101
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.blur(
+<pre class="prettyprint"><code class="language-py">dst = cv2.boxFilter(
     src, 
+    ddepth,
     ksize,
     anchor = None,
+    normalize = None,
     borderType = None
 )</code></pre>
             </div>
@@ -54,7 +60,7 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-정규화 된 박스 필터를 사용하여 이미지를 흐리게합니다.
+박스 필터를 사용하여 이미지를 흐리게합니다.
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
@@ -62,35 +68,47 @@ folder: opencv4
 <font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.
 {{site.data.alerts.end}}
 
+{{site.data.alerts.tip}}
+<font color="#c7254e">정규화(normalize)</font>가 참 값일 경우, <b>단순 흐림 효과(blur)</b>와 동일한 결과를 갖습니다.
+{{site.data.alerts.end}}
+
 {% include callout.html content="
-`단순 흐림 효과 커널 계산식(Blur Kernel Formula)`
+`박스 필터 커널 계산식(Box Filter Kernel Formula)`
 <br><br>
-$$ \text{Kernel} = \frac{1}{\text{ksize.width} \times \text{ksize.height}} \begin{bmatrix}
+$$ \text{Kernel} = \alpha \begin{bmatrix}
 1 & \cdots & 1\\ 
 \vdots & \ddots & \vdots \\ 
 1 & \cdots & 1 
 \end{bmatrix} $$
- 
+<br><br>
+$$ \alpha = \left\{\begin{matrix}
+\frac{1}{\text{ksize.width} \times \text{ksize.height}} & \text{if:} \ normailze = \text{true} \\ 
+1 & \text{if:} \ normailze = \text{false} 
+\end{matrix}\right. $$
 " type="success" %}
 
 <br>
 
 ### 요약(Summary)
 
-> 입력 이미지에 단순 흐림 효과를 적용합니다.
+> 입력 이미지에 박스 필터를 적용합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 단순 흐림 효과를 적용하려는 입력 이미지
+> `입력 이미지(src)` 박스 필터를 적용하려는 입력 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 단순 흐림 효과가 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 박스 필터가 적용된 이미지
+
+> `출력 이미지 정밀도(ddepth)` 출력 이미지의 정밀도 설정
 
 > `커널 크기(ksize)` 커널의 크기(너비, 높이)
 
 > `고정점(anchor)` 콘벌루션(convolution) 연산을 적용하려는 지점
 
+> `정규화(normalize)` 박스 필터의 정규화 유/무
+
 > [`외삽 방식(borderType)`](BorderTypes) 이미지 밖의 픽셀을 외삽하는데 사용되는 방식
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 단순 흐림 효과가 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 박스 필터가 적용된 이미지

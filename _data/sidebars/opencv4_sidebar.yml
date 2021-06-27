@@ -329,6 +329,10 @@ entries:
           url: /blur
           output: web, pdf
 
+        - title: 박스 필터
+          url: /boxFilter
+          output: web, pdf
+
         - title: 양방향 필터
           url: /bilateralFilter
           output: web, pdf

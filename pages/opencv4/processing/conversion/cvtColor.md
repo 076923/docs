@@ -78,7 +78,7 @@ folder: opencv4
 
 > [`색상 공간 변환 코드(code)`](ColorConversionCodes) 변환하려는 색상 공간 코드
 
-> `출력 이미지 채널` 출력 이미지가 갖는 채널 수
+> `출력 이미지 채널(dstCn)` 출력 이미지가 갖는 채널 수
 
 ### 반환값(Returns)
 

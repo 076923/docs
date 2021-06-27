@@ -76,9 +76,9 @@ $$ tilted(X, Y) = \sum_{y<Y, \ abs(x-X+1) \leq Y-y-1}^{} image(x, y) $$
 
 {% include callout.html content="
 
-- `제곱 적분 이미지 출력 깊이(sdepth)`는 `CV_32S` 형식, `CV_32F` 형식, `CV_64F` 형식을 할당할 수 있습니다.
+- `제곱 적분 이미지 출력 정밀도(sdepth)`는 `CV_32S` 형식, `CV_32F` 형식, `CV_64F` 형식을 할당할 수 있습니다.
   
-- `기울어진 적분 이미지 출력 깊이(sqdepth)`는 `CV_32F` 형식, `CV_64F` 형식을 할당할 수 있습니다.
+- `기울어진 적분 이미지 출력 정밀도(sqdepth)`는 `CV_32F` 형식, `CV_64F` 형식을 할당할 수 있습니다.
   
 " type="success" %}
 
@@ -98,9 +98,9 @@ $$ tilted(X, Y) = \sum_{y<Y, \ abs(x-X+1) \leq Y-y-1}^{} image(x, y) $$
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">기울어진 적분 이미지(tilted)</a> 45° 기울어진 적분 이미지
 
-> `제곱 적분 이미지 출력 깊이(sdepth)` 제곱 적분 이미지의 출력 깊이 설정
+> `제곱 적분 이미지 출력 정밀도(sdepth)` 제곱 적분 이미지의 출력 정밀도 설정
 
-> `기울어진 적분 이미지 출력 깊이(sqdepth)` 기울어진 적분 이미지의 출력 깊이 설정
+> `기울어진 적분 이미지 출력 정밀도(sqdepth)` 기울어진 적분 이미지의 출력 정밀도 설정
 
 ### 반환값(Returns)
 

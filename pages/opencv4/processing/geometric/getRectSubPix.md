@@ -89,7 +89,7 @@ $$ patch(x, y) = src(x + center.x - (dst.cols - 1) \times 0.5, \ y + center.y - 
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">패치(patch)</a> 서브 픽셀이 계산된 이미지
 
-> `패치 출력 깊이(patchType)` 패치의 출력 깊이 설정
+> `패치 출력 정밀도(patchType)` 패치의 출력 정밀도 설정
 
 ### 반환값(Returns)
 
