@@ -59,12 +59,10 @@ folder: opencv4
 
 <br>
 
-{% include callout.html content="
-`아핀 변환 계산식(Affine Transform Formula)`
-<br><br>
+<blockquote class="formula">
+<b>아핀 변환 계산식(Affine Transform Formula):</b>
 $$ dst(x, y) = src(ax + by + e,\ cx + dy + f) $$
-" type="success" %}
-
+</blockquote>
 <br>
 
 ### 요약(Summary)

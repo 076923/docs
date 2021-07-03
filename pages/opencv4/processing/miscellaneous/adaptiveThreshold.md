@@ -63,19 +63,16 @@ folder: opencv4
 이미지 내 일정 영역마다 개별적으로 계산된 임곗값을 적용합니다.
 {{site.data.alerts.end}}
 
-{% include callout.html content="
+<blockquote class="formula">
+<b>이진화(THRESH_BINARY):</b>
+$$ \text{dst}(x, y) = \begin{cases} \text{maxValue} & \text{if:} \ \text{src}(x, y) > \text{T}(x, y) \\ 0 & \text{else: otherwise} \end{cases} $$
+</blockquote>
 
-`이진화(THRESH_BINARY)`
-<br><br>
-$$ dst(x, y) = \begin{cases} \text{maxValue} & \text{if:} \ src(x, y) > T(x, y) \\ 0 & \text{else: otherwise} \end{cases} $$
-<br><br>
-`이진화 역상(THRESH_BINARY_INV)`
-<br><br>
-$$ dst(x, y) = \begin{cases} 0 & \text{if:} \ src(x, y) > T(x, y) \\ \text{maxValue} & \text{else: otherwise} \end{cases} $$ 
-<br><br>
-$$ T(x, y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} I(x+x_i, y+y_i) - C $$
-
-" type="info" %}
+<blockquote class="formula">
+<b>이진화 역상(THRESH_BINARY_INV):</b>
+$$ \text{dst}(x, y) = \begin{cases} 0 & \text{if:} \ \text{src}(x, y) > \text{T}(x, y) \\ \text{maxValue} & \text{else: otherwise} \end{cases} $$ 
+$$ \text{T}(x, y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} \text{I}(x+x_i, y+y_i) - C $$
+</blockquote>
 
 <br>
 

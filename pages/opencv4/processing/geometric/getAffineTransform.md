@@ -49,16 +49,15 @@ folder: opencv4
 실제 아핀 변환 행렬은 <b>3×3</b>이며, OpenCV에서는 불필요한 연산을 줄이기 위해 <b>2×3</b> 행렬로 표현합니다.
 {{site.data.alerts.end}}
 
-{% include callout.html content="
-`아핀 변환 행렬 계산식(Affine Transform Matrix Formula)`
-<br><br>
+<blockquote class="formula">
+<b>아핀 변환 행렬 계산식(Affine Transform Matrix Formula):</b>
 $$ \begin{bmatrix} {x_1}' \\ {y_1}' \\ {x_2}' \\ {y_2}' \\ {x_3}' \\ {y_3}' \\ \end{bmatrix} = \begin{bmatrix} {x_1} & {y_1} & 0 & 0 & 1 & 0 \\ 0 & 0 & {x_1} & {y_1} & 0 & 1 \\ {x_2} & {y_2} & 0 & 0 & 1 & 0 \\ 0 & 0 & {x_2} & {y_2} & 0 & 1 \\ {x_3} & {y_3} & 0 & 0 & 1 & 0 \\ 0 & 0 & {x_3} & {y_3} & 0 & 1 \\ \end{bmatrix} \cdot \begin{bmatrix} a \\ b \\ c \\ d \\ e \\ f \\ \end{bmatrix} $$
-<br><br>
-`아핀 변환 행렬(Affine Transform Matrix)`
-<br><br>
-$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ 0 & 0 & 1 \end{bmatrix} \Rightarrow \begin{bmatrix} a & b & e \\ c & d & f \end{bmatrix} $$
+</blockquote>
 
-" type="success" %}
+<blockquote class="formula">
+<b>아핀 변환 행렬(Affine Transform Matrix):</b>
+$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ 0 & 0 & 1 \end{bmatrix} \Rightarrow \begin{bmatrix} a & b & e \\ c & d & f \end{bmatrix} $$
+</blockquote>
 
 <br>
 

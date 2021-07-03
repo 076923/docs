@@ -62,41 +62,30 @@ folder: opencv4
 <b>C++ OpenCV</b>와 <b>Python OpenCV</b>는 <font color="#c7254e">극좌표 플래그(flags)</font>에 <font color="#c7254e">내삽 방식(interpolation) + 극좌표 변환 방식(WarpPolarMode)</font>의 형태로 사용합니다.
 {{site.data.alerts.end}}
 
-{% include callout.html content="
-
-`절대 크기(dsize)`의 **너비(Width)**와 **높이(Height)**가 0과 같거나 작은 경우
-<br>
+<blockquote class="formula">
+<font color="#c7254e">절대 크기(dsize)</font>의 <b>너비(Width)</b>와 <b>높이(Height)</b>가 0과 같거나 작은 경우:
 $$ \text{dsize.Area} = (maxRadius^2 \cdot \pi) $$
-<br>
 $$ \text{dsize.Width} = \text{round}(\text{maxRadius}) $$
-<br>
 $$ \text{dsize.Height} = \text{round}(\text{maxRadius}\cdot \pi) $$
-<br><br>
-`절대 크기(dsize)`의 **높이(Height)**가 0과 같거나 작은 경우
-<br>
-$$ \text{dsize.Height} = \text{round}(\text{dsize.Width}\cdot \pi) $$
-<br>
-" type="success" %}
+</blockquote>
 
-{% include callout.html content="
-`극좌표 변환 계산식(Polar Transform Formula)`
-<br><br>
+<blockquote class="formula">
+<font color="#c7254e">절대 크기(dsize)</font>의 <b>높이(Height)</b>만 0과 같거나 작은 경우:
+$$ \text{dsize.Height} = \text{round}(\text{dsize.Width}\cdot \pi) $$
+</blockquote>
+
+<blockquote class="formula">
+<b>극좌표 변환 계산식(Polar Transform Formula):</b>
 $$ dst(\rho, \phi) = src(x, y) $$
-<br><br>
 $$ \rho = \left\{\begin{matrix}
 \frac{\text{dsize.Width}}{\text{maxRadius}} \cdot \text{magnitude}(\overrightarrow{I}) \\ 
 \frac{\text{dsize.Width}}{log_e{\text{maxRadius}}} \cdot log_e{\text{magnitude}(\overrightarrow{I})} & \text{if} \ semilog
 \end{matrix}\right. $$
-<br><br>
 $$ \phi = \frac{\text{dsize.Height}}{2\pi} \cdot angle(\overrightarrow{I}) $$
-<br><br><br>
 $$ \overrightarrow{I} = (x - \text{center}.x, \ y - \text{center}.y) $$
-<br><br>
 $$ magnitude(\overrightarrow{I}) = \sqrt{x(\overrightarrow{I})^2) + y(\overrightarrow{I})^2} $$
-<br><br>
 $$ angle(\overrightarrow{I}) = \text{atan2}(y(\overrightarrow{I}), \ x(\overrightarrow{I})) \cdot \frac{180}{\pi} $$
-<br><br>
-" type="success" %}
+</blockquote>
 
 <br>
 

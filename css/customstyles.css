@@ -1211,3 +1211,13 @@ h4.panel-title {
     width: 100% !important; 
     margin: 3px 0px 3px 0px !important;
 }
+
+
+
+.formula {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    border-left-color: palevioletred;
+}

@@ -47,16 +47,15 @@ folder: opencv4
 
 <br>
 
-{% include callout.html content="
-`원근 변환 행렬 계산식(Perspective Transform Matrix Formula)`
-<br><br>
+<blockquote class="formula">
+<b>원근 변환 행렬 계산식(Perspective Transform Matrix Formula):</b>
 $$ \begin{bmatrix} {x_1}' \\ {y_1}' \\ {x_2}' \\ {y_2}' \\ {x_3}' \\ {y_3}' \\ {x_4}' \\ {y_4}' \end{bmatrix} = \begin{bmatrix} {x_1} & {y_1} & 1 & 0 & 0 & 0 & -{x_1}' \cdot {x_1} & -{x_1}' \cdot {y_1} \\ 0 & 0 & 0 & {x_1} & {y_1} & 1 & -{y_1}' \cdot {x_1} & -{y_1}' \cdot {y_1} \\ {x_2} & {y_2} & 1 & 0 & 0 & 0 & -{x_2}' \cdot {x_2} & -{x_2}' \cdot {y_2} \\ 0 & 0 & 0 & {x_2} & {y_2} & 1 & -{y_2}' \cdot {x_2} & -{y_2}' \cdot {y_2} \\ {x_3} & {y_3} & 1 & 0 & 0 & 0 & -{x_3}' \cdot {x_3} & -{x_3}' \cdot {y_3} \\ 0 & 0 & 0 & {x_3} & {y_3} & 1 & -{y_3}' \cdot {x_3} & -{y_3}' \cdot {y_3} \\ {x_4} & {y_4} & 1 & 0 & 0 & 0 & -{x_4}' \cdot {x_4} & -{x_4}' \cdot {y_4} \\ 0 & 0 & 0 & {x_4} & {y_4} & 1 & -{y_4}' \cdot {x_4} & -{y_4}' \cdot {y_4} \\ \end{bmatrix} \cdot \begin{bmatrix} a \\ b \\ c \\ d \\ e \\ f \\ g \\ h \end{bmatrix} $$
-<br><br>
-`원근 변환 행렬(Perspective Transform Matrix)`
-<br><br>
-$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ g & h & 1 \end{bmatrix} $$
+</blockquote>
 
-" type="success" %}
+<blockquote class="formula">
+<b>원근 변환 행렬(Perspective Transform Matrix):</b>
+$$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ g & h & 1 \end{bmatrix} $$
+</blockquote>
 
 <br>
 

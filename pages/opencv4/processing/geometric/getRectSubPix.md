@@ -67,11 +67,10 @@ folder: opencv4
   
 " type="success" %}
 
-{% include callout.html content="
-`패치(patch)`
-<br><br>
-$$ patch(x, y) = src(x + center.x - (dst.cols - 1) \times 0.5, \ y + center.y - (dst.rows − 1) \times 0.5 ) $$
-" type="success" %}
+<blockquote class="formula">
+<b>패치 계산식(Patch Formula):</b>
+$$ \text{patch}(x, y) = \text{src}(x + \text{center}.x - (\text{dst}.cols - 1) \times 0.5, \ y + \text{center}.y - (\text{dst}.rows − 1) \times 0.5 ) $$
+</blockquote>
 
 <br>
 

@@ -59,11 +59,10 @@ folder: opencv4
 
 <br>
 
-{% include callout.html content="
-`원근 변환 계산식(Affine Transform Formula)`
-<br><br>
+<blockquote class="formula">
+<b>원근 변환 계산식(Affine Transform Formula):</b>
 $$ dst(x, y) = src(\frac{ax + by + e}{gx + hy + 1},\ \frac{cx + dy + f}{gx + hy + 1}) $$
-" type="success" %}
+</blockquote>
 
 <br>
 

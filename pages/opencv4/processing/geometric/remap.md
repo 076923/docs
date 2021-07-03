@@ -59,11 +59,10 @@ folder: opencv4
 
 <br>
 
-{% include callout.html content="
-`리매핑(remap)`
-<br><br>
-$$ dst(x, y) = src(map_{x}(x, y), \ map_{y}(x, y)) $$
-" type="success" %}
+<blockquote class="formula">
+<b>리매핑 계산식(Remapping Formula):</b>
+$$ \text{dst}(x, y) = \text{src}(map_{x}(x, y), \ map_{y}(x, y)) $$
+</blockquote>
 
 <br>
 

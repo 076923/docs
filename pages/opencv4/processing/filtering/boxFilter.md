@@ -72,20 +72,18 @@ folder: opencv4
 <font color="#c7254e">정규화(normalize)</font>가 참 값일 경우, <b>단순 흐림 효과(blur)</b>와 동일한 결과를 갖습니다.
 {{site.data.alerts.end}}
 
-{% include callout.html content="
-`박스 필터 커널 계산식(Box Filter Kernel Formula)`
-<br><br>
+<blockquote class="formula">
+<b>박스 필터 커널 계산식(Box Filter Kernel Formula):</b>
 $$ \text{Kernel} = \alpha \begin{bmatrix}
 1 & \cdots & 1\\ 
 \vdots & \ddots & \vdots \\ 
 1 & \cdots & 1 
 \end{bmatrix} $$
-<br><br>
 $$ \alpha = \left\{\begin{matrix}
 \frac{1}{\text{ksize.width} \times \text{ksize.height}} & \text{if:} \ normailze = \text{true} \\ 
 1 & \text{if:} \ normailze = \text{false} 
 \end{matrix}\right. $$
-" type="success" %}
+</blockquote>
 
 <br>
 

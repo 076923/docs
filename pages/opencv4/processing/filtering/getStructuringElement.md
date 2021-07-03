@@ -1,13 +1,13 @@
 ---
-title: 단순 흐림 효과
+title: 구조 요소 생성
 sidebar: opencv4_sidebar
-permalink: blur
+permalink: getStructuringElement
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">blur</h2>
+        <h2 class="page-header">getStructuringElement</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,29 +22,24 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::blur(
-    Mat src,
-    Mat dst,
+<pre class="prettyprint"><code class="language-cpp">Mat cv::getStructuringElement(
+    int shape,
     Size ksize,
-    Point anchor = Point(-1, -1),
-    int borderType = BORDER_DEFAULT
+    Point anchor = Point(-1,-1)
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Blur(
-    Mat src,
-    Mat dst,
+<pre class="prettyprint"><code class="language-cs">Mat Cv2.GetStructuringElement(
+    MorphShapes shape,
     Size ksize,
-    Point? anchor = null,
-    BorderTypes borderType = BorderTypes.Reflect101
+    Point anchor
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.blur(
-    src, 
+<pre class="prettyprint"><code class="language-py">retval = cv2.getStructuringElement(
+    shape,
     ksize,
-    anchor = None,
-    borderType = None
+    anchor = None
 )</code></pre>
             </div>
         </div>
@@ -54,7 +49,7 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-정규화 된 박스 필터를 사용하여 이미지를 흐리게합니다.
+커널(Kernel)보다 더 복잡한 개념인 <font color="#c7254e">구조 요소(element)</font>를 생성합니다.
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
@@ -62,33 +57,20 @@ folder: opencv4
 <font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.
 {{site.data.alerts.end}}
 
-<blockquote class="formula">
-<b>단순 흐림 효과 커널 계산식(Blur Kernel Formula):</b>
-$$ \text{Kernel} = \frac{1}{\text{ksize.width} \times \text{ksize.height}} \begin{bmatrix}
-1 & \cdots & 1\\ 
-\vdots & \ddots & \vdots \\ 
-1 & \cdots & 1 
-\end{bmatrix} $$
-</blockquote>
-
 <br>
 
 ### 요약(Summary)
 
-> 입력 이미지에 단순 흐림 효과를 적용합니다.
+> 모폴로지 연산을 위해 지정된 모양과 크기의 구조 요소를 생성합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 단순 흐림 효과를 적용하려는 입력 이미지
+> [`모양(shape)`](MorphShapes) 구조 요소의 모양
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 단순 흐림 효과가 적용된 이미지
-
-> `커널 크기(ksize)` 커널의 크기(너비, 높이)
+> `크기(ksize)` 구조 요소의 크기
 
 > `고정점(anchor)` 콘벌루션(convolution) 연산을 적용하려는 지점
 
-> [`외삽 방식(borderType)`](BorderTypes) 이미지 밖의 픽셀을 외삽하는데 사용되는 방식
-
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 단순 흐림 효과가 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">구조 요소(retval)</a> 특정 형태의 구조 요소

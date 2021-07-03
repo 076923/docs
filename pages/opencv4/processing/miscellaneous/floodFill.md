@@ -68,17 +68,14 @@ folder: opencv4
 
 {% include callout.html content="
 
-`영역 채우기 조건`
-<br><br>
-$$ src(x', y') - \text{loDiff} \leq src(x, y) \leq src(x', y') + \text{upDiff} $$
-
-" type="info" %}
-
-{% include callout.html content="
-
 - 마스크 이미지는 `CV_8UC1` 형식과 입력 이미지 크기보다 **2 픽셀이 더 큰 너비와 높이를 가져아 합니다.**
 
 " type="success" %}
+
+<blockquote class="formula">
+<b>영역 채우기 조건:</b>
+$$ src(x', y') - \text{loDiff} \leq src(x, y) \leq src(x', y') + \text{upDiff} $$
+</blockquote>
 
 <br>
 

@@ -67,21 +67,17 @@ folder: opencv4
 <font color="#c7254e">절대 크기에 (0, 0)</font>을 할당하는 이유로는 <font color="#c7254e">상대 크기(fx, fy)</font>에서 계산된 크기가 <font color="#c7254e">절대 크기(dsize)</font>에 할당되어 크기를 변환하기 때문입니다.
 {{site.data.alerts.end}}
 
-<br>
-
-{% include callout.html content="
-`절대 크기(dsize)`
-<br><br>
+<blockquote class="formula">
+<b>절대 크기(dsize):</b>
 $$ \text{dsize.Width} = \text{round}(\text{fx} \times \text{src.Width}) $$
-<br><br>
 $$ \text{dsize.Height} = \text{round}(\text{fy} \times \text{src.Height}) $$
-<br><br>
-`상대 크기(fx, fy)`
-<br><br>
+</blockquote>
+
+<blockquote class="formula">
+<b>상대 크기(fx, fy):</b>
 $$ \text{fx} = \frac{\text{dsize.Width}}{\text{src.Width}} $$
-<br><br>
 $$ \text{fy} = \frac{\text{dsize.Height}}{\text{src.Height}} $$
-" type="success" %}
+</blockquote>
 
 <br>
 
