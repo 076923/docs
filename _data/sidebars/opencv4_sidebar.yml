@@ -337,6 +337,10 @@ entries:
           url: /bilateralFilter
           output: web, pdf
 
+        - title: 2D 필터
+          url: /filter2D
+          output: web, pdf
+
         - title: 구조 요소 생성
           url: /getStructuringElement
           output: web, pdf
