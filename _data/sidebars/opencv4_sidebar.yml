@@ -329,6 +329,10 @@ entries:
           url: /blur
           output: web, pdf
 
+        - title: 가우시안 흐림 효과
+          url: /GaussianBlur
+          output: web, pdf
+
         - title: 박스 필터
           url: /boxFilter
           output: web, pdf
