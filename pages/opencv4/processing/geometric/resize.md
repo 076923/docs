@@ -64,7 +64,7 @@ folder: opencv4
 {{site.data.alerts.tip}}
 이미지에 <font color="#c7254e">상대 크기(fx, fy)</font>를 적용하려면 <font color="#c7254e">절대 크기(dsize)</font>에 (0, 0)을 할당해야 합니다.
 <br>
-<font color="#c7254e">절대 크기에 (0, 0)</font>을 할당하는 이유로는 <font color="#c7254e">상대 크기(fx, fy)</font>에서 계산된 크기가 <font color="#c7254e">절대 크기(dsize)</font>에 할당되어 크기를 변환하기 때문입니다.
+<li class="alerts_li"><font color="#c7254e">절대 크기에 (0, 0)</font>을 할당하는 이유는 <font color="#c7254e">상대 크기(fx, fy)</font>에서 계산된 크기가 <font color="#c7254e">절대 크기(dsize)</font>에 할당되어 크기를 변환하기 때문입니다.</li>
 {{site.data.alerts.end}}
 
 <blockquote class="formula">

@@ -59,7 +59,7 @@ folder: opencv4
 
 {{site.data.alerts.tip}}
 <font color="#c7254e">고정점(anchor)</font>에 <font color="#c7254e">null</font> 값이나 <font color="#c7254e">None</font> 값을 사용하면 고정점의 위치는 <font color="#c7254e">(-1, -1)</font>을 갖게 됩니다.<br>
-<font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.
+<li class="alerts_li"><font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.</li>
 {{site.data.alerts.end}}
 
 <blockquote class="formula">

@@ -1221,3 +1221,8 @@ h4.panel-title {
     border-radius: 3px;
     border-left-color: palevioletred;
 }
+
+.alerts_li {
+    margin-left: 20px;
+    list-style: square;
+}

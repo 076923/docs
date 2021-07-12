@@ -1,5 +1,5 @@
 ---
-title: 구조 요소 생성
+title: 구조 요소 반환
 sidebar: opencv4_sidebar
 permalink: getStructuringElement
 folder: opencv4
@@ -49,19 +49,19 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-커널(Kernel)보다 더 복잡한 개념인 <font color="#c7254e">구조 요소(element)</font>를 생성합니다.
+커널(Kernel)보다 더 복잡한 개념인 <font color="#c7254e">구조 요소(Element)</font>를 생성합니다.
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
 <font color="#c7254e">고정점(anchor)</font>에 <font color="#c7254e">null</font> 값이나 <font color="#c7254e">None</font> 값을 사용하면 고정점의 위치는 <font color="#c7254e">(-1, -1)</font>을 갖게 됩니다.<br>
-<font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.
+<li class="alerts_li"><font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.</li>
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> 모폴로지 연산을 위해 지정된 모양과 크기의 구조 요소를 생성합니다.
+> 모폴로지 연산을 위해 지정된 모양과 크기의 구조 요소를 생성해 반환합니다.
 
 ### 매개변수(Parameter)
 

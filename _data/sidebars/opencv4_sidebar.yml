@@ -345,7 +345,11 @@ entries:
           url: /filter2D
           output: web, pdf
 
-        - title: 구조 요소 생성
+        - title: 미분 커널 반환
+          url: /getDerivKernels
+          output: web, pdf
+
+        - title: 구조 요소 반환
           url: /getStructuringElement
           output: web, pdf
 
