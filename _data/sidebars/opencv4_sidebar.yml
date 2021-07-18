@@ -345,6 +345,10 @@ entries:
           url: /filter2D
           output: web, pdf
 
+        - title: 가우시안 커널 반환
+          url: /getGaussianKernel
+          output: web, pdf
+
         - title: 미분 커널 반환
           url: /getDerivKernels
           output: web, pdf

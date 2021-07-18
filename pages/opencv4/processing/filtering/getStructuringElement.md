@@ -67,7 +67,7 @@ folder: opencv4
 
 > [`모양(shape)`](MorphShapes) 구조 요소의 모양
 
-> `크기(ksize)` 구조 요소의 크기
+> `커널 크기(ksize)` 구조 요소의 크기
 
 > `고정점(anchor)` 콘벌루션(convolution) 연산을 적용하려는 지점
 

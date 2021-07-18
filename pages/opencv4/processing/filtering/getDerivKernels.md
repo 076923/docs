@@ -22,7 +22,7 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">Mat cv::getDerivKernels(
+<pre class="prettyprint"><code class="language-cpp">void cv::getDerivKernels(
     Mat kx,
     Mat ky,
     int dx,
@@ -33,7 +33,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">Mat Cv2.GetDerivKernels(
+<pre class="prettyprint"><code class="language-cs">void Cv2.GetDerivKernels(
     Mat kx,
     Mat ky,
     int dx,
@@ -89,7 +89,7 @@ folder: opencv4
 
 > `Y 미분 차수(dy)` Y에 대한 미분 차수
 
-> `크기(ksize)` 필터(커널)의 크기
+> `커널 크기(ksize)` 필터(커널)의 크기
 
 > `정규화(normalize)` 필터 계수 정규화 유/무
 
