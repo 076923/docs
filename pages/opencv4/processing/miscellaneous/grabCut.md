@@ -44,7 +44,7 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">mask, bgdModel, fgdModel = cv2.floodFill(
+<pre class="prettyprint"><code class="language-py">mask, bgdModel, fgdModel = cv2.grabCut(
     img,
     mask,
     rect,

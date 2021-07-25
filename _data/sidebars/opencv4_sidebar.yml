@@ -349,6 +349,10 @@ entries:
           url: /getGaussianKernel
           output: web, pdf
 
+        - title: 가버 커널 반환
+          url: /getGaborKernel
+          output: web, pdf
+
         - title: 미분 커널 반환
           url: /getDerivKernels
           output: web, pdf
