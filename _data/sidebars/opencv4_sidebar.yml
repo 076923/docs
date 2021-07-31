@@ -321,16 +321,12 @@ entries:
       output: web, pdf
       subfolders:
 
-      - title: 이미지 필터링
+      - title: 필터링
         output: web, pdf
         subfolderitems:
 
-        - title: 단순 흐림 효과
-          url: /blur
-          output: web, pdf
-
-        - title: 가우시안 흐림 효과
-          url: /GaussianBlur
+        - title: 2D 필터
+          url: /filter2D
           output: web, pdf
 
         - title: 박스 필터
@@ -341,14 +337,6 @@ entries:
           url: /bilateralFilter
           output: web, pdf
 
-        - title: 2D 필터
-          url: /filter2D
-          output: web, pdf
-
-        - title: 가우시안 커널 반환
-          url: /getGaussianKernel
-          output: web, pdf
-
         - title: 가버 커널 반환
           url: /getGaborKernel
           output: web, pdf
@@ -357,16 +345,32 @@ entries:
           url: /getDerivKernels
           output: web, pdf
 
-        - title: 구조 요소 반환
-          url: /getStructuringElement
+        - title: 가우시안 커널 반환
+          url: /getGaussianKernel
+          output: web, pdf
+          
+      - title: 흐림 효과
+        output: web, pdf
+        subfolderitems:
+
+        - title: 단순 흐림 효과
+          url: /blur
           output: web, pdf
 
-        - title: 팽창
-          url: /dilate
+        - title: 중간값 흐림 효과
+          url: /medianBlur
           output: web, pdf
 
-        - title: 침식
-          url: /erode
+        - title: 가우시안 흐림 효과
+          url: /GaussianBlur
+          output: web, pdf
+
+      - title: 가장자리 검출
+        output: web, pdf
+        subfolderitems:
+
+        - title: 라플라시안
+          url: /Laplacian
           output: web, pdf
 
       - title: 색상 변환
@@ -397,6 +401,34 @@ entries:
           url: /convertMaps
           output: web, pdf
 
+        - title: 크기 변환
+          url: /resize
+          output: web, pdf
+
+        - title: 아핀 변환
+          url: /warpAffine
+          output: web, pdf
+
+        - title: 원근 변환
+          url: /warpPerspective
+          output: web, pdf
+
+        - title: 극좌표 변환
+          url: /warpPolar
+          output: web, pdf
+
+        - title: 리매핑
+          url: /remap
+          output: web, pdf
+
+        - title: 극좌표 매핑
+          url: /linearPolar
+          output: web, pdf
+
+        - title: 로그 극좌표 매핑
+          url: /logPolar
+          output: web, pdf
+
         - title: 서브 픽셀 반환
           url: /getRectSubPix
           output: web, pdf
@@ -415,34 +447,6 @@ entries:
 
         - title: 아핀 변환 역행렬 반환
           url: /invertAffineTransform
-          output: web, pdf
-
-        - title: 극좌표 매핑
-          url: /linearPolar
-          output: web, pdf
-
-        - title: 로그 극좌표 매핑
-          url: /logPolar
-          output: web, pdf
-
-        - title: 리매핑
-          url: /remap
-          output: web, pdf
-
-        - title: 크기 변환
-          url: /resize
-          output: web, pdf
-
-        - title: 아핀 변환
-          url: /warpAffine
-          output: web, pdf
-
-        - title: 원근 변환
-          url: /warpPerspective
-          output: web, pdf
-
-        - title: 극좌표 변환
-          url: /warpPolar
           output: web, pdf
 
       - title: 기타 변환
@@ -475,6 +479,22 @@ entries:
 
         - title: 라벨을 포함한 거리 변환
           url: /distanceTransformWithLabels
+          output: web, pdf
+
+      - title: 형태학적인 접근 기법
+        output: web, pdf
+        subfolderitems:
+
+        - title: 팽창
+          url: /dilate
+          output: web, pdf
+
+        - title: 침식
+          url: /erode
+          output: web, pdf
+
+        - title: 구조 요소 반환
+          url: /getStructuringElement
           output: web, pdf
 
       - title: 이미지 처리 플래그

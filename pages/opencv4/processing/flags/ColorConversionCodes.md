@@ -96,88 +96,8 @@ folder: opencv4
 | `COLOR_Lab2LRGB` | CIE Lab 색상 공간을 LRGB 색상 공간으로 변환 |
 | `COLOR_Luv2LBGR` | CIE Luv 색상 공간을 LBGR 색상 공간으로 변환 |
 | `COLOR_Luv2LRGB` | CIE Luv 색상 공간을 LRGB 색상 공간으로 변환 |
-| `COLOR_BGR2YUV` | BGR 색상 공간을 YUV 색상 공간으로 변환 |
-| `COLOR_RGB2YUV` | RGB 색상 공간을 YUV 색상 공간으로 변환 |
-| `COLOR_YUV2BGR` | YUV 색상 공간을 BGR 색상 공간으로 변환 |
-| `COLOR_YUV2RGB` | YUV 색상 공간을 RGB 색상 공간으로 변환 |
-| `COLOR_YUV420sp2RGB` | YUV420sp 색상 공간을 RGB 색상 공간으로 변환 |
-| `COLOR_YUV420sp2BGR` | YUV420sp 색상 공간을 BGR 색상 공간으로 변환 |
-| `COLOR_YUV420sp2RGBA` | YUV420sp 색상 공간을 RGBA 색상 공간으로 변환 |
-| `COLOR_YUV420sp2BGRA` | YUV420sp 색상 공간을 BGRA 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_YV12` | YUV 색상 공간을 RGB_YV12 색상 공간으로 변환 |
-| `COLOR_YUV420p2RGB` | YUV420p 색상 공간을 RGB 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_YV12` | YUV 색상 공간을 BGR_YV12 색상 공간으로 변환 |
-| `COLOR_YUV420p2BGR` | YUV420p 색상 공간을 BGR 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_IYUV` | YUV 색상 공간을 RGB_IYUV 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_I420` | YUV 색상 공간을 RGB_I420 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_IYUV` | YUV 색상 공간을 BGR_IYUV 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_I420` | YUV 색상 공간을 BGR_I420 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_YV12` | YUV 색상 공간을 RGBA_YV12 색상 공간으로 변환 |
-| `COLOR_YUV420p2RGBA` | YUV420p 색상 공간을 RGBA 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_YV12` | YUV 색상 공간을 BGRA_YV12 색상 공간으로 변환 |
-| `COLOR_YUV420p2BGRA` | YUV420p 색상 공간을 BGRA 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_IYUV` | YUV 색상 공간을 RGBA_IYUV 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_I420` | YUV 색상 공간을 RGBA_I420 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_IYUV` | YUV 색상 공간을 BGRA_IYUV 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_I420` | YUV 색상 공간을 BGRA_I420 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_420` | YUV 색상 공간을 GRAY_420 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_NV21` | YUV 색상 공간을 GRAY_NV21 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_NV12` | YUV 색상 공간을 GRAY_NV12 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_YV12` | YUV 색상 공간을 GRAY_YV12 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_IYUV` | YUV 색상 공간을 GRAY_IYUV 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_I420` | YUV 색상 공간을 GRAY_I420 색상 공간으로 변환 |
-| `COLOR_YUV420sp2GRAY` | YUV420sp 색상 공간을 2GRAY 색상 공간으로 변환 |
-| `COLOR_YUV420p2GRAY` | YUV40p 색상 공간을 GRAY 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_UYVY` | YUV 색상 공간을 RGB_UYVY 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_Y422` | YUV 색상 공간을 RGB_Y422 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_UYNV` | YUV 색상 공간을 RGB_UYNV 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_UYVY` | YUV 색상 공간을 BGR_UYVY 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_Y422` | YUV 색상 공간을 BGR_Y422 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_UYNV` | YUV 색상 공간을 BGR_UYNV 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_UYVY` | YUV 색상 공간을 RGBA_UYVY 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_Y422` | YUV 색상 공간을 RGBA_Y422 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_UYNV` | YUV 색상 공간을 RGBA_UYNV 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_UYVY` | YUV 색상 공간을 BGRA_UYVY 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_Y422` | YUV 색상 공간을 BGRA_Y422 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_UYNV` | YUV 색상 공간을 BGRA_UYNV 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_YUY2` | YUV 색상 공간을 RGB_YUY2 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_YUYV` | YUV 색상 공간을 RGB_YUYV 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_YUNV` | YUV 색상 공간을 RGB_YUNV 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_YUY2` | YUV 색상 공간을 BGR_YUY2 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_YUYV` | YUV 색상 공간을 BGR_YUYV 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_YUNV` | YUV 색상 공간을 BGR_YUNV 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_YVYU` | YUV 색상 공간을 RGB_YVYU 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_YVYU` | YUV 색상 공간을 BGR_YVYU 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_YUY2` | YUV 색상 공간을 RGBA_YUY2 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_YUYV` | YUV 색상 공간을 RGBA_YUYV 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_YUNV` | YUV 색상 공간을 RGBA_YUNV 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_YUY2` | YUV 색상 공간을 BGRA_YUY2 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_YUYV` | YUV 색상 공간을 BGRA_YUYV 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_YUNV` | YUV 색상 공간을 BGRA_YUNV 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_YVYU` | YUV 색상 공간을 RGBA_YVYU 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_YVYU` | YUV 색상 공간을 BGRA_YVYU 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_UYVY` | YUV 색상 공간을 GRAY_UYVY 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_Y422` | YUV 색상 공간을 GRAY_Y422 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_UYNV` | YUV 색상 공간을 GRAY_UYNV 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_YUY2` | YUV 색상 공간을 GRAY_YUY2 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
-| `COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
 | `COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
 | `COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
-| `COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `COLOR_BGR2YUV_IYUV` | BGR 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `COLOR_RGBA2YUV_I420` | RGBA 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `COLOR_RGBA2YUV_IYUV` | RGBA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `COLOR_BGRA2YUV_I420` | BGRA 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `COLOR_BGRA2YUV_IYUV` | BGRA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `COLOR_RGB2YUV_YV12` | RGB 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `COLOR_BGR2YUV_YV12` | BGR 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `COLOR_RGBA2YUV_YV12` | RGBA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `COLOR_BGRA2YUV_YV12` | BGRA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-
 
 </div>
 
@@ -265,87 +185,8 @@ folder: opencv4
 | `ColorConversionCodes.COLOR_Lab2LRGB` | CIE Lab 색상 공간을 LRGB 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_Luv2LBGR` | CIE Luv 색상 공간을 LBGR 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_Luv2LRGB` | CIE Luv 색상 공간을 LRGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGR2YUV` | BGR 색상 공간을 YUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGB2YUV` | RGB 색상 공간을 YUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR` | YUV 색상 공간을 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB` | YUV 색상 공간을 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420sp2RGB` | YUV420sp 색상 공간을 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420sp2BGR` | YUV420sp 색상 공간을 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420sp2RGBA` | YUV420sp 색상 공간을 RGBA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420sp2BGRA` | YUV420sp 색상 공간을 BGRA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_YV12` | YUV 색상 공간을 RGB_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420p2RGB` | YUV420p 색상 공간을 RGB 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_YV12` | YUV 색상 공간을 BGR_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420p2BGR` | YUV420p 색상 공간을 BGR 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_IYUV` | YUV 색상 공간을 RGB_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_I420` | YUV 색상 공간을 RGB_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_IYUV` | YUV 색상 공간을 BGR_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_I420` | YUV 색상 공간을 BGR_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_YV12` | YUV 색상 공간을 RGBA_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420p2RGBA` | YUV420p 색상 공간을 RGBA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_YV12` | YUV 색상 공간을 BGRA_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420p2BGRA` | YUV420p 색상 공간을 BGRA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_IYUV` | YUV 색상 공간을 RGBA_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_I420` | YUV 색상 공간을 RGBA_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_IYUV` | YUV 색상 공간을 BGRA_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_I420` | YUV 색상 공간을 BGRA_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_420` | YUV 색상 공간을 GRAY_420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_NV21` | YUV 색상 공간을 GRAY_NV21 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_NV12` | YUV 색상 공간을 GRAY_NV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_YV12` | YUV 색상 공간을 GRAY_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_IYUV` | YUV 색상 공간을 GRAY_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_I420` | YUV 색상 공간을 GRAY_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420sp2GRAY` | YUV420sp 색상 공간을 2GRAY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV420p2GRAY` | YUV40p 색상 공간을 GRAY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_UYVY` | YUV 색상 공간을 RGB_UYVY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_Y422` | YUV 색상 공간을 RGB_Y422 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_UYNV` | YUV 색상 공간을 RGB_UYNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_UYVY` | YUV 색상 공간을 BGR_UYVY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_Y422` | YUV 색상 공간을 BGR_Y422 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_UYNV` | YUV 색상 공간을 BGR_UYNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_UYVY` | YUV 색상 공간을 RGBA_UYVY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_Y422` | YUV 색상 공간을 RGBA_Y422 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_UYNV` | YUV 색상 공간을 RGBA_UYNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_UYVY` | YUV 색상 공간을 BGRA_UYVY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_Y422` | YUV 색상 공간을 BGRA_Y422 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_UYNV` | YUV 색상 공간을 BGRA_UYNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_YUY2` | YUV 색상 공간을 RGB_YUY2 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_YUYV` | YUV 색상 공간을 RGB_YUYV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_YUNV` | YUV 색상 공간을 RGB_YUNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_YUY2` | YUV 색상 공간을 BGR_YUY2 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_YUYV` | YUV 색상 공간을 BGR_YUYV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_YUNV` | YUV 색상 공간을 BGR_YUNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_YVYU` | YUV 색상 공간을 RGB_YVYU 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_YVYU` | YUV 색상 공간을 BGR_YVYU 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_YUY2` | YUV 색상 공간을 RGBA_YUY2 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_YUYV` | YUV 색상 공간을 RGBA_YUYV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_YUNV` | YUV 색상 공간을 RGBA_YUNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_YUY2` | YUV 색상 공간을 BGRA_YUY2 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_YUYV` | YUV 색상 공간을 BGRA_YUYV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_YUNV` | YUV 색상 공간을 BGRA_YUNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_YVYU` | YUV 색상 공간을 RGBA_YVYU 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_YVYU` | YUV 색상 공간을 BGRA_YVYU 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_UYVY` | YUV 색상 공간을 GRAY_UYVY 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_Y422` | YUV 색상 공간을 GRAY_Y422 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_UYNV` | YUV 색상 공간을 GRAY_UYNV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_YUY2` | YUV 색상 공간을 GRAY_YUY2 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
 | `ColorConversionCodes.COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGR2YUV_IYUV` | BGR 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGBA2YUV_I420` | RGBA 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGBA2YUV_IYUV` | RGBA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGRA2YUV_I420` | BGRA 색상 공간을 YUV_I420 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGRA2YUV_IYUV` | BGRA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGB2YUV_YV12` | RGB 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGR2YUV_YV12` | BGR 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_RGBA2YUV_YV12` | RGBA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_BGRA2YUV_YV12` | BGRA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
 
 </div>
 
@@ -433,6 +274,215 @@ folder: opencv4
 | `cv2.COLOR_Lab2LRGB` | CIE Lab 색상 공간을 LRGB 색상 공간으로 변환 |
 | `cv2.COLOR_Luv2LBGR` | CIE Luv 색상 공간을 LBGR 색상 공간으로 변환 |
 | `cv2.COLOR_Luv2LRGB` | CIE Luv 색상 공간을 LRGB 색상 공간으로 변환 |
+| `cv2.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
+| `cv2.COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
+
+</div>
+</div>
+
+<br>
+
+# YUV
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a class="noCrossRef" href="#L4" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">C++</a></li>
+    <li><a class="noCrossRef" href="#L5" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">C#</a></li>
+    <li><a class="noCrossRef" href="#L6" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">Python</a></li>
+</ul>
+
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="L4" markdown="1">
+
+| 플래그             | 설명                                                             |
+| ----------------- | ---------------------------------------------------------------- | 
+| `COLOR_BGR2YUV` | BGR 색상 공간을 YUV 색상 공간으로 변환 |
+| `COLOR_RGB2YUV` | RGB 색상 공간을 YUV 색상 공간으로 변환 |
+| `COLOR_YUV2BGR` | YUV 색상 공간을 BGR 색상 공간으로 변환 |
+| `COLOR_YUV2RGB` | YUV 색상 공간을 RGB 색상 공간으로 변환 |
+| `COLOR_YUV420sp2RGB` | YUV420sp 색상 공간을 RGB 색상 공간으로 변환 |
+| `COLOR_YUV420sp2BGR` | YUV420sp 색상 공간을 BGR 색상 공간으로 변환 |
+| `COLOR_YUV420sp2RGBA` | YUV420sp 색상 공간을 RGBA 색상 공간으로 변환 |
+| `COLOR_YUV420sp2BGRA` | YUV420sp 색상 공간을 BGRA 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_YV12` | YUV 색상 공간을 RGB_YV12 색상 공간으로 변환 |
+| `COLOR_YUV420p2RGB` | YUV420p 색상 공간을 RGB 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_YV12` | YUV 색상 공간을 BGR_YV12 색상 공간으로 변환 |
+| `COLOR_YUV420p2BGR` | YUV420p 색상 공간을 BGR 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_IYUV` | YUV 색상 공간을 RGB_IYUV 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_I420` | YUV 색상 공간을 RGB_I420 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_IYUV` | YUV 색상 공간을 BGR_IYUV 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_I420` | YUV 색상 공간을 BGR_I420 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_YV12` | YUV 색상 공간을 RGBA_YV12 색상 공간으로 변환 |
+| `COLOR_YUV420p2RGBA` | YUV420p 색상 공간을 RGBA 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_YV12` | YUV 색상 공간을 BGRA_YV12 색상 공간으로 변환 |
+| `COLOR_YUV420p2BGRA` | YUV420p 색상 공간을 BGRA 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_IYUV` | YUV 색상 공간을 RGBA_IYUV 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_I420` | YUV 색상 공간을 RGBA_I420 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_IYUV` | YUV 색상 공간을 BGRA_IYUV 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_I420` | YUV 색상 공간을 BGRA_I420 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_420` | YUV 색상 공간을 GRAY_420 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_NV21` | YUV 색상 공간을 GRAY_NV21 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_NV12` | YUV 색상 공간을 GRAY_NV12 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_YV12` | YUV 색상 공간을 GRAY_YV12 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_IYUV` | YUV 색상 공간을 GRAY_IYUV 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_I420` | YUV 색상 공간을 GRAY_I420 색상 공간으로 변환 |
+| `COLOR_YUV420sp2GRAY` | YUV420sp 색상 공간을 2GRAY 색상 공간으로 변환 |
+| `COLOR_YUV420p2GRAY` | YUV40p 색상 공간을 GRAY 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_UYVY` | YUV 색상 공간을 RGB_UYVY 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_Y422` | YUV 색상 공간을 RGB_Y422 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_UYNV` | YUV 색상 공간을 RGB_UYNV 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_UYVY` | YUV 색상 공간을 BGR_UYVY 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_Y422` | YUV 색상 공간을 BGR_Y422 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_UYNV` | YUV 색상 공간을 BGR_UYNV 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_UYVY` | YUV 색상 공간을 RGBA_UYVY 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_Y422` | YUV 색상 공간을 RGBA_Y422 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_UYNV` | YUV 색상 공간을 RGBA_UYNV 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_UYVY` | YUV 색상 공간을 BGRA_UYVY 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_Y422` | YUV 색상 공간을 BGRA_Y422 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_UYNV` | YUV 색상 공간을 BGRA_UYNV 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_YUY2` | YUV 색상 공간을 RGB_YUY2 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_YUYV` | YUV 색상 공간을 RGB_YUYV 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_YUNV` | YUV 색상 공간을 RGB_YUNV 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_YUY2` | YUV 색상 공간을 BGR_YUY2 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_YUYV` | YUV 색상 공간을 BGR_YUYV 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_YUNV` | YUV 색상 공간을 BGR_YUNV 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_YVYU` | YUV 색상 공간을 RGB_YVYU 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_YVYU` | YUV 색상 공간을 BGR_YVYU 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_YUY2` | YUV 색상 공간을 RGBA_YUY2 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_YUYV` | YUV 색상 공간을 RGBA_YUYV 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_YUNV` | YUV 색상 공간을 RGBA_YUNV 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_YUY2` | YUV 색상 공간을 BGRA_YUY2 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_YUYV` | YUV 색상 공간을 BGRA_YUYV 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_YUNV` | YUV 색상 공간을 BGRA_YUNV 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_YVYU` | YUV 색상 공간을 RGBA_YVYU 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_YVYU` | YUV 색상 공간을 BGRA_YVYU 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_UYVY` | YUV 색상 공간을 GRAY_UYVY 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_Y422` | YUV 색상 공간을 GRAY_Y422 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_UYNV` | YUV 색상 공간을 GRAY_UYNV 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_YUY2` | YUV 색상 공간을 GRAY_YUY2 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
+| `COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
+| `COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `COLOR_BGR2YUV_IYUV` | BGR 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `COLOR_RGBA2YUV_I420` | RGBA 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `COLOR_RGBA2YUV_IYUV` | RGBA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `COLOR_BGRA2YUV_I420` | BGRA 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `COLOR_BGRA2YUV_IYUV` | BGRA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `COLOR_RGB2YUV_YV12` | RGB 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `COLOR_BGR2YUV_YV12` | BGR 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `COLOR_RGBA2YUV_YV12` | RGBA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `COLOR_BGRA2YUV_YV12` | BGRA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_NV12` | YUV 색상 공간을 RGB_NV12 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_NV12` | YUV 색상 공간을 BGR_NV12 색상 공간으로 변환 |
+| `COLOR_YUV2RGB_NV21` | YUV 색상 공간을 RGB_NV21 색상 공간으로 변환 |
+| `COLOR_YUV2BGR_NV21` | YUV 색상 공간을 BGR_NV21 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_NV12` | YUV 색상 공간을 RGBA_NV12 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_NV12` | YUV 색상 공간을 BGRA_NV12 색상 공간으로 변환 |
+| `COLOR_YUV2RGBA_NV21` | YUV 색상 공간을 RGBA_NV21 색상 공간으로 변환 |
+| `COLOR_YUV2BGRA_NV21` | YUV 색상 공간을 BGRA_NV21 색상 공간으로 변환 |
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="L5" markdown="1">
+
+| 플래그             | 설명                                                             |
+| ----------------- | ---------------------------------------------------------------- | 
+| `ColorConversionCodes.COLOR_BGR2YUV` | BGR 색상 공간을 YUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGB2YUV` | RGB 색상 공간을 YUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR` | YUV 색상 공간을 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB` | YUV 색상 공간을 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420sp2RGB` | YUV420sp 색상 공간을 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420sp2BGR` | YUV420sp 색상 공간을 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420sp2RGBA` | YUV420sp 색상 공간을 RGBA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420sp2BGRA` | YUV420sp 색상 공간을 BGRA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_YV12` | YUV 색상 공간을 RGB_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420p2RGB` | YUV420p 색상 공간을 RGB 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_YV12` | YUV 색상 공간을 BGR_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420p2BGR` | YUV420p 색상 공간을 BGR 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_IYUV` | YUV 색상 공간을 RGB_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_I420` | YUV 색상 공간을 RGB_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_IYUV` | YUV 색상 공간을 BGR_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_I420` | YUV 색상 공간을 BGR_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_YV12` | YUV 색상 공간을 RGBA_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420p2RGBA` | YUV420p 색상 공간을 RGBA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_YV12` | YUV 색상 공간을 BGRA_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420p2BGRA` | YUV420p 색상 공간을 BGRA 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_IYUV` | YUV 색상 공간을 RGBA_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_I420` | YUV 색상 공간을 RGBA_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_IYUV` | YUV 색상 공간을 BGRA_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_I420` | YUV 색상 공간을 BGRA_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_420` | YUV 색상 공간을 GRAY_420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_NV21` | YUV 색상 공간을 GRAY_NV21 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_NV12` | YUV 색상 공간을 GRAY_NV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_YV12` | YUV 색상 공간을 GRAY_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_IYUV` | YUV 색상 공간을 GRAY_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_I420` | YUV 색상 공간을 GRAY_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420sp2GRAY` | YUV420sp 색상 공간을 2GRAY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV420p2GRAY` | YUV40p 색상 공간을 GRAY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_UYVY` | YUV 색상 공간을 RGB_UYVY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_Y422` | YUV 색상 공간을 RGB_Y422 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_UYNV` | YUV 색상 공간을 RGB_UYNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_UYVY` | YUV 색상 공간을 BGR_UYVY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_Y422` | YUV 색상 공간을 BGR_Y422 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_UYNV` | YUV 색상 공간을 BGR_UYNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_UYVY` | YUV 색상 공간을 RGBA_UYVY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_Y422` | YUV 색상 공간을 RGBA_Y422 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_UYNV` | YUV 색상 공간을 RGBA_UYNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_UYVY` | YUV 색상 공간을 BGRA_UYVY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_Y422` | YUV 색상 공간을 BGRA_Y422 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_UYNV` | YUV 색상 공간을 BGRA_UYNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_YUY2` | YUV 색상 공간을 RGB_YUY2 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_YUYV` | YUV 색상 공간을 RGB_YUYV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_YUNV` | YUV 색상 공간을 RGB_YUNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_YUY2` | YUV 색상 공간을 BGR_YUY2 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_YUYV` | YUV 색상 공간을 BGR_YUYV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_YUNV` | YUV 색상 공간을 BGR_YUNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_YVYU` | YUV 색상 공간을 RGB_YVYU 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_YVYU` | YUV 색상 공간을 BGR_YVYU 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_YUY2` | YUV 색상 공간을 RGBA_YUY2 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_YUYV` | YUV 색상 공간을 RGBA_YUYV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_YUNV` | YUV 색상 공간을 RGBA_YUNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_YUY2` | YUV 색상 공간을 BGRA_YUY2 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_YUYV` | YUV 색상 공간을 BGRA_YUYV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_YUNV` | YUV 색상 공간을 BGRA_YUNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_YVYU` | YUV 색상 공간을 RGBA_YVYU 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_YVYU` | YUV 색상 공간을 BGRA_YVYU 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_UYVY` | YUV 색상 공간을 GRAY_UYVY 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_Y422` | YUV 색상 공간을 GRAY_Y422 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_UYNV` | YUV 색상 공간을 GRAY_UYNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_YUY2` | YUV 색상 공간을 GRAY_YUY2 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGR2YUV_IYUV` | BGR 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGBA2YUV_I420` | RGBA 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGBA2YUV_IYUV` | RGBA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGRA2YUV_I420` | BGRA 색상 공간을 YUV_I420 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGRA2YUV_IYUV` | BGRA 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGB2YUV_YV12` | RGB 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGR2YUV_YV12` | BGR 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_RGBA2YUV_YV12` | RGBA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_BGRA2YUV_YV12` | BGRA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_NV12` | YUV 색상 공간을 RGB_NV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_NV12` | YUV 색상 공간을 BGR_NV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGB_NV21` | YUV 색상 공간을 RGB_NV21 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGR_NV21` | YUV 색상 공간을 BGR_NV21 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_NV12` | YUV 색상 공간을 RGBA_NV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_NV12` | YUV 색상 공간을 BGRA_NV12 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2RGBA_NV21` | YUV 색상 공간을 RGBA_NV21 색상 공간으로 변환 |
+| `ColorConversionCodes.COLOR_YUV2BGRA_NV21` | YUV 색상 공간을 BGRA_NV21 색상 공간으로 변환 |
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="L6" markdown="1">
+
+| 플래그             | 설명                                                             |
+| ----------------- | ---------------------------------------------------------------- | 
 | `cv2.COLOR_BGR2YUV` | BGR 색상 공간을 YUV 색상 공간으로 변환 |
 | `cv2.COLOR_RGB2YUV` | RGB 색상 공간을 YUV 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2BGR` | YUV 색상 공간을 BGR 색상 공간으로 변환 |
@@ -500,8 +550,6 @@ folder: opencv4
 | `cv2.COLOR_YUV2GRAY_YVYU` | YUV 색상 공간을 GRAY_YVYU 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2GRAY_YUYV` | YUV 색상 공간을 GRAY_YUYV 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2GRAY_YUNV` | YUV 색상 공간을 GRAY_YUNV 색상 공간으로 변환 |
-| `cv2.COLOR_RGBA2mRGBA` | RGBA 색상 공간을 Premultiplied alpha 방식을 적용한 RGBA 색상 공간으로 변환 |
-| `cv2.COLOR_mRGBA2RGBA` | Premultiplied alpha 방식을 적용한 RGBA 색상 공간을 RGBA 색상 공간으로 변환 |
 | `cv2.COLOR_RGB2YUV_I420` | RGB 색상 공간을 YUV_I420 색상 공간으로 변환 |
 | `cv2.COLOR_RGB2YUV_IYUV` | RGB 색상 공간을 YUV_IYUV 색상 공간으로 변환 |
 | `cv2.COLOR_BGR2YUV_I420` | BGR 색상 공간을 YUV_I420 색상 공간으로 변환 |
@@ -514,55 +562,6 @@ folder: opencv4
 | `cv2.COLOR_BGR2YUV_YV12` | BGR 색상 공간을 YUV_YV12 색상 공간으로 변환 |
 | `cv2.COLOR_RGBA2YUV_YV12` | RGBA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
 | `cv2.COLOR_BGRA2YUV_YV12` | BGRA 색상 공간을 YUV_YV12 색상 공간으로 변환 |
-
-</div>
-</div>
-
-<br>
-
-# YUV
-
-<ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#L4" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">C++</a></li>
-    <li><a class="noCrossRef" href="#L5" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">C#</a></li>
-    <li><a class="noCrossRef" href="#L6" data-toggle="tab" style="width: 100px; text-align: center; font-weight: 600; font-size: 15px;">Python</a></li>
-</ul>
-
-<div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="L4" markdown="1">
-
-| 플래그             | 설명                                                             |
-| ----------------- | ---------------------------------------------------------------- | 
-| `COLOR_YUV2RGB_NV12` | YUV 색상 공간을 RGB_NV12 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_NV12` | YUV 색상 공간을 BGR_NV12 색상 공간으로 변환 |
-| `COLOR_YUV2RGB_NV21` | YUV 색상 공간을 RGB_NV21 색상 공간으로 변환 |
-| `COLOR_YUV2BGR_NV21` | YUV 색상 공간을 BGR_NV21 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_NV12` | YUV 색상 공간을 RGBA_NV12 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_NV12` | YUV 색상 공간을 BGRA_NV12 색상 공간으로 변환 |
-| `COLOR_YUV2RGBA_NV21` | YUV 색상 공간을 RGBA_NV21 색상 공간으로 변환 |
-| `COLOR_YUV2BGRA_NV21` | YUV 색상 공간을 BGRA_NV21 색상 공간으로 변환 |
-
-</div>
-
-<div role="tabpanel" class="tab-pane" id="L5" markdown="1">
-
-| 플래그             | 설명                                                             |
-| ----------------- | ---------------------------------------------------------------- | 
-| `ColorConversionCodes.COLOR_YUV2RGB_NV12` | YUV 색상 공간을 RGB_NV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_NV12` | YUV 색상 공간을 BGR_NV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGB_NV21` | YUV 색상 공간을 RGB_NV21 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGR_NV21` | YUV 색상 공간을 BGR_NV21 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_NV12` | YUV 색상 공간을 RGBA_NV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_NV12` | YUV 색상 공간을 BGRA_NV12 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2RGBA_NV21` | YUV 색상 공간을 RGBA_NV21 색상 공간으로 변환 |
-| `ColorConversionCodes.COLOR_YUV2BGRA_NV21` | YUV 색상 공간을 BGRA_NV21 색상 공간으로 변환 |
-
-</div>
-
-<div role="tabpanel" class="tab-pane" id="L6" markdown="1">
-
-| 플래그             | 설명                                                             |
-| ----------------- | ---------------------------------------------------------------- | 
 | `cv2.COLOR_YUV2RGB_NV12` | YUV 색상 공간을 RGB_NV12 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2BGR_NV12` | YUV 색상 공간을 BGR_NV12 색상 공간으로 변환 |
 | `cv2.COLOR_YUV2RGB_NV21` | YUV 색상 공간을 RGB_NV21 색상 공간으로 변환 |
