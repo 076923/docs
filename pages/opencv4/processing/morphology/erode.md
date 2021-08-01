@@ -67,6 +67,14 @@ folder: opencv4
 침식 연산을 적용하면 <b>밝은 영역이 줄어들고 어두운 영역이 늘어납니다.</b> 커널의 크기나 반복 횟수에 따라 어두운 영역이 늘어나 <b>스펙클(Speckle)</b>이 사라지며 객체 내부의 <b>홀(Holes)</b>이 커집니다.
 {{site.data.alerts.end}}
 
+{% include callout.html content="
+
+- `입력 이미지(src)`는 `CV_8U` 형식, `CV_16U` 형식, `CV_16S` 형식, `CV_32F` 형식, `CV_64F` 형식을 할당할 수 있습니다.
+  
+- `출력 이미지(dst)`는 `입력 이미지(src)`와 동일한 정밀도를 반환합니다.
+  
+" type="success" %}
+
 {{site.data.alerts.tip}}
 <font color="#c7254e">고정점(anchor)</font>에 <font color="#c7254e">null</font> 값이나 <font color="#c7254e">None</font> 값을 사용하면 고정점의 위치는 <font color="#c7254e">(-1, -1)</font>을 갖게 됩니다.<br>
 <li class="alerts_li"><font color="#c7254e">(-1, -1)</font>은 <b>커널의 중심부</b>를 의미합니다.</li>

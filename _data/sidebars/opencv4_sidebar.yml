@@ -493,6 +493,10 @@ entries:
           url: /erode
           output: web, pdf
 
+        - title: 모폴로지 연산
+          url: /morphologyEx
+          output: web, pdf
+
         - title: 구조 요소 반환
           url: /getStructuringElement
           output: web, pdf
@@ -555,4 +559,8 @@ entries:
 
         - title: 그랩 컷 플래그
           url: /GrabCutModes
+          output: web, pdf
+
+        - title: 모폴로지 연산 플래그
+          url: /MorphTypes
           output: web, pdf
