@@ -73,8 +73,8 @@ folder: opencv4
 " type="success" %}
 
 <blockquote class="formula">
-<b>영역 채우기 조건:</b>
-$$ src(x', y') - \text{loDiff} \leq src(x, y) \leq src(x', y') + \text{upDiff} $$
+<b>영역 채우기 조건(floodFill Condition):</b>
+$$ \text{src}(x',\ y') - \text{loDiff} \leq \text{src}(x,\ y) \leq \text{src}(x',\ y') + \text{upDiff} $$
 </blockquote>
 
 <br>

@@ -325,6 +325,14 @@ entries:
         output: web, pdf
         subfolderitems:
 
+        - title: 피라미드 업
+          url: /pyrUp
+          output: web, pdf
+
+        - title: 피라미드 다운
+          url: /pyrDown
+          output: web, pdf
+
         - title: 2D 필터
           url: /filter2D
           output: web, pdf
