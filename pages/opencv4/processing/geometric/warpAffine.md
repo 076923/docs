@@ -61,7 +61,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>아핀 변환 계산식(Affine Transform Formula):</b>
-$$ dst(x, y) = src(ax + by + e,\ cx + dy + f) $$
+$$ \text{dst}(x,\ y) = \text{src}(ax + by + e,\ cx + dy + f) $$
 </blockquote>
 <br>
 

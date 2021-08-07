@@ -64,7 +64,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <font color="#c7254e">절대 크기(dsize)</font>의 <b>너비(Width)</b>와 <b>높이(Height)</b>가 0과 같거나 작은 경우:
-$$ \text{dsize.Area} = (maxRadius^2 \cdot \pi) $$
+$$ \text{dsize.Area} = (\text{maxRadius}^2 \cdot \pi) $$
 $$ \text{dsize.Width} = \text{round}(\text{maxRadius}) $$
 $$ \text{dsize.Height} = \text{round}(\text{maxRadius}\cdot \pi) $$
 </blockquote>
@@ -76,15 +76,15 @@ $$ \text{dsize.Height} = \text{round}(\text{dsize.Width}\cdot \pi) $$
 
 <blockquote class="formula">
 <b>극좌표 변환 계산식(Polar Transform Formula):</b>
-$$ dst(\rho, \phi) = src(x, y) $$
+$$ \text{dst}(\rho, \phi) = \text{src}(x, y) $$
 $$ \rho = \left\{\begin{matrix}
 \frac{\text{dsize.Width}}{\text{maxRadius}} \cdot \text{magnitude}(\overrightarrow{I}) \\ 
 \frac{\text{dsize.Width}}{log_e{\text{maxRadius}}} \cdot log_e{\text{magnitude}(\overrightarrow{I})} & \text{if} \ semilog
 \end{matrix}\right. $$
 $$ \phi = \frac{\text{dsize.Height}}{2\pi} \cdot angle(\overrightarrow{I}) $$
 $$ \overrightarrow{I} = (x - \text{center}.x, \ y - \text{center}.y) $$
-$$ magnitude(\overrightarrow{I}) = \sqrt{x(\overrightarrow{I})^2) + y(\overrightarrow{I})^2} $$
-$$ angle(\overrightarrow{I}) = \text{atan2}(y(\overrightarrow{I}), \ x(\overrightarrow{I})) \cdot \frac{180}{\pi} $$
+$$ \text{magnitude}(\overrightarrow{I}) = \sqrt{x(\overrightarrow{I})^2) + y(\overrightarrow{I})^2} $$
+$$ \text{angle}(\overrightarrow{I}) = \text{atan2}(y(\overrightarrow{I}), \ x(\overrightarrow{I})) \cdot \frac{180}{\pi} $$
 </blockquote>
 
 <br>

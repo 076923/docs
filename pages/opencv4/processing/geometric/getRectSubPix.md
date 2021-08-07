@@ -69,7 +69,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>패치 계산식(Patch Formula):</b>
-$$ \text{patch}(x, y) = \text{src}(x + \text{center}.x - (\text{dst}.cols - 1) \times 0.5, \ y + \text{center}.y - (\text{dst}.rows − 1) \times 0.5 ) $$
+$$ \text{patch}(x,\ y) = \text{src}(x + \text{center}.x - (\text{dst.cols} - 1) \times 0.5, \ y + \text{center}.y - (\text{dst.rows} − 1) \times 0.5 ) $$
 </blockquote>
 
 <br>

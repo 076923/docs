@@ -69,7 +69,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>팽창 계산식(Dilation Formula):</b>
-$$ \text{dst} (x,y) = \sum_{ \substack{ 0\leq x' < \text{kernel.cols} \\ {0\leq y' < \text{kernel.rows}}}} \text{kernel} (x',y') \cdot \text{src} (x+x'- \text{anchor}.x, \ y+y'- \text{anchor}.y) $$
+$$ \text{dst} (x,\ y) = \sum_{ \substack{ 0\leq x' < \text{kernel.cols} \\ {0\leq y' < \text{kernel.rows}}}} \text{kernel} (x',\ y') \cdot \text{src} (x+x'- \text{anchor}.x, \ y+y'- \text{anchor}.y) $$
 </blockquote>
 
 <br>

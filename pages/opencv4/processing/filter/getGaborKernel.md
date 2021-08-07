@@ -68,7 +68,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>가버 필터 계산식(Gabor Filter Formula):</b>
-$$ g(x, y; \sigma, \theta, \lambda, \gamma, \psi) = \exp(-\frac{x'^{2} + \gamma^2 y'^{2}}{2\sigma^2})cos(2\pi\frac{x'}{\lambda}+\psi) $$
+$$ g(x,\ y;\ \sigma,\ \theta,\ \lambda,\ \gamma,\ \psi) = \exp(-\frac{x'^{2} + \gamma^2 y'^{2}}{2\sigma^2})cos(2\pi\frac{x'}{\lambda}+\psi) $$
 $$ x' = xcos{\theta}+ysin{\theta} $$
 $$ y' = -xsin{\theta}+ycos{\theta} $$
 </blockquote>

@@ -61,7 +61,7 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>리매핑 계산식(Remapping Formula):</b>
-$$ \text{dst}(x, y) = \text{src}(map_{x}(x, y), \ map_{y}(x, y)) $$
+$$ \text{dst}(x,\ y) = \text{src}(map_{x}(x,\ y), \ map_{y}(x,\ y)) $$
 </blockquote>
 
 <br>

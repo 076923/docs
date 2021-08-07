@@ -80,8 +80,8 @@ $$ \text{Kernel} = \alpha \begin{bmatrix}
 1 & \cdots & 1 
 \end{bmatrix} $$
 $$ \alpha = \left\{\begin{matrix}
-\frac{1}{\text{ksize.width} \times \text{ksize.height}} & \text{if:} \ normailze = \text{true} \\ 
-1 & \text{if:} \ normailze = \text{false} 
+\frac{1}{\text{ksize.width} \times \text{ksize.height}} & \text{if:} \ \text{normailze} = \text{true} \\ 
+1 & \text{if:} \ \text{normailze} = \text{false} 
 \end{matrix}\right. $$
 </blockquote>
 
