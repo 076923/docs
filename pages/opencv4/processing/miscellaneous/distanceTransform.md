@@ -80,7 +80,7 @@ folder: opencv4
 
 > [`거리 변환 마스크 크기(maskSize)`](DistanceTransformMasks) 거리 변환을 위한 마스크 크기
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C}}" href="DistanceTransformLabelTypes" style="cursor: revert;">거리 변환 라벨링 방식(labelType)</a> 0 픽셀에 가까운 픽셀에 대한 라벨링 방식
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C}}" href="DistanceTransformLabelTypes" style="cursor: revert; color: #ff9800;">거리 변환 라벨링 방식(labelType)</a> 0 픽셀에 가까운 픽셀에 대한 라벨링 방식
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_CS_Python}}">출력 배열 형식(dstType)</a> 출력 배열의 형식 설정
 

@@ -333,6 +333,10 @@ entries:
           url: /pyrDown
           output: web, pdf
 
+        - title: 피라미드 평균 이동 분할
+          url: /pyrMeanShiftFiltering
+          output: web, pdf
+
         - title: 2D 필터
           url: /filter2D
           output: web, pdf
@@ -513,20 +517,12 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: 구조 요소 플래그
-          url: /MorphShapes
+        - title: 종료 기준
+          url: /TermCriteria
           output: web, pdf
 
-        - title: 색상 공간 변환 플래그
-          url: /ColorConversionCodes
-          output: web, pdf
-
-        - title: 행렬 분해 플래그
-          url: /DecompTypes
-          output: web, pdf
-
-        - title: 색상 맵 플래그
-          url: /ColormapTypes
+        - title: 종료 기준 플래그
+          url: /CriteriaTypes
           output: web, pdf
 
         - title: 내삽(보간) 플래그
@@ -537,8 +533,20 @@ entries:
           url: /BorderTypes
           output: web, pdf
 
+        - title: 색상 공간 변환 플래그
+          url: /ColorConversionCodes
+          output: web, pdf
+
+        - title: 색상 맵 플래그
+          url: /ColormapTypes
+          output: web, pdf
+
         - title: 극좌표 변환 플래그
           url: /WarpPolarMode
+          output: web, pdf
+
+        - title: 행렬 분해 플래그
+          url: /DecompTypes
           output: web, pdf
 
         - title: 이진화 플래그
@@ -547,6 +555,14 @@ entries:
 
         - title: 적응형 이진화 플래그
           url: /AdaptiveThresholdTypes
+          output: web, pdf
+
+        - title: 그랩 컷 플래그
+          url: /GrabCutModes
+          output: web, pdf
+
+        - title: 영역 채우기 플래그
+          url: /FloodFillFlags
           output: web, pdf
 
         - title: 거리 계산 방식 플래그
@@ -561,12 +577,8 @@ entries:
           url: /DistanceTransformLabelTypes
           output: web, pdf
 
-        - title: 영역 채우기 플래그
-          url: /FloodFillFlags
-          output: web, pdf
-
-        - title: 그랩 컷 플래그
-          url: /GrabCutModes
+        - title: 구조 요소 플래그
+          url: /MorphShapes
           output: web, pdf
 
         - title: 모폴로지 연산 플래그

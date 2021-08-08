@@ -107,9 +107,9 @@ $$ \text{angle}(\overrightarrow{I}) = \text{atan2}(y(\overrightarrow{I}), \ x(\o
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">극좌표 플래그(flags)</a> 내삽 방식과 극좌표 변환 방식
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C}}" href="InterpolationFlags" style="cursor: revert;">내삽 방식(interpolation)</a> 이미지 내의 픽셀을 내삽하는데 사용되는 계산 방식
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_CS}}" href="InterpolationFlags" style="cursor: revert; color: #ff9800;">내삽 방식(interpolation)</a> 이미지 내의 픽셀을 내삽하는데 사용되는 계산 방식
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C}}" href="WarpPolarMode" style="cursor: revert;">극좌표 변환 방식(warpPolarMode)</a> 극좌표 변환 방식
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_CS}}" href="WarpPolarMode" style="cursor: revert; color: #ff9800;">극좌표 변환 방식(warpPolarMode)</a> 극좌표 변환 방식
 
 ### 반환값(Returns)
 

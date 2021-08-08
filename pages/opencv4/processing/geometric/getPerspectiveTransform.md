@@ -69,7 +69,7 @@ $$ \text{matrix} = \begin{bmatrix} a & b & e \\ c & d & f \\ g & h & 1 \end{bmat
 
 > `변환 후 네 개의 픽셀 좌표(dst)` 원근 변환 행렬 생성을 위한 사각형 형태의 픽셀 기준 좌표
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}" href="DecompTypes" style="cursor: revert;">행렬 분해 방식(solveMethod)</a> 원근 변환 행렬 분해 계산 방식
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}" href="DecompTypes" style="cursor: revert; color: #ff9800;">행렬 분해 방식(solveMethod)</a> 원근 변환 행렬 분해 계산 방식
 
 ### 반환값(Returns)
 
