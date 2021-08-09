@@ -1,13 +1,13 @@
 ---
-title: 라플라시안
+title: 샤르
 sidebar: opencv4_sidebar
-permalink: Laplacian
+permalink: Scharr
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Laplacian</h2>
+        <h2 class="page-header">Scharr</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,32 +22,35 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::Laplacian(
+<pre class="prettyprint"><code class="language-cpp">void cv::Scharr(
     Mat src,
     Mat dst,
     int ddepth,
-    int ksize = 1,
+    int dx,
+    int dy,
     double scale = 1,
     double delta = 0,
     int borderType = BORDER_DEFAULT 
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Laplacian(
+<pre class="prettyprint"><code class="language-cs">void Cv2.Scharr(
     Mat src,
     Mat dst,
     MatType ddepth,
-    int ksize = 1,
+    int xorder, 
+    int yorder,
     double scale = 1,
     double delta = 0,
     BorderTypes borderType = BorderTypes.Reflect101
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.Laplacian(
+<pre class="prettyprint"><code class="language-py">dst = cv2.Scharr(
     src,
-    ddepth
-    ksize = None,
+    ddepth,
+    dx,
+    dy,
     scale = None,
     delta = None,
     borderType = None
@@ -60,42 +63,44 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-가장자리가 밝은 부분에서 발생한 것인지, 어두운 부분에서 발생한 것인지 확인할 수 있습니다.
+샤르는 3x3 크기만 지원하며, 소벨보다 더 빠르고 정확하기 때문에 3×3 필터를 사용한다면 샤르를 활용합니다.
 {{site.data.alerts.end}}
 
 <blockquote class="formula">
-<b>라플라시안 계산식(Laplacian Formula):</b>
-$$ \text{dst} = \Delta \text{src} = \frac{\partial^2 \text{src}}{\partial x^2} + \frac{\partial^2 \text{src}}{\partial y^2} $$
-<b>커널 크기에 따른 필터 형태(Filter type according to kernel size):</b>
-$$ \text{kernel} = \begin{bmatrix}
-0 & 1 & 0 \\ 
-1 & -4 & 1 \\ 
-0 & 1 & 0
-\end{bmatrix}
-\text{if:} \ \text{ksize} == 1 $$
-$$ \text{kernel} = \begin{bmatrix}
--1 & -1 & -1 \\ 
--1 & 8 & -1 \\ 
--1 & -1 & -1
-\end{bmatrix}
-\text{if:} \ \text{ksize} > 1 $$
+<b>샤르 계산식(Scharr Formula):</b>
+$$ \text{dst} = \frac{\partial^{xorder+yorder} \text{src}}{\partial x^{xorder} \partial y^{yorder}} $$
+<b>방향에 따른 필터 형태(Filter type according to direction):</b>
+$$ \begin{matrix}
+\begin{bmatrix}
+-3 & 0 & 3 \\ 
+-10 & 0 & 10 \\ 
+-3 & 0 & 3
+\end{bmatrix} & \begin{bmatrix}
+-3 & -10 & -3 \\ 
+0 & 0 & 0 \\ 
+3 & 10 & 3
+\end{bmatrix} \\ 
+\ 3 \times 3 \ \text{Vertical Mask} & 3 \times 3 \  \text{HorizontalMask}
+\end{matrix} $$
 </blockquote>
 
 <br>
 
 ### 요약(Summary)
 
-> 입력 이미지에 X축과 Y축을 따라 2차 미분한 합을 계산합니다.
+> 입력 이미지에 X축과 Y축을 따라 1차 미분 값을 계산합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 라플라시안을 적용하려는 입력 이미지
+> `입력 이미지(src)` 샤르를 적용하려는 입력 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 라플라시안이 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">출력 이미지(dst)</a> 샤르가 적용된 이미지
 
 > `출력 이미지 정밀도(ddepth)` 출력 이미지의 정밀도 설정
 
-> `커널 크기(ksize)` 커널의 크기(너비, 높이)
+> `X 방향 차수(dx, xorder)` X축 미분 차수
+
+> `Y 방향 차수(dy, yorder)` Y축 미분 차수
 
 > `비율(scale)` 필터링 된 픽셀에 곱해지는 값
 
@@ -105,4 +110,4 @@ $$ \text{kernel} = \begin{bmatrix}
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 라플라시안이 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">출력 이미지(dst)</a> 샤르가 적용된 이미지
