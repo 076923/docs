@@ -381,6 +381,10 @@ entries:
         output: web, pdf
         subfolderitems:
 
+        - title: 소벨
+          url: /Sobel
+          output: web, pdf
+
         - title: 샤르
           url: /Scharr
           output: web, pdf
