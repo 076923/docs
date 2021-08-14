@@ -341,6 +341,10 @@ entries:
           url: /filter2D
           output: web, pdf
 
+        - title: 분리형 2D 필터
+          url: /sepFilter2D
+          output: web, pdf
+
         - title: 박스 필터
           url: /boxFilter
           output: web, pdf

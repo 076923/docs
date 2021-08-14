@@ -1,13 +1,13 @@
 ---
-title: 2D 필터
+title: 분리형 2D 필터
 sidebar: opencv4_sidebar
-permalink: filter2D
+permalink: sepFilter2D
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">filter2D</h2>
+        <h2 class="page-header">sepFilter2D</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,32 +22,35 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::filter2D(
+<pre class="prettyprint"><code class="language-cpp">void cv::sepFilter2D(
     Mat src,
     Mat dst,
     int ddepth,
-    Mat kernel,
+    Mat kernelX,
+    Mat kernelY,
     Point anchor = Point(-1,-1),
     double delta = 0,
     int borderType = BORDER_DEFAULT 
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Filter2D(
+<pre class="prettyprint"><code class="language-cs">void Cv2.SepFilter2D(
     Mat src,
     Mat dst,
     MatType ddepth,
-    Mat kernel,
+    Mat kernelX,
+    Mat kernelY,
     Point? anchor = null,
     double delta = 0,
     BorderTypes borderType = BorderTypes.Reflect101
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
-<pre class="prettyprint"><code class="language-py">dst = cv2.filter2D(
+<pre class="prettyprint"><code class="language-py">dst = cv2.sepFilter2D(
     src,
     ddepth,
-    kernel,
+    kernelX,
+    kernelY,
     anchor = None,
     delta = None,
     borderType = None
@@ -60,23 +63,14 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-2D 필터는 <font color="#c7254e">콘벌루션(convolution)</font> 연산이 아닌 <font color="#c7254e">상관관계(correlation)</font>를 계산합니다.
+<a href="filter2D">2D 필터</a>와 처리 방법이 비슷하지만, 각각의 축에 서로 다른 <font color="#c7254e">커널(Kernel)</font>을 적용할 수 있습니다.
 {{site.data.alerts.end}}
-
-{{site.data.alerts.tip}}
-<font color="#c7254e">커널(Kernel)</font>이 11 × 11 보다 큰 경우에는 <b>이산 푸리에 변환(Discrete Fourier Transform)</b> 알고리즘을 사용하며, 11 × 11 보다 작은 경우에는 <b>다이렉트(DIRECT)</b> 알고리즘을 사용합니다.
-{{site.data.alerts.end}}
-
-<blockquote class="formula">
-<b>2D 필터 계산식(2D Filter Formula):</b>
-$$ \text{dst} (x,\ y) = \sum_{ \substack{ 0\leq x' < \text{kernel.cols} \\ {0\leq y' < \text{kernel.rows}}}} \text{kernel} (x',\ y') \cdot \text{src} (x+x'- \text{anchor}.x, \ y+y'- \text{anchor}.y) $$
-</blockquote>
 
 <br>
 
 ### 요약(Summary)
 
-> 입력 이미지에 임의의 선형 필터를 이미지에 적용합니다.
+> 입력 이미지에 분리 가능한 임의의 선형 필터를 이미지에 적용합니다.
 
 ### 매개변수(Parameter)
 
@@ -86,7 +80,9 @@ $$ \text{dst} (x,\ y) = \sum_{ \substack{ 0\leq x' < \text{kernel.cols} \\ {0\le
 
 > `출력 이미지 정밀도(ddepth)` 출력 이미지의 정밀도 설정
 
-> `커널(kernel)` 임의의 선형 필터를 적용하려는 단일 채널 부동 소수점 행렬
+> `X축 커널(kernelX)` 임의의 선형 필터를 적용하려는 X축 단일 채널 부동 소수점 행렬
+
+> `Y축 커널(kernelX)` 임의의 선형 필터를 적용하려는 Y축 단일 채널 부동 소수점 행렬
 
 > `고정점(anchor)` 필터의 상대적 위치를 나타내는 커널의 중심부
 
