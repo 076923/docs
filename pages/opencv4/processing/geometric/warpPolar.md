@@ -76,14 +76,14 @@ $$ \text{dsize.Height} = \text{round}(\text{dsize.Width}\cdot \pi) $$
 
 <blockquote class="formula">
 <b>극좌표 변환 계산식(Polar Transform Formula):</b>
-$$ \text{dst}(\rho, \phi) = \text{src}(x, y) $$
+$$ \text{dst}(\rho,\ \phi) = \text{src}(x,\ y) $$
 $$ \rho = \left\{\begin{matrix}
 \frac{\text{dsize.Width}}{\text{maxRadius}} \cdot \text{magnitude}(\overrightarrow{I}) \\ 
-\frac{\text{dsize.Width}}{log_e{\text{maxRadius}}} \cdot log_e{\text{magnitude}(\overrightarrow{I})} & \text{if} \ semilog
+\frac{\text{dsize.Width}}{log_e{\text{maxRadius}}} \cdot log_e{\text{magnitude}(\overrightarrow{I})} & \text{if:} \ \text{semilog}
 \end{matrix}\right. $$
-$$ \phi = \frac{\text{dsize.Height}}{2\pi} \cdot angle(\overrightarrow{I}) $$
+$$ \phi = \frac{\text{dsize.Height}}{2\pi} \cdot \text{angle}(\overrightarrow{I}) $$
 $$ \overrightarrow{I} = (x - \text{center}.x, \ y - \text{center}.y) $$
-$$ \text{magnitude}(\overrightarrow{I}) = \sqrt{x(\overrightarrow{I})^2) + y(\overrightarrow{I})^2} $$
+$$ \text{magnitude}(\overrightarrow{I}) = \sqrt{x(\overrightarrow{I})^2 + y(\overrightarrow{I})^2} $$
 $$ \text{angle}(\overrightarrow{I}) = \text{atan2}(y(\overrightarrow{I}), \ x(\overrightarrow{I})) \cdot \frac{180}{\pi} $$
 </blockquote>
 

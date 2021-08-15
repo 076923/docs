@@ -349,6 +349,10 @@ entries:
           url: /boxFilter
           output: web, pdf
 
+        - title: 제곱합 박스 필터
+          url: /sqrBoxFilter
+          output: web, pdf
+
         - title: 양방향 필터
           url: /bilateralFilter
           output: web, pdf
@@ -395,6 +399,10 @@ entries:
 
         - title: 라플라시안
           url: /Laplacian
+          output: web, pdf
+
+        - title: 공간 그라디언트
+          url: /spatialGradient
           output: web, pdf
 
       - title: 색상 변환

@@ -65,13 +65,13 @@ folder: opencv4
 
 <blockquote class="formula">
 <b>이진화(THRESH_BINARY):</b>
-$$ \text{dst}(x, y) = \begin{cases} \text{maxValue} & \text{if:} \ \text{src}(x, y) > \text{T}(x, y) \\ 0 & \text{else: otherwise} \end{cases} $$
+$$ \text{dst}(x,\ y) = \begin{cases} \text{maxValue} & \text{if:} \ \text{src}(x,\ y) > \text{T}(x,\ y) \\ 0 & \text{else: otherwise} \end{cases} $$
 </blockquote>
 
 <blockquote class="formula">
 <b>이진화 역상(THRESH_BINARY_INV):</b>
-$$ \text{dst}(x, y) = \begin{cases} 0 & \text{if:} \ \text{src}(x, y) > \text{T}(x, y) \\ \text{maxValue} & \text{else: otherwise} \end{cases} $$ 
-$$ \text{T}(x, y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} \text{I}(x+x_i, y+y_i) - C $$
+$$ \text{dst}(x,\ y) = \begin{cases} 0 & \text{if:} \ \text{src}(x,\ y) > \text{T}(x,\ y) \\ \text{maxValue} & \text{else: otherwise} \end{cases} $$ 
+$$ \text{T}(x,\ y) = \frac{1}{blockSize^2} \sum_{x_i}^{} \sum_{y_i}^{} \text{I}(x+x_i,\ y+y_i) - C $$
 </blockquote>
 
 <br>

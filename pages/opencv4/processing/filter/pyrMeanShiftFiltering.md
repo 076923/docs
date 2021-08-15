@@ -67,7 +67,7 @@ folder: opencv4
 <blockquote class="formula">
 <b>피라미드 평균 이동 분할 계산식(Pyramid MeanShiftFiltering Formula):</b>
 $$ (X,\ Y) \Rightarrow (R,\ G,\ B) $$
-$$ (x,\ y) \Rightarrow (r,\ g,\ b $$
+$$ (x,\ y) \Rightarrow (r,\ g,\ b) $$
 $$ x : X - \text{sp} \le x \le X + \text{sp} $$
 $$ y : Y - \text{sp} \le y \le Y + \text{sp} $$
 $$ ||(R,\ G,\ B)-(r,\ g,\ b)|| \le \text{sr} $$
