@@ -1,5 +1,5 @@
 ---
-title: 공간 그라디언트
+title: 공간 그레이디언트
 sidebar: opencv4_sidebar
 permalink: spatialGradient
 folder: opencv4
@@ -58,7 +58,7 @@ folder: opencv4
 {{site.data.alerts.end}}
 
 {{site.data.alerts.important}}
-<font color="#c7254e">공간 그라디언트 출력 이미지(dx, dy)</font>는 <font color="#c7254e">CV_16SC1</font> 형식으로 반환됩니다.
+<font color="#c7254e">공간 그레이디언트 출력 이미지(dx, dy)</font>는 <font color="#c7254e">CV_16SC1</font> 형식으로 반환됩니다.
 {{site.data.alerts.end}}
 
 <br>
@@ -69,11 +69,11 @@ folder: opencv4
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 공간 그라디언트를 적용하려는 입력 이미지
+> `입력 이미지(src)` 공간 그레이디언트를 적용하려는 입력 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">X 방향 출력 이미지(dx)</a> X축 공간 그라디언트 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">X 방향 출력 이미지(dx)</a> X축 공간 그레이디언트 적용된 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">Y 방향 출력 이미지(dy)</a> Y축 공간 그라디언트 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">Y 방향 출력 이미지(dy)</a> Y축 공간 그레이디언트 적용된 이미지
 
 > `커널 크기(ksize)` 커널의 크기
 
@@ -81,6 +81,6 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">X 방향 출력 이미지(dx)</a> Y축 공간 그라디언트 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">X 방향 출력 이미지(dx)</a> Y축 공간 그레이디언트 적용된 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">Y 방향 출력 이미지(dy)</a> Y축 공간 그라디언트 적용된 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">Y 방향 출력 이미지(dy)</a> Y축 공간 그레이디언트 적용된 이미지

@@ -401,7 +401,11 @@ entries:
           url: /Laplacian
           output: web, pdf
 
-        - title: 공간 그라디언트
+        - title: 캐니
+          url: /Canny
+          output: web, pdf
+
+        - title: 공간 그레이디언트
           url: /spatialGradient
           output: web, pdf
 
