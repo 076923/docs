@@ -321,6 +321,14 @@ entries:
       output: web, pdf
       subfolders:
 
+      - title: 그리기
+        output: web, pdf
+        subfolderitems:
+        
+        - title: 화살표 그리기
+          url: /arrowedLine
+          output: web, pdf
+
       - title: 필터링
         output: web, pdf
         subfolderitems:
@@ -540,6 +548,10 @@ entries:
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:
+
+        - title: 선형 타입 플래그
+          url: /LineTypes
+          output: web, pdf
 
         - title: 종료 기준
           url: /TermCriteria

@@ -80,7 +80,6 @@ folder: opencv4
 픽셀이 <font color="#c7254e">상위 임곗값(threshold2)</font>보다 큰 기울기를 가지면 픽셀을 가장자리로 간주하고, <font color="#c7254e">하위 임곗값(threshold1)</font>보다 낮은 경우 가장자리로 고려하지 않습니다.
 {{site.data.alerts.end}}
 
-
 <blockquote class="formula">
 <b>노름 계산식(Norm Formula):</b>
 $$ L_1 = | \frac{dI}{dx} | + | \frac{dI}{dy} | $$
