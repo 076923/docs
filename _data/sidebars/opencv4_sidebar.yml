@@ -333,6 +333,10 @@ entries:
           url: /arrowedLine
           output: web, pdf
 
+        - title: 직선 클리핑
+          url: /clipLine
+          output: web, pdf
+
       - title: 필터링
         output: web, pdf
         subfolderitems:
