@@ -333,6 +333,10 @@ entries:
           url: /arrowedLine
           output: web, pdf
 
+        - title: 윤곽선 그리기
+          url: /drawContours
+          output: web, pdf
+
         - title: 직선 클리핑
           url: /clipLine
           output: web, pdf
