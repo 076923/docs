@@ -329,6 +329,10 @@ entries:
           url: /circle
           output: web, pdf
 
+        - title: 호 그리기
+          url: /ellipse
+          output: web, pdf
+
         - title: 화살표 그리기
           url: /arrowedLine
           output: web, pdf

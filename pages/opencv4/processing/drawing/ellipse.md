@@ -1,13 +1,13 @@
 ---
-title: 원 그리기
+title: 호 그리기
 sidebar: opencv4_sidebar
-permalink: circle
+permalink: ellipse
 folder: opencv4
 ---
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">circle</h2>
+        <h2 class="page-header">ellipse</h2>
     </div>
     <div class="col-lg-12">
 
@@ -22,10 +22,13 @@ folder: opencv4
 
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-one">
-<pre class="prettyprint"><code class="language-cpp">void cv::circle(
+<pre class="prettyprint"><code class="language-cpp">void cv::ellipse(
     Mat img,
     Point center,
-    int radius,
+    Size axes,
+    double angle,
+    double startAngle,
+    double endAngle,
     const Scalar& color,
     int thickness = 1,
     int lineType = LINE_8,
@@ -33,10 +36,13 @@ folder: opencv4
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-two">
-<pre class="prettyprint"><code class="language-cs">void Cv2.Circle(
+<pre class="prettyprint"><code class="language-cs">void Cv2.Ellipse(
     Mat img,
     Point center,
-    int radius,
+    Size axes,
+    double angle,
+    double startAngle,
+    double endAngle,
     Scalar color,
     int thickness = 1,
     LineTypes lineType = LineTypes.Link8,
@@ -47,7 +53,10 @@ folder: opencv4
 <pre class="prettyprint"><code class="language-py">img = cv2.circle(
     img,
     center,
-    radius,
+    axes,
+    angle,
+    startAngle,
+    endAngle,
     color,
     thickness = None,
     lineType = None,
@@ -65,26 +74,32 @@ folder: opencv4
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
-<font color="#c7254e">두께(thickness)</font>가 음수일 경우, 채워진 원으로 그립니다.
+<font color="#c7254e">두께(thickness)</font>가 음수일 경우, 채워진 호로 그립니다.
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> 이미지에 원을 그립니다.
+> 이미지에 호나 타원을 그립니다.
 
 ### 매개변수(Parameter)
 
-> `이미지(img)` 원을 그릴려는 이미지
+> `이미지(img)` 호를 그릴려는 이미지
 
-> `중심점(center)` 원의 중심점
+> `중심점(center)` 호의 중심점
 
-> `반지름(radius)` 원의 반지름
+> `장축과 단축(axes)` 호의 장축과 단축
 
-> `색상(color)` 원의 색상
+> `각도(angle)` 장축이 기울어진 각도
 
-> `두께(thickness)` 원의 두께
+> `시작 각도(startAngle)` 호가 그려지는 시작 각도
+
+> `도착 각도(endAngle)` 호가 그려지는 도착 각도
+
+> `색상(color)` 호의 색상
+
+> `두께(thickness)` 호의 두께
 
 > [`선형 타입(lineType)`](LineTypes) 선의 유형 설정
 
@@ -92,4 +107,4 @@ folder: opencv4
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">이미지(img)</a> 원이 그려진 이미지
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">이미지(img)</a> 호가 그려진 이미지
