@@ -349,6 +349,10 @@ entries:
           url: /clipLine
           output: web, pdf
 
+        - title: 호 윤곽선 반환
+          url: /ellipse2Poly
+          output: web, pdf
+
       - title: 필터링
         output: web, pdf
         subfolderitems:
