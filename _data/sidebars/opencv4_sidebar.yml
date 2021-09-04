@@ -361,6 +361,10 @@ entries:
           url: /ellipse2Poly
           output: web, pdf
 
+        - title: 글꼴 높이 반환
+          url: /getFontScaleFromHeight
+          output: web, pdf
+
       - title: 필터링
         output: web, pdf
         subfolderitems:
@@ -587,6 +591,10 @@ entries:
 
         - title: 마커 모양 플래그
           url: /MarkerTypes
+          output: web, pdf
+
+        - title: 글꼴 플래그
+          url: /HersheyFonts
           output: web, pdf
 
         - title: 종료 기준
