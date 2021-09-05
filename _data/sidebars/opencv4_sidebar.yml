@@ -365,6 +365,10 @@ entries:
           url: /getFontScaleFromHeight
           output: web, pdf
 
+        - title: 문자열 크기 반환
+          url: /getTextSize
+          output: web, pdf
+
       - title: 필터링
         output: web, pdf
         subfolderitems:
