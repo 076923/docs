@@ -325,6 +325,10 @@ entries:
         output: web, pdf
         subfolderitems:
         
+        - title: 선 그리기
+          url: /line
+          output: web, pdf
+
         - title: 원 그리기
           url: /circle
           output: web, pdf
