@@ -69,7 +69,7 @@ folder: opencv4
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
-<font color="#c7254e">정규화(normalize)</font>가 참 값일 경우, <b>단순 흐림 효과(blur)</b>와 동일한 결과를 갖습니다.
+<font color="#c7254e">정규화(normalize)</font>가 참(True) 값일 경우, <b>단순 흐림 효과(blur)</b>와 동일한 결과를 갖습니다.
 {{site.data.alerts.end}}
 
 <blockquote class="formula">
