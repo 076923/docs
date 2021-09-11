@@ -329,10 +329,6 @@ entries:
           url: /line
           output: web, pdf
 
-        - title: 화살표 그리기
-          url: /arrowedLine
-          output: web, pdf
-
         - title: 원 그리기
           url: /circle
           output: web, pdf
@@ -341,12 +337,20 @@ entries:
           url: /ellipse
           output: web, pdf
 
+        - title: 사각형 그리기
+          url: /rectangle
+          output: web, pdf
+
         - title: 문자열 그리기
           url: /putText
           output: web, pdf
 
         - title: 마커 그리기
           url: /drawMarker
+          output: web, pdf
+
+        - title: 화살표 그리기
+          url: /arrowedLine
           output: web, pdf
 
         - title: 윤곽선 그리기
