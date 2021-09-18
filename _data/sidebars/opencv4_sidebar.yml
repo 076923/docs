@@ -601,6 +601,14 @@ entries:
           url: /getStructuringElement
           output: web, pdf
 
+      - title: 특징 검출
+        output: web, pdf
+        subfolderitems:
+
+        - title: 코너의 고윳값과 고유 벡터
+          url: /cornerEigenValsAndVecs
+          output: web, pdf
+
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:
