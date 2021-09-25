@@ -609,6 +609,10 @@ entries:
           url: /cornerEigenValsAndVecs
           output: web, pdf
 
+        - title: 해리스 코너 검출
+          url: /cornerHarris
+          output: web, pdf
+
       - title: 이미지 처리 플래그
         output: web, pdf
         subfolderitems:
