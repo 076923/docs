@@ -473,6 +473,22 @@ entries:
           url: /spatialGradient
           output: web, pdf
 
+      - title: 특징 검출
+        output: web, pdf
+        subfolderitems:
+
+        - title: 해리스 코너 검출
+          url: /cornerHarris
+          output: web, pdf
+
+        - title: 코너의 최소 고윳값
+          url: /cornerMinEigenVal
+          output: web, pdf
+
+        - title: 코너의 고윳값과 고유 벡터
+          url: /cornerEigenValsAndVecs
+          output: web, pdf
+
       - title: 색상 변환
         output: web, pdf
         subfolderitems:
@@ -599,18 +615,6 @@ entries:
 
         - title: 구조 요소 반환
           url: /getStructuringElement
-          output: web, pdf
-
-      - title: 특징 검출
-        output: web, pdf
-        subfolderitems:
-
-        - title: 코너의 고윳값과 고유 벡터
-          url: /cornerEigenValsAndVecs
-          output: web, pdf
-
-        - title: 해리스 코너 검출
-          url: /cornerHarris
           output: web, pdf
 
       - title: 이미지 처리 플래그
