@@ -481,6 +481,10 @@ entries:
           url: /cornerHarris
           output: web, pdf
 
+        - title: 코너 서브 픽셀
+          url: /cornerSubPix
+          output: web, pdf
+
         - title: 코너의 최소 고윳값
           url: /cornerMinEigenVal
           output: web, pdf
