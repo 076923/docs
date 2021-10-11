@@ -1,5 +1,5 @@
 ---
-title: 코너 서브 픽셀
+title: 코너 픽셀 세밀화
 sidebar: opencv4_sidebar
 permalink: cornerSubPix
 folder: opencv4

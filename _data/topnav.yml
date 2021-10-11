@@ -22,6 +22,8 @@ topnav_dropdowns:
           external_url: http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=348475772
         - title: 알라딘
           external_url: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268617710
+        - title: 리디북스
+          external_url: https://ridibooks.com/books/1160000034          
     - title: Docs
       folderitems:
         - title: Introduction
