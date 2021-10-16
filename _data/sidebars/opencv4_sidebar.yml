@@ -497,6 +497,10 @@ entries:
           url: /cornerSubPix
           output: web, pdf
 
+        - title: 허프 원 변환
+          url: /HoughCircles
+          output: web, pdf
+
       - title: 색상 변환
         output: web, pdf
         subfolderitems:
