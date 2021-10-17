@@ -497,6 +497,10 @@ entries:
           url: /cornerSubPix
           output: web, pdf
 
+        - title: 허프 선 변환
+          url: /HoughLines
+          output: web, pdf
+
         - title: 허프 원 변환
           url: /HoughCircles
           output: web, pdf

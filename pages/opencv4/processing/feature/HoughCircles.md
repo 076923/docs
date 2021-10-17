@@ -57,7 +57,6 @@ folder: opencv4
     double param2 = None,
     int minRadius = None,
     int maxRadius = None
-
 )</code></pre>
             </div>
         </div>
