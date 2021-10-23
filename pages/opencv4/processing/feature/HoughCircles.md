@@ -77,11 +77,11 @@ folder: opencv4
 
 ### 요약(Summary)
 
-> 입력 이미지에 허프 원 검출을 실행합니다.
+> 입력 이미지에 허프 원 변환을 실행합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 허프 원 검출을 계산하려는 입력 이미지
+> `입력 이미지(src)` 허프 원 변환을 계산하려는 입력 이미지
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">원(circles)</a> 검출된 원의 중심점 및 반지름
 

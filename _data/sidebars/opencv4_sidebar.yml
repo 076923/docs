@@ -497,8 +497,12 @@ entries:
           url: /cornerSubPix
           output: web, pdf
 
-        - title: 허프 선 변환
+        - title: 표준 / 멀티 스케일 허프 선 변환
           url: /HoughLines
+          output: web, pdf
+
+        - title: 점진성 확률적 허프 선 변환
+          url: /HoughLinesP
           output: web, pdf
 
         - title: 허프 원 변환

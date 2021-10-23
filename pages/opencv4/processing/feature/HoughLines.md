@@ -1,5 +1,5 @@
 ---
-title: 허프 선 변환
+title: 표준 / 멀티 스케일 허프 선 변환
 sidebar: opencv4_sidebar
 permalink: HoughLines
 folder: opencv4
@@ -64,7 +64,7 @@ folder: opencv4
 <br>
 
 {{site.data.alerts.note}}
-허프 선 변환은 이미지 내의 어떤 점이라도 선 집합의 일부일 수 있다는 가정하에 직선의 방정식을 이용해 직선을 검출합니다.
+허프 선 변환은 <b>이미지 내의 어떤 점이라도 선 집합의 일부일 수 있다</b>는 가정하에 직선의 방정식을 이용해 직선을 검출합니다.
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
@@ -74,19 +74,19 @@ folder: opencv4
 {{site.data.alerts.end}}
 
 {{site.data.alerts.tip}}
-<font color="#c7254e">거리 약수(srn)</font>와 <font color="#c7254e">각도 약수(stn)</font>가 모두 0인 경우, 표준 허프 변환이 적용됩니다.<br>
-<font color="#c7254e">거리 약수(srn)</font>와 <font color="#c7254e">각도 약수(stn)</font>가 모두 0이 아니라면, 멀티 스케일 허프 변환이 적용됩니다. 
+<font color="#c7254e">거리 약수(srn)</font>와 <font color="#c7254e">각도 약수(stn)</font>가 모두 0인 경우, <b>표준 허프 변환</b>이 적용됩니다.<br>
+<font color="#c7254e">거리 약수(srn)</font>와 <font color="#c7254e">각도 약수(stn)</font>가 모두 0이 아니라면, <b>멀티 스케일 허프 변환</b>이 적용됩니다. 
 {{site.data.alerts.end}}
 
 <br>
 
 ### 요약(Summary)
 
-> 입력 이미지에 허프 선 검출을 실행합니다.
+> 입력 이미지에 허프 선 변환을 실행합니다.
 
 ### 매개변수(Parameter)
 
-> `입력 이미지(src)` 허프 선 검출을 계산하려는 입력 이미지
+> `입력 이미지(src)` 허프 선 변환을 계산하려는 입력 이미지
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">선(lines)</a> 검출된 선의 거리(rho)와 각도(theta)
 
