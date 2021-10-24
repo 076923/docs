@@ -493,6 +493,10 @@ entries:
           url: /goodFeaturesToTrack
           output: web, pdf
 
+        - title: 코너 특징 맵 검출
+          url: /preCornerDetect
+          output: web, pdf
+
         - title: 코너 픽셀 세밀화
           url: /cornerSubPix
           output: web, pdf
