@@ -509,6 +509,10 @@ entries:
           url: /HoughLinesP
           output: web, pdf
 
+        - title: 표준 허프 선 검출
+          url: /HoughLinesPointSet
+          output: web, pdf
+
         - title: 허프 원 변환
           url: /HoughCircles
           output: web, pdf

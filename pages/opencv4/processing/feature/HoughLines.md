@@ -90,9 +90,9 @@ folder: opencv4
 
 > <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">선(lines)</a> 검출된 선의 거리(rho)와 각도(theta)
 
-> `거리(rho)` 누산 평면에서 사용되는 거리에 대한 해상도
+> `거리(rho)` 누산 평면에서 사용되는 거리에 대한 분해능
 
-> `각도(theta)` 누산 평면에서 사용되는 각도에 대한 해상도
+> `각도(theta)` 누산 평면에서 사용되는 각도에 대한 분해능
 
 > `임곗값(threshold)` 직선을 결정하기 위해 만족해야 하는 누산 평면의 값
 
