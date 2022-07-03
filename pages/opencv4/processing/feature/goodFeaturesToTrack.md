@@ -28,7 +28,7 @@ folder: opencv4
     int maxCorners,
     double qualityLevel,
     double minDistance,
-    InputArray mask = noArray(),
+    Mat mask = noArray(),
     int blockSize = 3,
     bool useHarrisDetector = false,
     double k = 0.04 
@@ -40,7 +40,7 @@ folder: opencv4
     int maxCorners,
     double qualityLevel,
     double minDistance,
-    InputArray mask,
+    Mat mask,
     int blockSize,
     bool useHarrisDetector,
     double k

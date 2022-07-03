@@ -35,7 +35,7 @@ folder: opencv4
     Mat image,
     Size patchSize,
     Point2f center,
-    OutputArray patch,
+    Mat patch,
     int patchType = -1
 )</code></pre>
             </div>

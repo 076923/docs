@@ -448,6 +448,14 @@ entries:
         - title: 가우시안 흐림 효과
           url: /GaussianBlur
           output: web, pdf
+          
+      - title: 히스토그램
+        output: web, pdf
+        subfolderitems:
+
+        - title: 히스토그램 역투영
+          url: /calcBackProjection
+          output: web, pdf
 
       - title: 가장자리 검출
         output: web, pdf

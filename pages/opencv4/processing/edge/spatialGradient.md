@@ -32,7 +32,11 @@ folder: opencv4
             </div>
             <div class="tab-pane fade" id="service-two">
 <pre class="prettyprint"><code class="language-cs">void Cv2.SpatialGradient(
-    InputArray src, OutputArray dx, OutputArray dy, int ksize = 3, BorderTypes borderType = BorderTypes.Reflect101
+    Mat src,
+    Mat dx,
+    Mat dy,
+    int ksize = 3,
+    BorderTypes borderType = BorderTypes.Reflect101
 )</code></pre>
             </div>
             <div class="tab-pane fade" id="service-three">
