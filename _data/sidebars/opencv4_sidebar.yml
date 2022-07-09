@@ -453,6 +453,10 @@ entries:
         output: web, pdf
         subfolderitems:
 
+        - title: 히스토그램
+          url: /calcHist
+          output: web, pdf
+
         - title: 히스토그램 역투영
           url: /calcBackProjection
           output: web, pdf
