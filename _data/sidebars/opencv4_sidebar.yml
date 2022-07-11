@@ -457,6 +457,10 @@ entries:
           url: /calcHist
           output: web, pdf
 
+        - title: 히스토그램 비교
+          url: /compareHist
+          output: web, pdf
+
         - title: 히스토그램 역투영
           url: /calcBackProjection
           output: web, pdf
@@ -687,6 +691,10 @@ entries:
 
         - title: 외삽(보외) 플래그
           url: /BorderTypes
+          output: web, pdf
+
+        - title: 히스토그램 비교 방식
+          url: /HistCompMethods
           output: web, pdf
 
         - title: 색상 공간 변환 플래그
