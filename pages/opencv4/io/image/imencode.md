@@ -60,12 +60,12 @@ folder: opencv4
 
 > `이미지(img)` 부호화하려는 이미지
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">버퍼(buf)*</a> 버퍼로 부호화된 출력 배열
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_CS}}">버퍼(buf)</a> 버퍼로 부호화된 출력 배열
 
 > [`이미지 부호화 매개변수(params)`](imageEncodingParam) 부호화 매개변수
 
 ### 반환값(Returns)
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">결괏값(retval)*</a> 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_C_Python}}">결괏값(retval)</a> 이미지 파일을 OpenCV로 부호화(Encoding)할 수 있는 경우, 참(True) 값을 반환
 
-> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">버퍼(buf)*</a> 버퍼로 부호화된 출력 배열
+> <a data-toggle="tooltip" data-original-title="{{site.data.glossary.only_Python}}">버퍼(buf)</a> 버퍼로 부호화된 출력 배열

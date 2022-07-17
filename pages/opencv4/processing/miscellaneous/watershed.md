@@ -59,7 +59,7 @@ folder: opencv4
   
 - `마커(markers)`는 `CV_32SC1` 형식만 할당할 수 있으며 입력 이미지와 이미지 크기가 동일해야 합니다.
   
-" type="success" %}
+" type="warning" %}
 
 <br>
 

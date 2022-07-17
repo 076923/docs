@@ -77,7 +77,7 @@ folder: opencv4
         
 - `마스크(mask)`는 `입력 이미지(images)`와 크기가 동일하며 8비트 형식만 가능합니다.
 
-" type="success" %}
+" type="warning" %}
 
 <br>
 

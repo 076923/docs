@@ -61,7 +61,7 @@ folder: opencv4
   
 - `필터 출력 정밀도(ktype)`는 `CV_32F` 형식, `CV_64F` 형식만 가능합니다.
 
-" type="success" %}
+" type="warning" %}
 
 <blockquote class="formula">
 <b>시그마 계산식(Sigma Formula):</b>
