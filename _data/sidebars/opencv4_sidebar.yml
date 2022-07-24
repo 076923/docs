@@ -453,7 +453,7 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: 히스토그램
+        - title: 히스토그램 계산
           url: /calcHist
           output: web, pdf
 
@@ -463,6 +463,10 @@ entries:
 
         - title: 히스토그램 역투영
           url: /calcBackProjection
+          output: web, pdf
+
+        - title: EMD(Earth Mover's Distance) 계산
+          url: /EMD
           output: web, pdf
 
         - title: 대비 제한 적응형 히스토그램 평활화 클래스
