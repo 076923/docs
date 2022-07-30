@@ -461,6 +461,10 @@ entries:
           url: /compareHist
           output: web, pdf
 
+        - title: 히스토그램 평활화
+          url: /equalizeHist
+          output: web, pdf
+
         - title: 히스토그램 역투영
           url: /calcBackProjection
           output: web, pdf
